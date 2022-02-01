@@ -44,5 +44,5 @@ Thanks @Asabaneh for the excellent Python Content! 👋🏻
 Credit to <a href =  https://github.com/Asabeneh/30-Days-Of-Python>Asabaneh </a>
 <div>
 <small> Support the <strong>author</strong> to create more educational materials</small> <br />  
-<a href = "https://www.paypal.me/asabeneh"><img src=https://raw.githubusercontent.com/Asabeneh/30-Days-Of-Python/master/images/paypal_lg.png' alt='Paypal Logo' style="width:10%"/></a>
+<a href = "https://www.paypal.me/asabeneh"><img src='https://raw.githubusercontent.com/Asabeneh/30-Days-Of-Python/master/images/paypal_lg.png' alt='Paypal Logo' style="width:10%"/></a>
 </div>
