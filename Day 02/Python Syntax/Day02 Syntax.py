@@ -1,22 +1,21 @@
-#Sequences
+#Day Two of the 30 Day Challenge
+# Introduction
+# Author: dataBio
+# Date: 02 Feb 2022
+# IDE: VSCode
 
-#Lists use square brackets
+# import the "sys" module
+import sys
+# import the "os" module
+import os
+# import the "platform" module
+import platform
+# import the "platform" module
+import math
 
-thislist = ["apple", "banana", "cherry", "kiwi", "mango"]
-authors = ["Ernest Hemingway","Langston Hughes","Frank Herbert","Toni Morrison",
-    "Emily Dickson","Stephen King"]
+def main():
 
-#you can join lists by adding or append or extend
-newlist = thislist + authors
-print('using plus:', newlist)
+    os.system("cls") # clear console
 
-newlist = thislist.copy()
-for x in authors:
-  newlist.append(x)
-print('using append:', newlist)
-
-newlist = thislist.copy()
-newlist.extend(authors)
-print('using extend:', newlist)
-
-
+if __name__ == "__main__":
+  main()
