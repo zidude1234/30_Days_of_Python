@@ -8,7 +8,7 @@
     - [Exercise: Level 1](#exercise-level-1)
     - [Exercise: Level 2](#exercise-level-2)
     - [Exercise: Level 3](#exercise-level-3)
-- [Solution on Github](xxx)
+- [Solution on Github](https://github.com/zidude1234/30_Days_of_Python/blob/main/Day%2001/Python%20Syntax/Day01%20Syntax.py)
 
 ## Objective
 This repository contains the solution for the Day One of the "30 Days of Python Challenge"!
