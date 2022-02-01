@@ -7,7 +7,7 @@ Thanks @Asabaneh for the excellent Python Content! 👋🏻
 
 
 ## 📚 Table of Contents
-- [Getting Ready](#getting-ready)
+- [Getting Ready](--getting-ready)
 - [Day #01: Introduction](https://github.com/zidude1234/30_Days_of_Python/tree/main/Day%2001)
 - [Day #02: Variables, Built-in Functions](#Variables-&-Built-in-Functions)
 - [Day #03: Operators](#Operators)
