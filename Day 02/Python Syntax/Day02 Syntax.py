@@ -1,8 +1,22 @@
-#  💻 Lets Go!!🚀 🚀 🚀 
+#Sequences
 
-#  3️⃣0️⃣ Days of Python - Day One
+#Lists use square brackets
 
-## 📚 Table of Contents
-- [Objective](#objective)
-  - [💻 Exercises - Day 1](#-exercises---day-1)
- 
+thislist = ["apple", "banana", "cherry", "kiwi", "mango"]
+authors = ["Ernest Hemingway","Langston Hughes","Frank Herbert","Toni Morrison",
+    "Emily Dickson","Stephen King"]
+
+#you can join lists by adding or append or extend
+newlist = thislist + authors
+print('using plus:', newlist)
+
+newlist = thislist.copy()
+for x in authors:
+  newlist.append(x)
+print('using append:', newlist)
+
+newlist = thislist.copy()
+newlist.extend(authors)
+print('using extend:', newlist)
+
+
