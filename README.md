@@ -40,7 +40,7 @@ Thanks @Asabaneh for the excellent Python Content! 👋🏻
 - [Credits and Support to Author](#Credits)
 
 
-##👍 Credits
+## 👍 Credits
 Credit to <a href =  https://github.com/Asabeneh/30-Days-Of-Python>Asabaneh </a>
 <div>
 <small> Support the <strong>author</strong> to create more educational materials</small> <br />  
