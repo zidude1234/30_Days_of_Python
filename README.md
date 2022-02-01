@@ -8,7 +8,7 @@ Thanks @Asabaneh for the excellent Python Content! 👋🏻
 
 ## 📚 Table of Contents
 - [Getting Ready](#getting-ready)
-- [Day #01: Introduction](#Introduction)
+- [Day #01: Introduction](https://github.com/zidude1234/30_Days_of_Python/tree/main/Day%2001)
 - [Day #02: Variables, Built-in Functions](#Variables-&-Built-in-Functions)
 - [Day #03: Operators](#Operators)
 - [Day #04: Strings](#Strings)
@@ -44,7 +44,7 @@ Thanks @Asabaneh for the excellent Python Content! 👋🏻
 ## 🎬  Getting Ready
 1. To run a python script you need to [Install Python](https://www.python.org/).
 2. Install a Code Editor of choice
-3. More Information at [Asabenehs Guide](https://github.com/Asabeneh/30-Days-Of-Python#environment-setup)
+3. More Information at [Asabeneh's Guide](https://github.com/Asabeneh/30-Days-Of-Python#environment-setup)
 
 
 ## 👍 Credits
