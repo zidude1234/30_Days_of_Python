@@ -1,0 +1,45 @@
+Directory  Variable Folder  already exists
+File 'variables.py' created or updated
+@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:Exercise level 2@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:
+Variable: John is of data type:-        <class 'str'>
+Variable: Constantine is of data type:- <class 'str'>
+Variable: John Constantine is of data type:-    <class 'str'>
+Variable: gitland is of data type:-     <class 'str'>
+Variable: gitville is of data type:-    <class 'str'>
+Variable: 18 is of data type:-  <class 'int'>
+Variable: 2022 is of data type:-        <class 'int'>
+Variable: False is of data type:-       <class 'bool'>
+Variable: True is of data type:-        <class 'bool'>
+Variable: True is of data type:-        <class 'bool'>
+Length of firstname: "John" is 4
+Length of fullname: "John Constantine" is 16
+First Name is shorter than Last Name
+9
+1
+20
+1
+625
+1
+Enter a user-defined circle radius:
+9
+Area of Circle with radius 9 meters is 254.47
+Please input your first name:
+John
+Please input your last name:
+Etrigan
+Please input your country
+Metropolis
+Please input your age
+99
+
+Here is a list of the Python keywords.  Enter any keyword to get more help.
+
+False               class               from                or
+None                continue            global              pass
+True                def                 if                  raise
+and                 del                 import              return
+as                  elif                in                  try
+assert              else                is                  while
+async               except              lambda              with
+await               finally             nonlocal            yield
+break               for                 not
