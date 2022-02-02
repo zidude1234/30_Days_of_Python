@@ -105,6 +105,17 @@ def main():
 if __name__ == "__main__":
     main()''' 
 
+    
+    myint = 5
+    myfloat = 13.2
+    mycomplex = -2 + 6j
+    mystr = "This is a string"
+    mybool = True
+    mylist = [0, 1, "two", 3.2, False]
+    mytuple = (0, 1, 2)
+    myset = {"one", "two" , 2, 3 + 2j}
+    mydict = {"one" : 1, "two" : 2}
+    
     for i in range(20):
       s0 += "@:"
     
@@ -222,7 +233,7 @@ if __name__ == "__main__":
     point1 = (2, 3)
     point2 = (10, 8)
     euclid_dist = ((math.pow(point2[1]-point1[1],2) + math.pow(point2[0]-point1[0],2))**0.5)
-    print(myString3.format(point1,point2,euclid_dist))  
+    print(myString3.format(point1,point2,"{:.2f}".format(euclid_dist)))
 
 
 if __name__ == "__main__":
