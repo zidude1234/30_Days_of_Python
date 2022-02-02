@@ -94,8 +94,6 @@ def main():
 
     s = s0 + s2 + s0
     print(s)
-    #confirm current path
-    print("original path:\t",os.path.dirname( __file__ ))
     current_path_string = os.path.dirname( __file__ )
     #find the index of the last '\'
     tempnum = current_path_string.rfind("\\")
@@ -103,13 +101,11 @@ def main():
     #extract the string up till that index
     for i in range(tempnum):
       tempstr += current_path_string[i]
-    print("Tempstr:\t",tempstr)
+    
     #Tempstr is up one Directory
     #navigate to it
     os.chdir(tempstr)
     #create a new path for the Hello World Folder and file
-
-    #os.path.join(current_path_string, 'templates').replace('\\', '\\')
 
     foldername = "HelloWorld Folder"
     try:
@@ -118,9 +114,7 @@ def main():
     except FileExistsError:
         print("Directory " , foldername ,  " already exists") 
     
-    #print(os.path.join(current_path_string, foldername))
     newpath = os.path.join(tempstr, foldername)
-    print(newpath)
     os.chdir(newpath)
     myfile = open("hello.world.py","w+")
     
