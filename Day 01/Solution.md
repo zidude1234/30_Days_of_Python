@@ -1,0 +1,61 @@
+#  💻 Lets Go!!🚀 🚀 🚀 
+
+#  3️⃣0️⃣ Days of Python - Day One
+
+## Solution
+
+View the complete syntax [here](https://github.com/zidude1234/30_Days_of_Python/blob/main/Day%2001/Python%20Syntax/Day01%20Syntax.py).
+
+***
+
+@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:Exercise level 1@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:
+Python version 3.10.1 (tags/v3.10.1:2cd268a, Dec  6 2021, 19:10:37) [MSC v.1929 64 bit (AMD64)] 
+Version info. sys.version_info(major=3, minor=10, micro=1, releaselevel='final', serial=0)      
+
+
+Bonus -- Python Platfrom version 3.10.1
+
+
+a. Addition Operation:  3 + 4 equals 7
+b. Subtraction Operation:       3 - 4 equals -1
+c. Multiply Operation:  3 * 4 equals 12
+d. Modulo Operation:    3 % 4 equals 3
+e. Division Operation:  3 / 4 equals 0.75
+f1. Exponent Operation: 3 ** 4 equals 81
+g. Floor Division Operation:    3 // 4 equals 0
+f2. 'Bonus -- Exponent Operation:       3 pow 4 equals 81.0
+
+***
+
+Please input your first name:
+data
+Please input your last name:
+Bio
+Please input your country
+Gitland
+Hello, My Name is data Bio from Gitland.I am enjoying 30 days of Python.
+***
+Data: 10 is of data type:-      <class 'int'>
+Data: 9.8 is of data type:-     <class 'float'>
+Data: 3.14 is of data type:-    <class 'float'>
+Data: (4-4j) is of data type:-  <class 'complex'>
+Data: ['Asabeneh', 'Python', 'Finland'] is of data type:-       <class 'list'>
+Data: data is of data type:-    <class 'str'>
+Data: Bio is of data type:-     <class 'str'>
+Data: Gitland is of data type:- <class 'str'>
+***
+@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:Exercise level 2@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:
+***
+@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:Exercise level 3@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:
+Data: 5 is of data type:-       <class 'int'>
+Data: 13.2 is of data type:-    <class 'float'>
+Data: (-2+6j) is of data type:- <class 'complex'>
+Data: This is a string is of data type:-        <class 'str'>
+Data: True is of data type:-    <class 'bool'>
+Data: [0, 1, 'two', 3.2, False] is of data type:-       <class 'list'>
+Data: (0, 1, 2) is of data type:-       <class 'tuple'>
+Data: {(3+2j), 'two', 2, 'one'} is of data type:-       <class 'set'>
+Data: {'one': 1, 'two': 2} is of data type:-    <class 'dict'>
+***
+The Euclidian distance between points(2, 3) and (10, 8) equals 9.43
+***
