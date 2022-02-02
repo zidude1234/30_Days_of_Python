@@ -9,7 +9,8 @@ View the complete syntax [here](https://github.com/zidude1234/30_Days_of_Python/
 ***
 
 @:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:Exercise level 1@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:
-Python version 3.10.1 (tags/v3.10.1:2cd268a, Dec  6 2021, 19:10:37) [MSC v.1929 64 bit (AMD64)] 
+
+Python version 3.10.1 (tags/v3.10.1:2cd268a, Dec  6 2021, 19:10:37)
 Version info. sys.version_info(major=3, minor=10, micro=1, releaselevel='final', serial=0)      
 
 
@@ -23,6 +24,7 @@ d. Modulo Operation:    3 % 4 equals 3
 e. Division Operation:  3 / 4 equals 0.75
 f1. Exponent Operation: 3 ** 4 equals 81
 g. Floor Division Operation:    3 // 4 equals 0
+
 f2. 'Bonus -- Exponent Operation:       3 pow 4 equals 81.0
 
 ***
