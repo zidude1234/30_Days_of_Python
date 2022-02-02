@@ -5,7 +5,6 @@
 # IDE: VSCode
 
 # import the "sys" module
-from msilib.schema import Directory
 import sys
 # import the "os" module
 import os
