@@ -199,11 +199,30 @@ if __name__ == "__main__":
     newpath = os.path.join(tempstr, foldername)
     os.chdir(newpath)
     myfile = open("hello.world.py","w+")
-    
-     
-
     myfile.write(codeString)
     myfile.close()
+   
+    # Write an example for different Python data types such as Number(Integer, Float, Complex), String, Boolean, List, Tuple, Set and Dictionary.
+
+    s = s0 + s3 + s0
+    print(s)
+
+    print (myString2.format(myint,type(myint)))
+    print (myString2.format(myfloat,type(myfloat)))
+    print (myString2.format(mycomplex,type(mycomplex)))
+    print (myString2.format(mystr,type(mystr)))
+    print (myString2.format(mybool,type(mybool)))
+    print (myString2.format(mylist,type(mylist)))
+    print (myString2.format(mytuple,type(mytuple)))
+    print (myString2.format(myset,type(myset)))
+    print (myString2.format(mydict,type(mydict)))
+
+  # Find an Euclidian distance between (2, 3) and (10, 8)
+    myString3 = "The Euclidian distance between points{} and {} equals {}"
+    point1 = (2, 3)
+    point2 = (10, 8)
+    euclid_dist = ((math.pow(point2[1]-point1[1],2) + math.pow(point2[0]-point1[0],2))**0.5)
+    print(myString3.format(point1,point2,euclid_dist))  
 
 
 if __name__ == "__main__":
