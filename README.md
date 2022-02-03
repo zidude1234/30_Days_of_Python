@@ -9,9 +9,9 @@ Thanks @Asabaneh for the excellent Python Content! 👋🏻
 ## 📚 Table of Contents
 - [Getting Ready](#--getting-ready)
 - [Day #01: Introduction](https://github.com/zidude1234/30_Days_of_Python/tree/main/Day%2001)
-- [Day #02: Variables, Built-in Functions](https://github.com/zidude1234/30_Days_of_Python/tree/main/Day02)
-- [Day #03: Operators](https://github.com/zidude1234/30_Days_of_Python/tree/main/Day03)
-- [Day #04: Strings](#Strings)
+- [Day #02: Variables, Built-in Functions](https://github.com/zidude1234/30_Days_of_Python/tree/main/Day%2002)
+- [Day #03: Operators](https://github.com/zidude1234/30_Days_of_Python/tree/main/Day%2003)
+- [Day #04: Strings](https://github.com/zidude1234/30_Days_of_Python/tree/main/Day%2004)
 - [Day #05: Lists](#Lists)
 - [Day #06: Tuples](#Tuples)
 - [Day #07: Sets](#Sets)
