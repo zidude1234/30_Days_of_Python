@@ -4,9 +4,9 @@
 
 ## 📚 Table of Contents
   - [💻 Exercises - Day 1](#-exercises---day-2)
-    - [Exercise: Level 1](#exercise-level-1)
-    - [Exercise: Level 2](#exercise-level-2)
-- [Syntax on Github](https://github.com/zidude1234/30_Days_of_Python/blob/main/Day%2002/Python%20Syntax/Day02%20Syntax.py)
+    - [Exercise: Level 1](#exercises-level-1)
+    - [Exercise: Level 2](#exercises-level-2)
+  - [Syntax on Github](https://github.com/zidude1234/30_Days_of_Python/blob/main/Day%2002/Python%20Syntax/Day02%20Syntax.py)
 
 ## 💻 Exercises - Day 2
 
