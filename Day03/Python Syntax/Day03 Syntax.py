@@ -198,7 +198,26 @@ def main():
         print("\'int('9.8')\' is not equal to {10}")
     print('\n')
     
-    
+    #21
+    print("Number 21")
+    person_hours = int(input("Enter hours:\n"))
+    person_rate = int(input("Enter rate per hour:\n"))
+    print(f"Your weekly earning is {person_rate * person_hours}")
+    print("\n")
+
+    #22
+    print("Number 22")
+    person_years = int(input("Enter number of years you have lived:\n"))
+    print(f"You have lived for {person_years * 365 * 24 * 3600} seconds.")
+    print("\n")
+
+    #23
+    print("Number 23")
+    for i in range (1,6):
+      listRange = list((i,1,i,i**2,i **3))
+      print(listRange)
+    print("\n")
+
     
     
 if __name__ == "__main__":
