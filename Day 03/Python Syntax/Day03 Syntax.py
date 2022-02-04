@@ -165,42 +165,12 @@ def main():
     print("In float length of '"+ str1 + "' is:", float(len(str1)))
     print("In string length of '"+ str1 + "' is:", str(float(len(str1))))
     print("\n")
-    #17a
-    print("Number 17A")
+    #17
+    print("Number 17")
     for i in range (1,11):
       result = ' is even' if i % 2 == 0 else ' is odd'
       #print(str(i) + result) - append strings
       print(f"{i} {result}") #- formatted string literals
-    
-    #17B
-    #using lambda, filter and map
-    listNumber = evenfilter = oddfilter=  []
-    #initialize set
-    for i in range (1,51):
-      listNumber.append(i)
-    print(listNumber)
-
-    #filter  and lambda
-    #This filters out the even values
-    evenfilter = list(filter(lambda x: x%2 == 0, listNumber))
-    print(f"Even Filter List: {evenfilter}")
-    #This filters out the odd values
-    oddfilter = list(filter(lambda x: x%2 == 1, listNumber))
-    print(f"Odd Filter List: {oddfilter}")    
-
-    #Map  and lambda
-    #This assigns true or false to even and odd values
-    oddevenlist = list(map(lambda x: x%2 == 0, listNumber)) 
-    print(f"odd even match: {oddevenlist}")
-    
-    triplelist = list(map(lambda x: x * 3, listNumber))
-    print(f"Triple List: {triplelist}")
-
-    #Reduce is a really useful function for performing some computation on a list and returning the result. 
-    # It applies a rolling computation to sequential pairs of values in a list
-    sumList = reduce((lambda x, y: x + y), listNumber)
-    print(sumList)
-
     #18
     print("Number 18")
     #Check if the floor division of 7 by 3 is equal to the int converted value of 2.7.
@@ -230,7 +200,6 @@ def main():
         print(f"{int('9.8')} is equal to {10}")
     except ValueError as e:
         print("Decimal strings cannot be made into int")
-        #print(f"{int('9.8')} is not equal to {10}")
         print("\'int('9.8')\' is not equal to {10}")
     except:
         print("\'int('9.8')\' is not equal to {10}")
