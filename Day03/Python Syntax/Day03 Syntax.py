@@ -135,6 +135,71 @@ def main():
     y = re.search("on", str2)
     if x and y:
       print("\"on\" appears in both " + str1 + " and " + str2)
+    print("\n")
+    #14
+    print("Number 14")
+    str4 = 'I hope this course is not full of jargon'
+    if 'jargon' in str4:
+          print("'jargon' found in \"" + str4 + "\"")
+    else:
+          print("jargon not found in \"" + str4 + "\"")
+    print("\n")
+    #15
+    print("Number 15")
+    if 'on' in str1 and 'on' in str2:
+          print("'on' found in \"" + str1 + " and " + str2)
+    else:
+          print("'on' not found in \"" + str1 + " and " + str2)
+    print("\n")
+    #16
+    print("Number 16")
+    print("length of '"+ str1 + "' is:", len(str1))
+    print("In float length of '"+ str1 + "' is:", float(len(str1)))
+    print("In string length of '"+ str1 + "' is:", str(float(len(str1))))
+    print("\n")
+    #17
+    print("Number 17")
+    for i in range (1,11):
+      result = ' is even' if i % 2 == 0 else ' is odd'
+      #print(str(i) + result) - append strings
+      print(f"{i} {result}") #- formatted string literals
+    
+    #18
+    print("Number 18")
+    #Check if the floor division of 7 by 3 is equal to the int converted value of 2.7.
+    if (7//3 == int(2.7)):
+      print('floor division of 7 by 3 is equal to the int converted value of 2.7')
+    else:
+      print("not equal")
+    print('\n')
+
+    #19
+    print("Number 19")
+    #Check if type of '10' is equal to type of 10
+    if (type('10') == type(10)):
+      print('Types "10" and 10 are equal')
+    else:
+      print('Types "10" and 10 are not equal')
+    print('\n')
+
+    #20
+    print("Number 20")
+    #Check if int('9.8') is equal to 10
+    #this will throw an error as floating strings cannot be cast into integer
+    #int("9") will work
+    try:
+      x = int('9.8') 
+      if x == 10:
+        print(f"{int('9.8')} is equal to {10}")
+    except ValueError as e:
+        print("Decimal strings cannot be made into int")
+        print("\'int('9.8')\' is not equal to {10}")
+    except:
+        print("\'int('9.8')\' is not equal to {10}")
+    print('\n')
+    
+    
+    
     
 if __name__ == "__main__":
   main()
