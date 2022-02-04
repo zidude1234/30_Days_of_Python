@@ -124,7 +124,7 @@ def main():
     print("\n")
     #12
     print("Number 12")
-    str1, str2 = 'python1','dragon'
+    str1, str2 = 'python','dragon'
     if len(str1)==len(str2):
       print(len(str1)==len(str2))
     else:
@@ -134,7 +134,7 @@ def main():
     x = re.search("on", str1)
     y = re.search("on", str2)
     if x and y:
-      print("\"on\" appears in both " + str1 + "and " + str2)
+      print("\"on\" appears in both " + str1 + " and " + str2)
     
 if __name__ == "__main__":
   main()
