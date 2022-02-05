@@ -4,7 +4,8 @@
 
 ## 📚 Table of Contents
 - [💻 Exercises - Day 3](#-exercises---day-3)
-- [Syntax on Github](https://github.com/zidude1234/30_Days_of_Python/blob/main/Day03/Python%20Syntax/Day03%20Syntax.py)
+- [Syntax on Github](https://github.com/zidude1234/30_Days_of_Python/blob/main/Day%2003/Python%20Syntax/Day03%20Syntax.py)
+- 
 
 ## 💻 Exercises - Day 3
 
