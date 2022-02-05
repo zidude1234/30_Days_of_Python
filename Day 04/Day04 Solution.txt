@@ -1,0 +1,176 @@
+umber 1
+Thirty Days Of Python
+
+
+Number 2
+Coding For All       
+
+
+Number 3
+
+
+Number 4
+Coding For All       
+
+
+Number 5
+14
+
+Number 6
+CODING FOR ALL       
+
+Number 7
+coding for all
+
+
+Number 8
+Capitalize(): Coding for all
+Title(): Coding For All
+Swapcase 1(): cODING fOR aLL
+Swapcase 2(): Coding For All
+
+Number 9
+Coding
+
+
+Number 10
+0
+
+Number 11
+Python For All
+
+Number 12
+Python for All
+
+Number 13
+['Coding', 'For', 'All']
+
+Number 14
+['Facebook', ' Google', ' Microsoft', ' Apple', ' IBM', ' Oracle', ' Amazon']
+
+Number 15
+Character at Index 0:  C
+
+
+Number 16
+Character at Index last:  l
+
+
+Number 17
+Character at Index 10:
+
+Number 18
+Python for Everyone
+Acronym: PfE
+
+
+Number 19
+Coding For All
+Acronym: CFA
+
+Number 20
+1
+
+
+Number 21
+8
+
+
+Number 22
+Last occurrence of the word 'l':14
+
+
+Number 23
+first occurrence of the word 'because': 32
+
+Number 24
+last occurrence of the word 'because': 48
+
+Number 25
+Original Word: You cannot end a sentence with because because because is a conjunction
+Split List before spaces ['You cannot end a sentence with ', ' ', ' ', ' is a conjunction']
+Split List after spaces ['You cannot end a sentence with ', ' is a conjunction']
+Final word: You cannot end a sentence with is a conjunction
+
+
+Number 26
+first index of because (31, 38)
+
+Number 27
+Final word: You cannot end a sentence with is a conjunction
+
+
+
+
+
+Number 28
+'Coding For All' Starts with 'Codng'? T/F: True
+
+
+Number 29
+'Coding For All' Ends with 'Codng'? T/F: False
+
+
+Number 30
+Original Word:    Coding For All
+:Striped String: Coding For All
+
+
+Number 31
+is 30DaysOfPython a valid identifier?T/F: False
+is thirty_days_of_python a valid identifier?T/F: True
+
+
+Number 32
+Django# Flask# Bottle# Pyramid# Falcon
+
+
+Number 33
+I am enjoying this challenge
+I
+am
+enjoying
+this
+challenge
+
+
+I just wonder what is next
+I
+just
+wonder
+what
+is
+next
+
+
+I just wonder what is next
+I
+just
+wonder
+what
+is
+next
+
+Number 34
+My Dict {'Name': 'Asabeneh', 'Age': 250, 'Country': 'Finland', 'City': 'Helsinki'}
+Name    Age     Country City
+Asabeneh        250     Finland Helsinki
+
+Number 35
+radius = 10
+area = 3.14 * radius ** 2
+The area of a circle with radius 10 is 314 meters square
+
+Number 36
+8 + 6 = 14
+8 - 6 = 2
+8 * 6 = 48
+8 / 6 = 1.33
+8 % 6 = 2
+8 // 6 = 1
+8 ** 6 = 262,144
+
+
+
+
+
