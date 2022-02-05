@@ -4,7 +4,7 @@
 
 ## 📚 Table of Contents
 - [Objective](#objective)
-- [💻 Exercises - Day 5](#-exercises---day-5)
+- [💻 Exercises - Day 5](#-exercises-day-5)
     - [Exercise: Level 1](#exercise-level-1)
     - [Exercise: Level 2](#exercise-level-2)
 - [Solution on Github](https://github.com/zidude1234/30_Days_of_Python/blob/main/Day%2005/Python%20Syntax/Day05%20Syntax.py)
@@ -14,9 +14,9 @@ This repository contains the solution for the Day Five of the "30 Days of Python
 Thanks @Asabaneh for the excellent Python Content! 👋🏻
 
 
-## 💻 Exercises: Day 5
+## 💻Exercises: Day 5
 
-### Exercises: Level 1
+### Exercise: Level 1
 
 1. Declare an empty list
 2. Declare a list with more than 5 items
@@ -52,7 +52,7 @@ Thanks @Asabaneh for the excellent Python Content! 👋🏻
 
 27. After joining the lists in question 26. Copy the joined list and assign it to a variable full_stack. Then insert Python and SQL after Redux.
 
-### Exercises: Level 2
+### Exercise: Level 2
 
 1. The following is a list of 10 students ages:
 
