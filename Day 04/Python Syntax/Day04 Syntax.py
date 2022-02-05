@@ -155,6 +155,123 @@ def main():
         s_acro += i[0]
     print("Acronym:",s_acro)
     print("\n")
+    
+    #20
+    #Use index to determine the position of the first occurrence of C in Coding For All.
+    print("Number 20")
+    print(company.index("C")+1) 
+    print("\n")
+
+    #21
+    #Use index to determine the position of the first occurrence of F in Coding For All.
+    print("Number 21")
+    print(company.index("F")+1) 
+    print("\n")
+
+    #22
+    #Use rfind to determine the position of the last occurrence of l in Coding For All People.
+    print("Number 22")
+    print("Last occurrence of the word 'l':",company.rindex("l")+1) 
+    print("\n")
+
+    #Use index or find to find the position of the first occurrence of the word 'because' in the following sentence: 
+    # 'You cannot end a sentence with because because because is a conjunction'
+    print("Number 23")
+    newstr = 'You cannot end a sentence with because because because is a conjunction'
+    print("first occurrence of the word 'because':",newstr.index("because")+1) 
+    print("\n")
+    
+    #24
+    #Use rindex to find the position of the last occurrence of the word because in the following sentence: 
+    # 'You cannot end a sentence with because because because is a conjunction'
+    print("Number 24")
+    print("last occurrence of the word 'because':",newstr.rindex("because")+1) 
+    print("\n")
+
+
+    #25
+    #Slice out the phrase 'because because because' in the following sentence: 
+    # 'You cannot end a sentence with because because because is a conjunction'
+    print("Number 25")
+    templist = newstr.split('because')
+    templist2 = []
+    print("Original Word:",newstr)
+    print("Split List before spaces",templist)
+    for i in templist:
+      if i != ' ':
+        templist2.append(i.strip()) #remove all leading or lagging spaces
+    newword = ' '.join(templist2) #use space to join each list item
+    print("Split List after spaces",templist2)
+    print("Final word:",newword)
+    print("\n")
+
+    #26
+    #Find the position of the first occurrence of the word 'because' in the following sentence: 
+    # 'You cannot end a sentence with because because because is a conjunction''
+    print("Number 26")
+    x = re.search('because',newstr)
+    print("first index of because",x.span())
+    print("\n")
+
+    #27 slice out the phrase 'because because because' in the following sentence: 
+    # 'You cannot end a sentence with because because because is a conjunction'
+    print("Number 27")
+    print("Final word:",newword)
+    print("\n")
+
+    #28 Does 'Coding For All' start with a substring Coding?
+    print("Number 28")
+    print("'Coding For All' Starts with 'Codng'? T/F:",company.startswith('Coding'))
+    print("\n")
+
+    #29  Does 'Coding For All' end with a substring coding?
+    print("Number 29")
+    print("'Coding For All' Ends with 'Codng'? T/F:",company.endswith('Coding'))
+    print("\n")
+
+
+    #30 '   Coding For All      ', remove the left and right trailing spaces in the given string.
+    print("Number 30")
+    s_temp ='   Coding For All      '
+    print("Original Word:",s_temp)
+    print(":Striped String:",s_temp.strip())
+    print("\n")
+
+
+    #31 Which one of the following variables return True when we use the method isidentifier():
+    # - 30DaysOfPython
+    # - thirty_days_of_python
+    print("Number 31")
+    a,b =  '30DaysOfPython','thirty_days_of_python'
+    print(f"is {a} a valid identifier?T/F: {a.isidentifier()}")
+    print(f"is {b} a valid identifier?T/F: {b.isidentifier()}")
+    print("\n")
+
+    
+    #32 The following list contains the names of some of python libraries: ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']. 
+    # Join the list with a hash with space string.
+    print("Number 32")
+    hashspace = '# '
+    list_libraries =  ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+    print(hashspace.join(list_libraries))
+    print("\n")
+    
+    #33 Use the new line escape sequence to separate the following sentences.
+    #     I am enjoying this challenge.
+    #     I just wonder what is next.
+    print("Number 33")
+    a, b = 'I am enjoying this challenge','I just wonder what is next'
+    templist = a.split()
+    print(a)
+    for i in templist:
+      print(i)
+    print("\n")    
+    
+    templist = b.split()
+    print(b)
+    for i in templist:
+      print(i)
+    print("\n")
 
 
     
