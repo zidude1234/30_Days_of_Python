@@ -99,69 +99,67 @@ def main():
     #12
     #Change Python for Everyone to Python for All using the replace method or other methods
     #find(): Returns the index of the first occurrence of a substring, if not found returns -1
-    #rfind(): Returns the index of the last occurrence of a substring, if not found returns -1
-    #index(): Returns the lowest index of a substring, additional arguments indicate starting and ending index (default 0 and string length - 1)
-    #rindex(): Returns the highest index of a substring, additional arguments indicate starting and ending index (default 0 and string length - 1)
     print("Number 12")
     str1 = 'Python for Everyone'
     print(str1.replace('Everyone','All'))
    
     #13
-    #Change Python for Everyone to Python for All using the replace method or other methods
-    #find(): Returns the index of the first occurrence of a substring, if not found returns -1
-    #rfind(): Returns the index of the last occurrence of a substring, if not found returns -1
-    #index(): Returns the lowest index of a substring, additional arguments indicate starting and ending index (default 0 and string length - 1)
-    #rindex(): Returns the highest index of a substring, additional arguments indicate starting and ending index (default 0 and string length - 1)
-    print("Number 12")
+    #Split the string 'Coding For All' using space as the separator (split()) 
+    print("\n")
+    print("Number 13")
+    print('Coding For All'.split())
+    print("\n")
+
+    #14
+    #Split the string "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon" at the comma
+    print("Number 14")
+    s = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
+    print(s.split(','))
+    print("\n")
+    
+    #15
+    #What is the character at index 0 in the string Coding For All.
+    print("Number 15")
+    print("Character at Index 0: ",'Coding For All'[0])
+    print("\n")
+
+    #16
+    #What is the last index of the string Coding For All.
+    s = 'Coding For All'
+    print("Number 16")
+    print("Character at Index last: ",s[len(s)-1])
+    print("\n")
+    
+    #17
+    #What character is at index 10 in "Coding For All" string.
+    print("Number 17")
+    print("Character at Index 10: ",s[10])
+    print("\n")
+
+    #18
+    # Create an acronym or an abbreviation for the name 'Python For Everyone'.
+    print("Number 18")
+    s_acro, templist = '',str1.split()
+    print(str1)
+    for i in templist:
+        s_acro += i[0]
+    print("Acronym:",s_acro)
+    print("\n")
+    
+    #19
+    #Create an acronym or an abbreviation for the name 'Coding For All'.
+    print("Number 19")
+    s_acro, templist = '',company.split()
+    print(company)
+    for i in templist:
+        s_acro += i[0]
+    print("Acronym:",s_acro)
+    print("\n")
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        #11
-    #Change Python for Everyone to Python for All using the replace method or other methods
-    #find(): Returns the index of the first occurrence of a substring, if not found returns -1
-    #rfind(): Returns the index of the last occurrence of a substring, if not found returns -1
-    #index(): Returns the lowest index of a substring, additional arguments indicate starting and ending index (default 0 and string length - 1)
-    #rindex(): Returns the highest index of a substring, additional arguments indicate starting and ending index (default 0 and string length - 1)
-    print("Number 11")
-
-
-        #11
-    #Change Python for Everyone to Python for All using the replace method or other methods
-    #find(): Returns the index of the first occurrence of a substring, if not found returns -1
-    #rfind(): Returns the index of the last occurrence of a substring, if not found returns -1
-    #index(): Returns the lowest index of a substring, additional arguments indicate starting and ending index (default 0 and string length - 1)
-    #rindex(): Returns the highest index of a substring, additional arguments indicate starting and ending index (default 0 and string length - 1)
-    print("Number 11")
-
+    
+    
+    
 
 if __name__ == "__main__":
   main()
