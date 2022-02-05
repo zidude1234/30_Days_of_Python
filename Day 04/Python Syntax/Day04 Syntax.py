@@ -274,7 +274,58 @@ def main():
     print("\n")
 
 
+    #34 Use a tab escape sequence to write the following lines.
+    # Name      Age     Country   City
+    # Asabeneh  250     Finland   Helsinki
     
+    #using dict
+    myDict = dict(Name = "Asabeneh",Age = 250,Country = "Finland",City = "Helsinki")
+    #myDict2 = {"Name":"Asabeneh","Age": 250,"Country":"Finland","City":"Helsinki"}
+    print("Number 34")
+    print("My Dict",myDict)
+    #print(myDict2)
+    
+    item_string = ''
+    for i in myDict.keys():
+      item_string += str(i) + '\t'
+    print(item_string)
+
+    value_string = ''
+    for i in myDict.values():
+      value_string += str(i) + '\t'
+    print(value_string) 
+    
+    #35
+    #Use the string formatting method to display the following:
+    #radius = 10
+    #area = 3.14 * radius ** 2
+    # The area of a circle with radius 10 is 314 meters square.   
+    rad, area,area_string  = 10,0,'area = 3.14 * radius ** 2'
+    print("Number 35")
+    print("radius =", rad)
+    print(area_string)
+    print(f'The area of a circle with radius {rad} is {int(3.14 * rad **2)} meters square')
+    print('\n')
+    
+    #36
+    #Make the following using string formatting (interpolation) methods:
+        # 8 + 6 = 14
+        # 8 - 6 = 2
+        # 8 * 6 = 48
+        # 8 / 6 = 1.33
+        # 8 % 6 = 2
+        # 8 // 6 = 1
+        # 8 ** 6 = 262144
+     
+    int1, int2 = 8,6
+    print(f'{int1} + {int2} = {int1 + int2}')
+    print(f'{int1} - {int2} = {int1 - int2}')
+    print(f'{int1} * {int2} = {int1 * int2}')
+    print(f'{int1} / {int2} = {(int1 / int2):.2f}')
+    print(f'{int1} % {int2} = {int1 % int2}')
+    print(f'{int1} // {int2} = {int1 // int2}')
+    print(f'{int1} ** {int2} = {(int1 ** int2):,}')
+      
     
     
 
