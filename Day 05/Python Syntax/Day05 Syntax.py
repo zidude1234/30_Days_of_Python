@@ -99,7 +99,12 @@ def main():
   print("Uppercase List:", it_companies2)
   print('\n')
 
-
+  #14 Join the it_companies with a string '#;
+  print("Number 14")
+  it_companies = ['Metaverse', 'Google', 'Microsoft', 'Apple', 'HP', 'IBM', 'Oracle', 'Amazon', 'Dell'] 
+  it_companies = it_companies + ["#;"]
+  print("Itcompanies:", it_companies)
+  print('\n')
 
 
 
