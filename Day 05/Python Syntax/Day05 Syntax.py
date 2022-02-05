@@ -78,6 +78,26 @@ def main():
   it_companies [0] = "Metaverse"
   print("New List:", it_companies)
   
+  #11 Add an IT company to it_companies
+  print("Number 11")
+  it_companies.append("Dell")
+  print("Updated List:",it_companies)
+  print('\n')
+
+  #12 Insert an IT company in the middle of the companies list
+  print("Number 12")
+  middleindex = ceil((len(it_companies)/2))
+  it_companies.insert(middleindex,"HP")
+  print("Updated List:", it_companies)
+  print('\n')
+
+  #13 Change one of the it_companies names to uppercase (IBM excluded!)
+  it_companies2 = []
+  print("Number 13")
+  for i in it_companies:
+    it_companies2.append(i.upper())
+  print("Uppercase List:", it_companies2)
+  print('\n')
 
 
 
