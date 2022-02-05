@@ -4,7 +4,7 @@
 
 ## 📚 Table of Contents
 - [Objective](#objective)
-- [💻 Exercises - Day 5](#-exercises-day-5)
+- [💻 Exercises - Day 5](#exercises-day-5)
     - [Exercise: Level 1](#exercise-level-1)
     - [Exercise: Level 2](#exercise-level-2)
 - [Solution on Github](https://github.com/zidude1234/30_Days_of_Python/blob/main/Day%2005/Python%20Syntax/Day05%20Syntax.py)
@@ -70,3 +70,5 @@ ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 1. Find the middle country(ies) in the [countries list](https://github.com/Asabeneh/30-Days-Of-Python/tree/master/data/countries.py)
 1. Divide the countries list into two equal lists if it is even if not one more country for the first half.
 1. ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']. Unpack the first three countries and the rest as scandic countries.
+
+#### [Go to Top of Page](#%F0%9F%92%BB-lets-go%F0%9F%9A%80-%F0%9F%9A%80-%F0%9F%9A%80)
