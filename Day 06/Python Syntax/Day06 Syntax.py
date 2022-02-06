@@ -65,7 +65,7 @@ def main():
     print("Number 5")
     list_mytuple_family = list_mytuple_siblings.copy() #duplicate the old sibling list
     my_tuple_parents = tuple(("Master Yoda","Emperor Palpatine"))
-    list_mytuple_family.extend(my_tuple_parents)
+    list_mytuple_family.append(my_tuple_parents)
     print("Family Tuple: ",tuple(list_mytuple_family))
     print("\n")
     
@@ -75,9 +75,9 @@ def main():
 
     #1 Unpack siblings  and parents from family_members 
     print("Number 1")
-    siblings, parents = list_mytuple_family[0:-2],list_mytuple_family[-2:]
-    print(siblings)
-    print(parents)
+    *siblings, parents = list_mytuple_family
+    print("Sibling: ",siblings)
+    print("Parents: ",parents)
     print("\n")
 
     #2 Create fruits, vegetables and animal products tuples. Join the three tuples and assign it to a variable called food_stuff_tp. 
