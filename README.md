@@ -14,7 +14,7 @@ Thanks @Asabaneh for the excellent Python Content! 👋🏻
 - [Day #04: Strings](https://github.com/zidude1234/30_Days_of_Python/tree/main/Day%2004)
 - [Day #05: Lists](https://github.com/zidude1234/30_Days_of_Python/tree/main/Day%2005)
 - [Day #06: Tuples](https://github.com/zidude1234/30_Days_of_Python/tree/main/Day%2006)
-- [Day #07: Sets](#Sets)
+- [Day #07: Sets](https://github.com/zidude1234/30_Days_of_Python/tree/main/Day%2007)
 - [Day #08: Dictionaries](#Dictionaries)
 - [Day #09: Conditionals](#Conditionals)
 - [Day #10: Loops](#Loops)
