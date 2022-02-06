@@ -533,12 +533,11 @@ print("Number 1")
     
   print("Number 2C")
   c1 = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
-  list1 = list2 = [] #initialise list
-  list1, list2 = c1[0:3],c1[3:]
-  print("list1:",list1)
-  print("scandic countries:",list2)
-
-    
+  ch,ru,usa,*scandic = c1
+  print("ch:",ch)
+  print("ru:",ru)
+  print("usa:",usa)
+  print("scandic countries:",scandic) 
     
     
     
