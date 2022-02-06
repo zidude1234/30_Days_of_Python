@@ -19,12 +19,13 @@ Number of Siblings: 6
 
 
 Number 5
-Family Tuple:  ('Luke Skywalker', 'Obi-Wan Kenobi', 'Mace Windu', 'Ahsoka Tahno', 'Leia Organa', 'Padme Amidala', 'Master Yoda', 'Emperor Palpatine')
+Family Tuple:  ('Luke Skywalker', 'Obi-Wan Kenobi', 'Mace Windu', 'Ahsoka Tahno', 'Leia Organa', 'Padme Amidala', ('Master Yoda', 'Emperor Palpatine'))
+
 
 @:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:Exercise level 2@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:
 Number 1
-['Luke Skywalker', 'Obi-Wan Kenobi', 'Mace Windu', 'Ahsoka Tahno', 'Leia Organa', 'Padme Amidala']
-['Master Yoda', 'Emperor Palpatine']
+Sibling:  ['Luke Skywalker', 'Obi-Wan Kenobi', 'Mace Windu', 'Ahsoka Tahno', 'Leia Organa', 'Padme Amidala']
+Parents:  ('Master Yoda', 'Emperor Palpatine')
 
 
 Number 2
