@@ -1,0 +1,199 @@
+@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:Exercise level 1@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:
+Number 1
+[]
+
+
+Number 2
+['Name', 'Age', 3, 465, 'Country', 'City', 'Asabeneh', 250, ['Halo', 'Mario Bros', 'Street Fighter'], ('Coding', 'For', 'All')]
+
+
+Number 3
+listOne Length :10
+
+
+Number 4
+first item :Name
+last item :('Coding', 'For', 'All')
+Middle item with index (5) : City
+
+
+Number 5
+['dataBio', 99, '3.2m', 'Complicated', '50 Git Street']
+
+
+Number 6
+List Declared
+
+
+Number 7
+['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+
+
+Number 8
+        Company 1: Facebook
+        Company 2: Google
+        Company 3: Microsoft
+        Company 4: Apple
+        Company 5: IBM
+        Company 6: Oracle
+        Company 7: Amazon
+
+Number 9
+first company :Facebook
+middle company :Apple
+last company :Amazon
+
+
+New List: ['Metaverse', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+
+Number 9
+first company :Facebook
+middle company :Apple
+last company :Amazon
+
+
+Number 10
+New List: ['Metaverse', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+
+
+Number 11
+Updated List: ['Metaverse', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon', 'Dell']
+
+
+Number 12
+Updated List: ['Metaverse', 'Google', 'Microsoft', 'Apple', 'HP', 'IBM', 'Oracle', 'Amazon', 'Dell']
+
+
+Number 13
+Uppercase List: ['METAVERSE', 'GOOGLE', 'MICROSOFT', 'APPLE', 'HP', 'IBM', 'ORACLE', 'AMAZON', 'DELL']
+
+Number 14
+Itcompanies: ['Metaverse', 'Google', 'Microsoft', 'Apple', 'HP', 'IBM', 'Oracle', 'Amazon', 'Dell', '#;']
+
+
+Number 15
+HP item is at index:  4
+
+
+Number 16
+Unsorted: ['Metaverse', 'Google', 'Microsoft', 'Apple', 'HP', 'IBM', 'Oracle', 'Amazon', 'Dell', '#;']
+Sorted: ['#;', 'Amazon', 'Apple', 'Dell', 'Google', 'HP', 'IBM', 'Metaverse', 'Microsoft', 'Oracle']
+
+Number 17
+Unsorted: ['Metaverse', 'Google', 'Microsoft', 'Apple', 'HP', 'IBM', 'Oracle', 'Amazon', 'Dell', '#;']
+Reverse Sorted: ['Oracle', 'Microsoft', 'Metaverse', 'IBM', 'HP', 'Google', 'Dell', 'Apple', 'Amazon', '#;']
+
+Number 18
+Slice: ['Metaverse', 'Google', 'Microsoft']
+
+
+Number 19
+Slice: ['Amazon', 'Dell', '#;']
+
+Number 20
+List: ['Metaverse', 'Google', 'Microsoft', 'Apple', 'HP', 'IBM', 'Oracle', 'Amazon', 'Dell', '#;']
+Middle Company(s): ['HP', 'IBM']
+
+Number 21
+Original List: ['Metaverse', 'Google', 'Microsoft', 'Apple', 'HP', 'IBM', 'Oracle', 'Amazon', 'Dell', '#;']
+['Google', 'Microsoft', 'Apple', 'HP', 'IBM', 'Oracle', 'Amazon', 'Dell', '#;']
+
+Number 22
+Original List: ['Metaverse', 'Google', 'Microsoft', 'Apple', 'HP', 'IBM', 'Oracle', 'Amazon', 'Dell', '#;']
+Even list with middle removed: ['Metaverse', 'Google', 'Microsoft', 'Apple', 'Oracle', 'Amazon', 'Dell', '#;']
+
+Number 23
+Original List: ['Metaverse', 'Google', 'Microsoft', 'Apple', 'HP', 'IBM', 'Oracle', 'Amazon', 'Dell', '#;']
+List with last item removed: ['Metaverse', 'Google', 'Microsoft', 'Apple', 'HP', 'IBM', 'Oracle', 'Amazon', 'Dell']
+
+
+Number 24
+Original List: ['Metaverse', 'Google', 'Microsoft', 'Apple', 'HP', 'IBM', 'Oracle', 'Amazon', 'Dell', '#;']
+List with all items removed: []
+
+Number 25
+Original List: ['Metaverse', 'Google', 'Microsoft', 'Apple', 'HP', 'IBM', 'Oracle', 'Amazon', 'Dell', '#;']
+List does not exist!
+local variable 'modifiedlist' referenced before assignment
+
+Number 26
+Front End ['HTML', 'CSS', 'JS', 'React', 'Redux']
+Back End ['Node', 'Express', 'MongoDB']
+Front End Extended ['HTML', 'CSS', 'JS', 'React', 'Redux', 'Node', 'Express', 'MongoDB']
+
+Number 27
+Original Full Stack: ['HTML', 'CSS', 'JS', 'React', 'Redux', 'Node', 'Express', 'MongoDB']
+Final Full Stack: ['HTML', 'CSS', 'JS', 'React', 'Redux', 'Python', 'SQL', 'Node', 'Express', 'MongoDB']
+
+@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:Exercise level 2@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:
+Number 1
+Original Age List : [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+a1. Sorted Full Stack: [19, 19, 20, 22, 24, 24, 24, 25, 25, 26]
+a2. Max value - Full Stack: 26
+a3. Min value - Full Stack: 19
+b. With Min and Max ages added: [19, 19, 20, 22, 24, 24, 24, 25, 25, 26, 19, 26]
+c. Median age: 24.0
+d. Average age: 22.75
+e. range of age: 26 - 19 = 7
+f. absolute of min less average is : 3.75, compared to absolute of max less average of 3.25
+
+Number 2A
+Middle Country(ies): ['Lesotho']
+
+
+Number 2B
+First List has 97 items: ['Afghanistan', 'Albania', 'Algeria', 'Andorra', 'Angola', 'Antigua and Barbuda', 'Argentina', 'Armenia', 'Australia', 'Austria', 'Azerbaijan', 'Bahamas', 'Bahrain', 'Bangladesh', 'Barbados', 'Belarus', 'Belgium', 'Belize', 'Benin', 'Bhutan', 'Bolivia', 'Bosnia and Herzegovina', 'Botswana', 'Brazil', 'Brunei', 'Bulgaria', 'Burkina Faso', 'Burundi', 'Cambodia', 'Cameroon', 'Canada', 'Cape Verde', 'Central African Republic', 'Chad', 'Chile', 'China', 'Colombi', 'Comoros', 'Congo (Brazzaville)', 'Congo', 'Costa Rica', "Cote d'Ivoire", 'Croatia', 'Cuba', 'Cyprus', 'Czech Republic', 'Denmark', 'Djibouti', 'Dominica', 'Dominican Republic', 'East Timor (Timor Timur)', 'Ecuador', 'Egypt', 'El Salvador', 'Equatorial Guinea', 'Eritrea', 'Estonia', 'Ethiopia', 'Fiji', 'Finland', 
+'France', 'Gabon', 'Gambia, The', 'Georgia', 'Germany', 'Ghana', 'Greece', 'Grenada', 'Guatemala', 'Guinea', 'Guinea-Bissau', 'Guyana', 'Haiti', 'Honduras', 'Hungary', 'Iceland', 'India', 'Indonesia', 
+'Iran', 'Iraq', 'Ireland', 'Israel', 'Italy', 'Jamaica', 'Japan', 'Jordan', 'Kazakhstan', 'Kenya', 'Kiribati', 'Korea, North', 'Korea, South', 'Kuwait', 'Kyrgyzstan', 'Laos', 'Latvia', 'Lebanon', 'Lesotho']
+
+
+
+Second List has 96 items: ['Liberia', 'Libya', 'Liechtenstein', 'Lithuania', 'Luxembourg', 'Macedonia', 'Madagascar', 'Malawi', 'Malaysia', 'Maldives', 'Mali', 'Malta', 'Marshall Islands', 'Mauritania', 'Mauritius', 'Mexico', 'Micronesia', 'Moldova', 'Monaco', 'Mongolia', 'Morocco', 'Mozambique', 'Myanmar', 'Namibia', 'Nauru', 'Nepal', 'Netherlands', 'New Zealand', 'Nicaragua', 'Niger', 'Nigeria', 'Norway', 'Oman', 'Pakistan', 'Palau', 'Panama', 'Papua New Guinea', 'Paraguay', 'Peru', 'Philippines', 'Poland', 'Portugal', 'Qatar', 'Romania', 'Russia', 'Rwanda', 'Saint Kitts and Nevis', 'Saint Lucia', 'Saint Vincent', 'Samoa', 'San Marino', 'Sao Tome and Principe', 'Saudi Arabia', 'Senegal', 'Serbia and Montenegro', 'Seychelles', 'Sierra Leone', 'Singapore', 'Slovakia', 'Slovenia', 'Solomon Islands', 'Somalia', 'South Africa', 'Spain', 'Sri Lanka', 'Sudan', 'Suriname', 'Swaziland', 'Sweden', 'Switzerland', 'Syria', 'Taiwan', 'Tajikistan', 'Tanzania', 'Thailand', 'Togo', 'Tonga', 'Trinidad and Tobago', 'Tunisia', 'Turkey', 'Turkmenistan', 'Tuvalu', 'Uganda', 'Ukraine', 'United Arab Emirates', 'United Kingdom', 'United States', 'Uruguay', 'Uzbekistan', 'Vanuatu', 'Vatican City', 'Venezuela', 'Vietnam', 'Yemen', 'Zambia', 'Zimbabwe']
+
+Number 2C
+Unpacked Countries 3 items: ['China', 'Russia', 'USA']
+Scandic Countries 4 items: ['Finland', 'Sweden', 'Norway', 'Denmark']
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
