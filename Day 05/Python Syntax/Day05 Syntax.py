@@ -533,12 +533,11 @@ print("Number 1")
     
   print("Number 2C")
   c1 = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
-  c2 = c1.copy()
-  c3 = c1.copy()
-  del c2[3:]
-  print(f"Unpacked Countries {len(c2)} items: {c2}")
-  del c3[0:3]
-  print(f"Scandic Countries {len(c3)} items: {c3}")  
+  list1 = list2 = [] #initialise list
+  list1, list2 = c1[0:3],c1[3:]
+  print("list1:",list1)
+  print("scandic countries:",list2)
+
     
     
     
