@@ -28,7 +28,7 @@ age = [22, 19, 24, 25, 26, 24, 25, 24]
 ```
 ***
 
-### Exercises: Level 1
+### Exercise: Level 1
 
 1. Find the length of the set it_companies
 2. Add 'Twitter' to it_companies
@@ -36,7 +36,7 @@ age = [22, 19, 24, 25, 26, 24, 25, 24]
 4. Remove one of the companies from the set it_companies
 5. What is the difference between remove and discard
 
-### Exercises: Level 2
+### Exercise: Level 2
 
 1. Join A and B
 1. Find A intersection B
@@ -46,7 +46,7 @@ age = [22, 19, 24, 25, 26, 24, 25, 24]
 1. What is the symmetric difference between A and B
 1. Delete the sets completely
 
-### Exercises: Level 3
+### Exercise: Level 3
 
 1. Convert the ages to a set and compare the length of the list and the set, which one is bigger?
 1. Explain the difference between the following data types: string, list, tuple and set
