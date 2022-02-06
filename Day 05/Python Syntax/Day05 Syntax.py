@@ -119,7 +119,109 @@ def main():
   it_companies.sort()
   print("Sorted:",it_companies)
 
+  #17 Reverse the list in descending order using reverse() method
+  print("Number 17")
+  it_companies = ['Metaverse', 'Google', 'Microsoft', 'Apple', 'HP', 'IBM', 'Oracle', 'Amazon', 'Dell', '#;']
+  print("Unsorted:",it_companies)
+  it_companies.sort(reverse=True)
+  print("Reverse Sorted:",it_companies)
+  print('\n')
+  
+  #18 Slice out the first 3 companies from the list
+  print("Number 18")
+  it_companies = ['Metaverse', 'Google', 'Microsoft', 'Apple', 'HP', 'IBM', 'Oracle', 'Amazon', 'Dell', '#;']
+  slicelist = it_companies[0:3:]
+  print("Slice:",slicelist)
+  print('\n')
+  
+  #19 Slice out the last 3 companies from the list
+  print("Number 18")
+  slicelist = it_companies[-3::]
+  print("Slice:",slicelist)
+  print('\n')
 
+  #20 Slice out the middle IT company or companies from the list
+  print("Number 20")
+  length_list = len(it_companies)
+  if length_list % 2 == 1:
+    startindex = ceil(length_list/2)-1
+    endindex = startindex + 1
+  else:
+    startindex = ceil(length_list/2)-1
+    endindex = startindex + 2
+  print("List:",it_companies)
+  print("Middle Company(s):",it_companies[startindex:endindex])
+  print('\n')
+
+  #21 Remove the first IT company from the list
+  modifiedlist = it_companies.copy()
+  print("Number 21")
+  modifiedlist.pop(0)
+  print("Original List:",it_companies)
+  print(modifiedlist)
+  print('\n')
+  
+  #22 Remove the middle IT company or companies from the list
+  modifiedlist = []
+  modifiedlist = it_companies.copy()
+  length_list = len(it_companies)
+  print("Number 22")
+  print("Original List:",it_companies)
+  if length_list % 2 == 1:
+    startindex = ceil(length_list/2)-1
+    modifiedlist.pop(startindex)
+    print("Odd list with middle removed:",modifiedlist)
+  else:
+    startindex = ceil(length_list/2)-1
+    endindex = startindex + 2 #endindex is not included
+    del modifiedlist[startindex:endindex]
+    print("Even list with middle removed:",modifiedlist)
+  print('\n')
+
+  #23 Remove the last IT company from the list
+  print("Number 23")
+  modifiedlist = []
+  modifiedlist = it_companies.copy()
+  print("Original List:",it_companies)
+  modifiedlist.pop()
+  print("List with last item removed:",modifiedlist)
+  print('\n')
+
+
+  #24 Remove all IT companies from the list
+  print("Number 24")
+  modifiedlist = []
+  modifiedlist = it_companies.copy()
+  del modifiedlist[0:len(it_companies)]
+  print("Original List:",it_companies)
+
+  #25 Destroy the IT companies list
+  print("Number 25")
+  modifiedlist = []
+  modifiedlist = it_companies.copy()
+  del modifiedlist
+  print("Original List:",it_companies)
+  try: 
+    print("List with all items destroyed:",modifiedlist)
+  except NameError as e:
+    print("List does not exist!")
+    print (e)
+  except:
+    print("There is an error!")
+  print('\n')
+  print("List with all items removed:",modifiedlist)
+
+  #26 Join the following lists:
+  # front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+  # back_end = ['Node','Express', 'MongoDB']
+  print("Number 26")
+  front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+  back_end = ['Node','Express', 'MongoDB']
+  print("Front End",front_end)
+  print("Back End",back_end)
+  front_end.extend(back_end)
+  print("Front End Extended",front_end)
+  print('\n')
 
     
     
