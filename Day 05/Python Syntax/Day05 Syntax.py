@@ -106,7 +106,18 @@ def main():
   print("Itcompanies:", it_companies)
   print('\n')
 
+  #15 Check if a certain company exists in the it_companies list. - HP
+  print("Number 15")
+  print("HP item is at index: ",it_companies.index("HP"))
+  print('\n')
 
+
+  #16 Sort the list using sort() method
+  sortorder = []
+  print("Number 16")
+  print("Unsorted:",it_companies)
+  it_companies.sort()
+  print("Sorted:",it_companies)
 
 
 
