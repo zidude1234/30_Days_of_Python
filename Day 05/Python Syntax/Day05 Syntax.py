@@ -223,10 +223,322 @@ def main():
   print("Front End Extended",front_end)
   print('\n')
 
+  #27 After joining the lists in question 26. 
+  # Copy the joined list and assign it to a variable full_stack. Then insert Python and SQL after Redux.
+  print("Number 27")
+  full_stack = front_end.copy()
+  print(f"Original Full Stack: {full_stack}")
+  index_insert = full_stack.index("Redux") + 1
+  full_stack.insert(index_insert,"Python")
+  index_insert += 1
+  full_stack.insert(index_insert,"SQL")
+  print(f"Final Full Stack: {full_stack}")
+  print('\n')
+
+  print("Number 1")
+  ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+  print(f"Original Age List : {ages}")
+  modifiedlist = []
+  modifiedlist = ages.copy()
+  modifiedlist.sort()
+  print(f"a1. Sorted Full Stack: {modifiedlist}")
+  print(f"a2. Max value - Full Stack: {max(modifiedlist)}")
+  print(f"a3. Min value - Full Stack: {min(modifiedlist)}")
+  list_of_minmax = list((min(modifiedlist),max(modifiedlist)))
+  modifiedlist.extend(list_of_minmax)
+  print(f"b. With Min and Max ages added: {modifiedlist}")
+  length_list = len(modifiedlist)
+  if length_list % 2 == 1:
+    median_index = ceil(length_list/2)-1
+    print(f"c. Median age: {modifiedlist[median_index]}")
+  else:
+    median_index = ceil(length_list/2)-1
+    print(f"c. Median age: {(modifiedlist[median_index]+modifiedlist[median_index+1])/2}")
+  sum = 0
+  for i in modifiedlist:
+    sum += i
+  average_age = (sum/length_list)
+  print(f"d. Average age: {(sum/length_list):.2f}")
+  print(f"e. range of age: {max(modifiedlist)} - {min(modifiedlist)} = {max(modifiedlist) - min(modifiedlist)}")
+  print(f"f. absolute of min less average is : {abs(min(modifiedlist)-average_age)}, compared to absolute of max less average of {abs(max(modifiedlist)-average_age)}")  
+  
+  #27 After joining the lists in question 26. 
+# Copy the joined list and assign it to a variable full_stack. Then insert Python and SQL after Redux.
+  print("Number 27")
+  full_stack = front_end.copy()
+  print(f"Original Full Stack: {full_stack}")
+  index_insert = full_stack.index("Redux") + 1
+  full_stack.insert(index_insert,"Python")
+  index_insert += 1
+  full_stack.insert(index_insert,"SQL")
+  print(f"Final Full Stack: {full_stack}")
+  print('\n')
+
+print("Number 1")
+  ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+  print(f"Original Age List : {ages}")
+  modifiedlist = []
+  modifiedlist = ages.copy()
+  modifiedlist.sort()
+  print(f"a1. Sorted Full Stack: {modifiedlist}")
+  print(f"a2. Max value - Full Stack: {max(modifiedlist)}")
+  print(f"a3. Min value - Full Stack: {min(modifiedlist)}")
+  list_of_minmax = list((min(modifiedlist),max(modifiedlist)))
+  modifiedlist.extend(list_of_minmax)
+  print(f"b. With Min and Max ages added: {modifiedlist}")
+  length_list = len(modifiedlist)
+  if length_list % 2 == 1:
+    median_index = ceil(length_list/2)-1
+    print(f"c. Median age: {modifiedlist[median_index]}")
+  else:
+    median_index = ceil(length_list/2)-1
+    print(f"c. Median age: {(modifiedlist[median_index]+modifiedlist[median_index+1])/2}")
+  sum = 0
+  for i in modifiedlist:
+    sum += i
+  average_age = (sum/length_list)
+  print(f"d. Average age: {(sum/length_list):.2f}")
+  print(f"e. range of age: {max(modifiedlist)} - {min(modifiedlist)} = {max(modifiedlist) - min(modifiedlist)}")
+  print(f"f. absolute of min less average is : {abs(min(modifiedlist)-average_age)}, compared to absolute of max less average of {abs(max(modifiedlist)-average_age)}")
+
+
+  countries = [
+  'Afghanistan',
+  'Albania',
+  'Algeria',
+  'Andorra',
+  'Angola',
+  'Antigua and Barbuda',
+  'Argentina',
+  'Armenia',
+  'Australia',
+  'Austria',
+  'Azerbaijan',
+  'Bahamas',
+  'Bahrain',
+  'Bangladesh',
+  'Barbados',
+  'Belarus',
+  'Belgium',
+  'Belize',
+  'Benin',
+  'Bhutan',
+  'Bolivia',
+  'Bosnia and Herzegovina',
+  'Botswana',
+  'Brazil',
+  'Brunei',
+  'Bulgaria',
+  'Burkina Faso',
+  'Burundi',
+  'Cambodia',
+  'Cameroon',
+  'Canada',
+  'Cape Verde',
+  'Central African Republic',
+  'Chad',
+  'Chile',
+  'China',
+  'Colombi',
+  'Comoros',
+  'Congo (Brazzaville)',
+  'Congo',
+  'Costa Rica',
+  "Cote d'Ivoire",
+  'Croatia',
+  'Cuba',
+  'Cyprus',
+  'Czech Republic',
+  'Denmark',
+  'Djibouti',
+  'Dominica',
+  'Dominican Republic',
+  'East Timor (Timor Timur)',
+  'Ecuador',
+  'Egypt',
+  'El Salvador',
+  'Equatorial Guinea',
+  'Eritrea',
+  'Estonia',
+  'Ethiopia',
+  'Fiji',
+  'Finland',
+  'France',
+  'Gabon',
+  'Gambia, The',
+  'Georgia',
+  'Germany',
+  'Ghana',
+  'Greece',
+  'Grenada',
+  'Guatemala',
+  'Guinea',
+  'Guinea-Bissau',
+  'Guyana',
+  'Haiti',
+  'Honduras',
+  'Hungary',
+  'Iceland',
+  'India',
+  'Indonesia',
+  'Iran',
+  'Iraq',
+  'Ireland',
+  'Israel',
+  'Italy',
+  'Jamaica',
+  'Japan',
+  'Jordan',
+  'Kazakhstan',
+  'Kenya',
+  'Kiribati',
+  'Korea, North',
+  'Korea, South',
+  'Kuwait',
+  'Kyrgyzstan',
+  'Laos',
+  'Latvia',
+  'Lebanon',
+  'Lesotho',
+  'Liberia',
+  'Libya',
+  'Liechtenstein',
+  'Lithuania',
+  'Luxembourg',
+  'Macedonia',
+  'Madagascar',
+  'Malawi',
+  'Malaysia',
+  'Maldives',
+  'Mali',
+  'Malta',
+  'Marshall Islands',
+  'Mauritania',
+  'Mauritius',
+  'Mexico',
+  'Micronesia',
+  'Moldova',
+  'Monaco',
+  'Mongolia',
+  'Morocco',
+  'Mozambique',
+  'Myanmar',
+  'Namibia',
+  'Nauru',
+  'Nepal',
+  'Netherlands',
+  'New Zealand',
+  'Nicaragua',
+  'Niger',
+  'Nigeria',
+  'Norway',
+  'Oman',
+  'Pakistan',
+  'Palau',
+  'Panama',
+  'Papua New Guinea',
+  'Paraguay',
+  'Peru',
+  'Philippines',
+  'Poland',
+  'Portugal',
+  'Qatar',
+  'Romania',
+  'Russia',
+  'Rwanda',
+  'Saint Kitts and Nevis',
+  'Saint Lucia',
+  'Saint Vincent',
+  'Samoa',
+  'San Marino',
+  'Sao Tome and Principe',
+  'Saudi Arabia',
+  'Senegal',
+  'Serbia and Montenegro',
+  'Seychelles',
+  'Sierra Leone',
+  'Singapore',
+  'Slovakia',
+  'Slovenia',
+  'Solomon Islands',
+  'Somalia',
+  'South Africa',
+  'Spain',
+  'Sri Lanka',
+  'Sudan',
+  'Suriname',
+  'Swaziland',
+  'Sweden',
+  'Switzerland',
+  'Syria',
+  'Taiwan',
+  'Tajikistan',
+  'Tanzania',
+  'Thailand',
+  'Togo',
+  'Tonga',
+  'Trinidad and Tobago',
+  'Tunisia',
+  'Turkey',
+  'Turkmenistan',
+  'Tuvalu',
+  'Uganda',
+  'Ukraine',
+  'United Arab Emirates',
+  'United Kingdom',
+  'United States',
+  'Uruguay',
+  'Uzbekistan',
+  'Vanuatu',
+  'Vatican City',
+  'Venezuela',
+  'Vietnam',
+  'Yemen',
+  'Zambia',
+  'Zimbabwe']
+
+
+  print("Number 2A")
+  length_list = len(countries)
+  if length_list % 2 == 1:
+    startindex = ceil(length_list/2)-1
+    endindex = startindex + 1
+  else:
+    startindex = ceil(length_list/2)-1
+    endindex = startindex + 2 #endindex is not included
+  print("Middle Country(ies):",countries[startindex:endindex])
+  print('\n')
+  
+  print("Number 2B")
+  listA = listB = country_dup = []
+  country_dup = countries.copy()
+  if length_list % 2 == 1:
+    startindex = ceil(length_list/2)
+    del country_dup[startindex:]
+    listA = country_dup.copy()
+    country_dup = countries.copy()
+    del country_dup[0:startindex:]
+    listB = country_dup.copy()
+  else:
+    startindex = ceil(length_list/2)
+    del country_dup[startindex:]
+    listA = country_dup.copy()
+    country_dup = countries.copy()
+    del country_dup[0:startindex:]
+    listB = country_dup.copy()
+  print(f"First List has {len(listA)} items: {listA}")
+  print('\n'*2)
+  print(f"Second List has {len(listB)} items: {listB}")
+  print('\n')
     
-    
-    
-    
+  print("Number 2C")
+  c1 = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
+  c2 = c1.copy()
+  c3 = c1.copy()
+  del c2[3:]
+  print(f"Unpacked Countries {len(c2)} items: {c2}")
+  del c3[0:3]
+  print(f"Scandic Countries {len(c3)} items: {c3}")  
     
     
     
