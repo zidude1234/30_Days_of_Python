@@ -44,4 +44,4 @@ Thanks @Asabaneh for the excellent Python Content! 👋🏻
 [<< Day 5](../Day%2005/README.md) | [Day 7 >>](../Day%2007/README.md)
 
 
--- #### [Go to Top of Page](#objective)
+--#### [Go to Top of Page](#objective)
