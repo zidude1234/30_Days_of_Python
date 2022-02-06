@@ -11,7 +11,7 @@
 
 ## Objective
 This repository contains the solution for the Day Six of the "30 Days of Python Challenge"!
-Thanks @Asabaneh for the excellent Python Content! 👋🏻
+Thanks <a href =  https://github.com/Asabeneh/30-Days-Of-Python>@Asabaneh </a> for the excellent Python Content! 👋🏻
 
 ## 💻 Exercises: Day 6
 
