@@ -1,0 +1,60 @@
+@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:Exercise level 1@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:
+Number 1
+Empty Tuple:  ()
+Empty Tuple:  ()
+
+
+Number 2
+Tuple - Brothers: ('Luke Skywalker', 'Obi-Wan Kenobi', 'Mace Windu')
+Tuple - Sisters: ('Ahsoka Tahno', 'Leia Organa', 'Padme Amidala')
+
+
+Number 3
+Tuple - Siblings: ('Luke Skywalker', 'Obi-Wan Kenobi', 'Mace Windu', 'Ahsoka Tahno', 'Leia Organa', 'Padme Amidala')
+Method 2- Using List to modify tuples workaround:  ('Luke Skywalker', 'Obi-Wan Kenobi', 'Mace Windu', 'Ahsoka Tahno', 'Leia Organa', 'Padme Amidala')
+
+
+Number 4
+Number of Siblings: 6
+
+
+Number 5
+Family Tuple:  ('Luke Skywalker', 'Obi-Wan Kenobi', 'Mace Windu', 'Ahsoka Tahno', 'Leia Organa', 'Padme Amidala', 'Master Yoda', 'Emperor Palpatine')
+
+@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:Exercise level 2@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:@:
+Number 1
+['Luke Skywalker', 'Obi-Wan Kenobi', 'Mace Windu', 'Ahsoka Tahno', 'Leia Organa', 'Padme Amidala']
+['Master Yoda', 'Emperor Palpatine']
+
+
+Number 2
+Tuple 1:  ('banana', 'orange', 'mango', 'lemon')
+Tuple 2:  ('Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot')
+Tuple 3:  ('fat', 'meat', 'milk', 'eggs')
+Combined Foodstuff Tuples:  ('banana', 'orange', 'mango', 'lemon', 'Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot', 'fat', 'meat', 'milk', 'eggs')
+
+
+Number 3
+Combined Foodstuff Lists:  ['banana', 'orange', 'mango', 'lemon', 'Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot', 'fat', 'meat', 'milk', 'eggs']
+
+Number 4
+List: ('banana', 'orange', 'mango', 'lemon', 'Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot', 'fat', 'meat', 'milk', 'eggs')
+Length: 13
+Middle Food Tuple: ('Cabbage',)
+
+Number 5
+Foodstuff Tuples:  ('banana', 'orange', 'mango', 'lemon', 'Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot', 'fat', 'meat', 'milk', 'eggs')
+With First 3 out: ('lemon', 'Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot', 'fat', 'meat', 'milk', 'eggs')
+
+
+With Last  3 out: ('banana', 'orange', 'mango', 'lemon', 'Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot', 'fat')
+
+
+Number 6
+Tuple does not exist!
+local variable 'food_stuff_tp' referenced before assignment
+
+
+Number 7
+No, Estonia does not exists in ('Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden')
+Yes, Iceland exists in ('Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden')
