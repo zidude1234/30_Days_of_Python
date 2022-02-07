@@ -34,18 +34,13 @@ Student Value: dict_values(['Harry', 'Potter', 'male', 17, 'Single', ('wizardry'
 
 
 Number 9
-Student Items: dict_items([('first_name', 'Harry'), ('last_name', 'Potter'), ('gender', 'male'), ('age', 17), ('marital_status', 'Single'), ('skills', ('wizardry', 'quidditch', 'flying')), ('country', 'England'), ('city', 'London'), ('address', '100 Baker Street')])
-Student Items as a List: [('first_name', 'Harry'), ('last_name', 'Potter'), ('gender', 'male'), ('age', 17), ('marital_status', 'Single'), ('skills', ('wizardry', 'quidditch', 'flying')), ('country', 'England'), ('city', 'London'), ('address', '100 Baker Street')]
-
-
-Number 10
 Student Items as a Tuple: (('first_name', 'Harry'), ('last_name', 'Potter'), ('gender', 'male'), ('age', 17), ('marital_status', 'Single'), ('skills', ('wizardry', 'quidditch', 'flying')), ('country', 'England'), ('city', 'London'), ('address', '100 Baker Street'))
 
-Number 11
+Number 10
 Student Items before deletion {'first_name': 'Harry', 'last_name': 'Potter', 'gender': 'male', 'age': 17, 'marital_status': 'Single', 'skills': ('wizardry', 'quidditch', 'flying'), 'country': 'England', 'city': 'London', 'address': '100 Baker Street'}
 Student Items before deletion {'first_name': 'Harry', 'last_name': 'Potter', 'gender': 'male', 'age': 17, 'skills': ('wizardry', 'quidditch', 'flying'), 'country': 'England', 'city': 'London', 'address': '100 Baker Street'}
 
 
-Number 12
+Number 11
 Dict does not exist
 local variable 'student_dict' referenced before assignment
