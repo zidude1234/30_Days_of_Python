@@ -4,7 +4,7 @@
 
 ## 📚 Table of Contents
 - [Objective](#objective)
-- [💻 Exercises - Day 9](#exercises-day-9)
+- [💻 Exercises - Day 9](#-exercises-day-9)
     - [Exercise: Level 1](#exercises-level-1)
     - [Exercise: Level 2](#exercises-level-2)
     - [Exercise: Level 3](#exercises-level-3)
