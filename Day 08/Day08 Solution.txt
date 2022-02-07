@@ -1,0 +1,51 @@
+----------------------------------------Day 8 Exercise level 1----------------------------------------
+Number 1
+Dog Dict:  {}
+
+
+Number 2
+Dog Dict:  {'name': 'Cujo', 'breed': 'St Bernard', 'legs': 4, 'age': 7}
+
+
+Number 3
+{'first_name': 'Harry', 'last_name': 'Potter', 'gender': 'male', 'age': 17, 'marital_status': 'Single', 'skills': 'wizardry', 'country': 'England', 'city': 'London', 'address': '100 Baker Street'}
+
+
+Number 4
+9
+
+
+Number 5
+wizardry
+<class 'str'>
+
+
+Number 6
+{'first_name': 'Harry', 'last_name': 'Potter', 'gender': 'male', 'age': 17, 'marital_status': 'Single', 'skills': 'wizardry', 'country': 'England', 'city': 'London', 'address': '100 Baker Street'}
+{'first_name': 'Harry', 'last_name': 'Potter', 'gender': 'male', 'age': 17, 'marital_status': 'Single', 'skills': ('wizardry', 'quidditch', 'flying'), 'country': 'England', 'city': 'London', 'address': '100 Baker Street'}
+
+
+Number 7
+Student Keys: dict_keys(['first_name', 'last_name', 'gender', 'age', 'marital_status', 'skills', 'country', 'city', 'address'])
+
+
+Number 8
+Student Value: dict_values(['Harry', 'Potter', 'male', 17, 'Single', ('wizardry', 'quidditch', 'flying'), 'England', 'London', '100 Baker Street'])
+
+
+Number 9
+Student Items: dict_items([('first_name', 'Harry'), ('last_name', 'Potter'), ('gender', 'male'), ('age', 17), ('marital_status', 'Single'), ('skills', ('wizardry', 'quidditch', 'flying')), ('country', 'England'), ('city', 'London'), ('address', '100 Baker Street')])
+Student Items as a List: [('first_name', 'Harry'), ('last_name', 'Potter'), ('gender', 'male'), ('age', 17), ('marital_status', 'Single'), ('skills', ('wizardry', 'quidditch', 'flying')), ('country', 'England'), ('city', 'London'), ('address', '100 Baker Street')]
+
+
+Number 10
+Student Items as a Tuple: (('first_name', 'Harry'), ('last_name', 'Potter'), ('gender', 'male'), ('age', 17), ('marital_status', 'Single'), ('skills', ('wizardry', 'quidditch', 'flying')), ('country', 'England'), ('city', 'London'), ('address', '100 Baker Street'))
+
+Number 11
+Student Items before deletion {'first_name': 'Harry', 'last_name': 'Potter', 'gender': 'male', 'age': 17, 'marital_status': 'Single', 'skills': ('wizardry', 'quidditch', 'flying'), 'country': 'England', 'city': 'London', 'address': '100 Baker Street'}
+Student Items before deletion {'first_name': 'Harry', 'last_name': 'Potter', 'gender': 'male', 'age': 17, 'skills': ('wizardry', 'quidditch', 'flying'), 'country': 'England', 'city': 'London', 'address': '100 Baker Street'}
+
+
+Number 12
+Dict does not exist
+local variable 'student_dict' referenced before assignment
