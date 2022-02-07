@@ -81,26 +81,19 @@ def main():
   
   #9 Change the dictionary to a list of tuples using items() method
   print("Number 9")
-  print("Student Items:", student_dict.items())
-  student_list = list(student_dict.items ())
-  print("Student Items as a List:",student_list)
-  print("\n")
-
-  #10 Change the dictionary to a list of tuples using items() method
-  print("Number 10")
   student_tuples = tuple(student_dict.items ())
   print("Student Items as a Tuple:",student_tuples)
   print("\n")
 
   #11 Delete one of the items in the dictionary
-  print("Number 11")
+  print("Number 10")
   print("Student Items before deletion",student_dict)
   del student_dict["marital_status"]
   print("Student Items before deletion",student_dict)
   print("\n")
 
   #12 Delete one of the dictionaries
-  print("Number 12")
+  print("Number 11")
   del student_dict
   try:
     print(f"Student Dict",student_dict)
