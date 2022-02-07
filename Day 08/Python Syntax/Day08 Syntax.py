@@ -45,7 +45,7 @@ def main():
   #3. Create a student dictionary and add first_name, last_name, gender, age, marital status, skills, country, city and address as keys for the dictionary
   print("Number 3")
   student_dict = {"first_name":"Harry", "last_name":"Potter", "gender":"male", "age":17, "marital_status":"Single", 
-  "skills":"wizardry","country":"England","city":"London","address":"100 Baker Street"}
+  "skills":["wizardry","surfing"],"country":"England","city":"London","address":"100 Baker Street"}
   print(student_dict)
   print("\n")
 
@@ -65,7 +65,7 @@ def main():
   #6. Modify the skills values by adding one or two skills
   print("Number 6")
   print(student_dict)
-  student_dict["skills"]=("wizardry","quidditch","flying")
+  student_dict["skills"]=("wizardry","surfing","quidditch","flying")
   print(student_dict)
   print("\n")
 
@@ -79,9 +79,9 @@ def main():
   print("Student Value:", student_dict.values())
   print("\n")
   
-  #9 Change the dictionary to a list of tuples using items() method
+    #9 Change the dictionary to a list of tuples using items() method
   print("Number 9")
-  student_tuples = tuple(student_dict.items ())
+  student_tuples = student_dict.items ()
   print("Student Items as a Tuple:",student_tuples)
   print("\n")
 
