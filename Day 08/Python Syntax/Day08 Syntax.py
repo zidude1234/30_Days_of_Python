@@ -85,14 +85,14 @@ def main():
   print("Student Items as a Tuple:",student_tuples)
   print("\n")
 
-  #11 Delete one of the items in the dictionary
+  #10 Delete one of the items in the dictionary
   print("Number 10")
   print("Student Items before deletion",student_dict)
   del student_dict["marital_status"]
   print("Student Items before deletion",student_dict)
   print("\n")
 
-  #12 Delete one of the dictionaries
+  #11 Delete one of the dictionaries
   print("Number 11")
   del student_dict
   try:
