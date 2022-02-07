@@ -1,0 +1,92 @@
+----------------------------------------Day 7 Exercise level 1----------------------------------------
+Number 1
+7
+
+
+Number 2
+original set:  {'IBM', 'Microsoft', 'Google', 'Oracle', 'Amazon', 'Facebook', 'Apple'}
+Adding twitter to set:  {'Twitter', 'IBM', 'Microsoft', 'Google', 'Oracle', 'Amazon', 'Facebook', 'Apple'}
+
+
+Number 3
+original set:  {'Twitter', 'IBM', 'Microsoft', 'Google', 'Oracle', 'Amazon', 'Facebook', 'Apple'}
+Adding new set to set - update removes duplicates:
+ {'IBM', 'Microsoft', 'Dell', 'Alibaba', 'Amazon', 'Twitter', 'Google', 'Oracle', 'Netflix', 'Facebook', 'Apple'}
+
+
+Number 4
+Remove Netflix from set:  {'Apple', 'Oracle', 'Microsoft', 'Dell', 'IBM', 'Twitter', 'Alibaba', 'Facebook', 'Google', 'Amazon'}
+
+
+Number 5
+The remove() method will
+  raise an error if the specified item does not exist,
+  and the discard() method will not.
+
+
+----------------------------------------Day 7 Exercise level 2----------------------------------------
+Number 1
+Set A:  {19, 20, 22, 24, 25, 26}
+Set B:  {19, 20, 22, 24, 25, 26, 27, 28}
+A updated with B:  {19, 20, 22, 24, 25, 26, 27, 28}
+Method 2 using Union(): {19, 20, 22, 24, 25, 26, 27, 28}
+
+
+Number 2
+Set A:  {19, 20, 22, 24, 25, 26}
+Set B:  {19, 20, 22, 24, 25, 26, 27, 28}
+A intersection B:  {19, 20, 22, 24, 25, 26}
+
+
+Number 3
+Set A:  {19, 20, 22, 24, 25, 26}
+Set B:  {19, 20, 22, 24, 25, 26, 27, 28}
+A is a subset of B
+
+
+Number 4
+Set A:  {19, 20, 22, 24, 25, 26}
+Set B:  {19, 20, 22, 24, 25, 26, 27, 28}
+A and B is not disjoint
+
+
+Number 5
+Set A:  {19, 20, 22, 24, 25, 26}
+Set B:  {19, 20, 22, 24, 25, 26, 27, 28}
+A joined with B:  {19, 20, 22, 24, 25, 26, 27, 28}
+B joined with A:  {19, 20, 22, 24, 25, 26, 27, 28}
+
+
+Number 6
+Set A:  {19, 20, 22, 24, 25, 26}
+Set B:  {19, 20, 22, 24, 25, 26, 27, 28}
+A symmetric difference:  {27, 28}
+Bonus:difference of A and B  set()
+
+
+The difference is an emppty set as A is contained within B
+
+
+Number 7
+Set does not exist
+local variable 'A' referenced before assignment
+
+
+----------------------------------------Day 7 Exercise level 3----------------------------------------
+Number 1
+Age Set: {19, 22, 24, 25, 26}
+Age List: [22, 19, 24, 25, 26, 24, 25, 24]
+List is bigger
+
+
+Number 2
+List items are ordered, changeable, allow duplicates and use square brackets
+Tuple items are ordered, unchangeable, allow duplicates and use round brackets
+Sets are unordered,unindexed, unchangeable, do not allow duplicates and use curly braces
+Dicts are ordered,indexed with key names, changeable, do not allow duplicates and use curly braces
+
+
+Number 3
+['I', 'am', 'a', 'teacher', 'and', 'I', 'love', 'to', 'inspire', 'and', 'teach', 'people']
+Unique words in the string: 10
+Total words in the sentence: 12
