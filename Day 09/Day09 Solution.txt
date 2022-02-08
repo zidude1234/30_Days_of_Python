@@ -1,0 +1,54 @@
+----------------------------------------Day 9 Exercise level 1----------------------------------------
+Number 1       
+Enter your age:
+15
+You need 3 more years to learn to drive.
+
+
+Number 2
+Enter your age, I am 25:
+24
+You are 1 year younger than me
+
+Number 3
+Enter number one:
+4
+Enter number two:
+8
+4 is smaller than 8	
+
+----------------------------------------Day 9 Exercise level 2----------------------------------------
+Number 1
+Enter the student score:
+89
+Your score: 89 has a grade of "A"
+
+
+Number 2
+Enter the month of the year:
+May
+The month of : May is "Spring"
+
+
+Number 3
+Enter a fruit:
+avocado
+Updated fruit list: ['banana', 'orange', 'mango', 'lemon', 'avocado']
+
+
+----------------------------------------Day 9 Exercise level 3----------------------------------------
+Number 1
+skills exist
+Middle skill: ['Node']
+
+
+Number 2
+Python is a skills present in the dictionary
+
+
+Number 3
+He is a full stack developer
+
+
+Number 4
+Asabeneh Yetayeh lives in Finland. He is married
