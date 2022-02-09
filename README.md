@@ -17,7 +17,7 @@ Thanks @Asabaneh for the excellent Python Content! 👋🏻
 - [Day #07: Sets](https://github.com/zidude1234/30_Days_of_Python/tree/main/Day%2007)
 - [Day #08: Dictionaries](https://github.com/zidude1234/30_Days_of_Python/tree/main/Day%2008)
 - [Day #09: Conditionals](https://github.com/zidude1234/30_Days_of_Python/tree/main/Day%2009)
-- [Day #10: Loops](#Loops)
+- [Day #10: Loops](https://github.com/zidude1234/30_Days_of_Python/tree/main/Day%2010)
 - [Day #11: Functions](#Functions)
 - [Day #12: Modules](#Modules)
 - [Day #13: List Comprehension](#List-Comprehension)
