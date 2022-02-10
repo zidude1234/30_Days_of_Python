@@ -129,3 +129,15 @@ lemon
 mango
 orange
 banana
+
+3. Top 10 populated countries in the Data
+Country:  China                                              Population   1,377,422,166
+Country:  India                                              Population   1,295,210,000
+Country:  United States of America                           Population     323,947,000
+Country:  Indonesia                                          Population     258,705,000
+Country:  Brazil                                             Population     206,135,893
+Country:  Pakistan                                           Population     194,125,062
+Country:  Nigeria                                            Population     186,988,000
+Country:  Bangladesh                                         Population     161,006,790
+Country:  Russian Federation                                 Population     146,599,183
+Country:  Japan                                              Population     126,960,000
