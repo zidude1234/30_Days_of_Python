@@ -2843,9 +2843,7 @@ countries_data = [
     temp_len = len(i[1])
     for j in range(0,temp_len):
       temp_language_list.append(i[1][j])
-   print('\n')
-
-
+   
   #if you want to count only one language (English) use count()
   print("Countries which speak English",temp_language_list.count('English'))
   #if you want to count only one language (Arabic) use count()
@@ -2853,10 +2851,22 @@ countries_data = [
   # However this is not efficient for many counts
   # The Counter object is next
 
+  language_collection = collections.Counter(temp_language_list)
+  print(f'1. Total number of languages in the Data" {len(language_collection)}')
+  print(f'2. Top 10 languages in the Data": {language_collection.most_common(10)}')
 
-
+  temp_popl =  []
+  for temp_data in reduced_countrylist:
+      temp2 = ()
+      temp2 = tuple((temp_data[0],temp_data[2]))
+      temp_popl.append(temp2)
+ 
+  temp_popl.sort(key= lambda x:x[1], reverse= True)
   
-  
+  print(f'3. Top 10 populated countries in the Data')
+  for i in range(10):
+    print(f'Country:  {temp_popl[i][0]:<50} Population {temp_popl[i][1]:>15,}')
+  print('\n')
   
   
 if __name__ == "__main__":
