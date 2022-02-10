@@ -1,4 +1,4 @@
-#Day Tenof the 30 Day Challenge
+#Day Ten of the 30 Day Challenge
 # Introduction
 # Author: dataBio
 # Date: 09 Feb 2022
