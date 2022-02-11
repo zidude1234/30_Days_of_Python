@@ -63,6 +63,18 @@ def main():
 
   print(add_all_nums(7,5,'j'))
   print('\n')
+  
+  #4 Write a function which converts °C to °F. 
+  print("Number 4")
+  print(convert_celsius_to_fahrenheit(1000))
+  print(convert_celsius_to_fahrenheit('f'))
+  print('\n')
+
+  #5 Write a function called check-season, it takes a month parameter and returns the season: Autumn, Winter, Spring or Summer.
+  print("Number 5")
+  print(check_season('January'))
+  print(check_season('January','April','Gregorian'))
+  print('\n')
 
 if __name__ == "__main__":
   main()
