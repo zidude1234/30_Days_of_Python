@@ -32,3 +32,35 @@ def check_list(args):
             print(f'In this list "{i}" is not a valid number. replaced with zero')
             revised_list.append(0)
     return tuple(revised_list)
+
+def convert_celsius_to_fahrenheit(celsius):
+    if type(celsius) == int or type(celsius) == float:
+        fahr = (9 / 5 * celsius + 32)
+        if fahr.is_integer():
+            return (f'The temperature of {celsius} \N{DEGREE CELSIUS}  is {int(fahr):,} \u2109')
+        else:
+            return (f'The temperature of {celsius} \N{DEGREE CELSIUS}  is {fahr:,.2f} \u2109')
+    else:
+        return (f'invalid argument')
+
+
+
+def check_season(* args):
+    tp_response = ()
+    tp_response = args
+    templist = []
+    print(args)
+    for month in tp_response:
+        if month in ('September', 'October','November'):
+            print(f'The month of {month} is "Autumn"')
+        elif month in ('December','January','February'):
+            print(f'The month of {month} is "Winter"',end='')
+        elif month in (f'March', 'April','May'):
+            print(f'The month of {month} is "Spring"',end='')
+        elif month in ('June', 'July', 'August'):
+            print(f'The month of {month} is "Summer"')
+        else:
+            print(f'The month of {month} does not exist!')
+        print('')
+    return ""
+
