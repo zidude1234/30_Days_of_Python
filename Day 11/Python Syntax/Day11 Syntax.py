@@ -76,5 +76,13 @@ def main():
   print(check_season('January','April','Gregorian'))
   print('\n')
 
+  #calculate_slope which return the slope of a linear equation
+  print("Number 6")
+  num1 = int(input("Enter the x-coefficient:\n"))
+  num2 = int(input("Enter the y-intercept:\n"))
+  #print(slope(num1,num2))
+  print(slope(3,-2))
+  print('\n')
+
 if __name__ == "__main__":
   main()
