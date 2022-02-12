@@ -91,6 +91,28 @@ def solve_quadratic_eqn(a_coeff,b_coeff,y_intercept):
         ''')
 
 
+def print_list(list_to_print):
+    for ind_ex, list_item in enumerate(list_to_print):
+        print(f'Item {ind_ex + 1}: {list_item}')
 
+def reverse_list(list_to_reverse):
+    reversedlist = []
+    for i in range(len(list_to_reverse)):
+        reversedlist.append(list_to_reverse[-(i+1)])
+    return(f'The reverse of the list {list_to_reverse} is {reversedlist}"')
 
+def capitalize_list_items(list_to_capitalise):
+    capitaliseddlist = []
+    for i in list_to_capitalise:
+        i_splitted = i.split()
+        if len(i_splitted) > 1:
+            s = ''
+            temp_list = []
+            for k in i_splitted:
+                s += k.capitalize() + ' '
+            #temp_list.append(s)
+            capitaliseddlist.append(s.strip())
+        else:
+            capitaliseddlist.append(i.capitalize())
+    return(f'The capitalised form of the list {list_to_capitalise} is {capitaliseddlist}')
 
