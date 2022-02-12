@@ -84,8 +84,19 @@ def main():
   print(slope(3,-2))
   print('\n')
   
-  #calculate_slope which return the slope of a linear equation
+  #Write a function which calculates solution set of a quadratic equation
   print("Number 7")
-  print(solve_quadratic_eqn(1,7,-10))
+  print(solve_quadratic_eqn(1,7,10))
+  print('\n') 
+
+  #Declare a function named print_list. It takes a list as a parameter and it prints out each element of the list
+  print("Number 8")
+  print_list(list(tp_list1)) 
+  print('\n')
+
+  #9 Declare a function named reverse_list. It takes an array as a parameter and it returns the reverse of the array (use loops)
+  print("Number 9")
+  print(reverse_list(list(tp_list1)))
+  print('\n')
 if __name__ == "__main__":
   main()
