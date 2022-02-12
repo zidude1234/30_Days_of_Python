@@ -64,3 +64,33 @@ def check_season(* args):
         print('')
     return ""
 
+def slope(x_coeff,intercept):
+    if intercept <0:
+        return(f'The slope of the equation y={x_coeff:-}x - {abs(intercept)} is {x_coeff}')
+    elif intercept >0:
+        return(f'The slope of the equation y={x_coeff:-}x + {intercept} is {x_coeff}')
+    else:
+        return(f'The slope of the equation y={x_coeff:-}x is {x_coeff}"')
+   
+def solve_quadratic_eqn(a_coeff,b_coeff,y_intercept):
+    quotient = b_coeff **2 - 4 * a_coeff * y_intercept
+    
+    b_output = ' + ' + str(b_coeff) if(b_coeff > 0) else '- ' + str(abs(b_coeff))
+    c_output = ' + ' + str(y_intercept) if(y_intercept > 0) else '- ' + str(abs(y_intercept))
+    if quotient < 0:
+        return(f'''Complex roots of {a_coeff:-}x\N{SUPERSCRIPT TWO}{b_output}x {c_output} are:        
+        x\N{SUBSCRIPT ONE} =  {(-b_coeff+cmath.sqrt(quotient))/(2 * a_coeff) } 
+        x\N{SUBSCRIPT TWO} = {(-b_coeff - cmath.sqrt(quotient))/(2 * a_coeff)}''')
+    elif(quotient > 0):
+        return(f'''Roots of {a_coeff:-}x\N{SUPERSCRIPT TWO}{b_output}x {c_output} are:        
+        x\N{SUBSCRIPT ONE} = {(-b_coeff+math.sqrt(quotient))/(2 * a_coeff) } 
+        x\N{SUBSCRIPT TWO} = {(-b_coeff - math.sqrt(quotient))/(2 * a_coeff)}''')
+    else:
+        return(f'''Roots of {a_coeff:-}x\N{SUPERSCRIPT TWO}{b_output}x {c_output} are:        
+        x\N{SUBSCRIPT ONE} and x\N{SUBSCRIPT TWO} equals {(-b_coeff+math.sqrt(quotient))/(2 * a_coeff) } 
+        ''')
+
+
+
+
+
