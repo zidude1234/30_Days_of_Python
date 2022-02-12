@@ -1,6 +1,8 @@
 # Module to support the Day Eleven Challenge
 # import the "sys" module
 import math
+import cmath
+from collections import Counter
 
 #Area of a circle is calculated as follows: area = π x r x r. Write a function that calculates area_of_circle.
 def area_of_circle(radius, dimension):
@@ -101,6 +103,7 @@ def reverse_list(list_to_reverse):
         reversedlist.append(list_to_reverse[-(i+1)])
     return(f'The reverse of the list {list_to_reverse} is {reversedlist}"')
 
+
 def capitalize_list_items(list_to_capitalise):
     capitaliseddlist = []
     for i in list_to_capitalise:
@@ -114,5 +117,90 @@ def capitalize_list_items(list_to_capitalise):
             capitaliseddlist.append(s.strip())
         else:
             capitaliseddlist.append(i.capitalize())
-    return(f'The capitalised form of the list {list_to_capitalise} is {capitaliseddlist}')
+    return capitaliseddlist
 
+def add_items(list1,item1):
+    list1.append(item1)
+    return list1
+
+def remove_item(list1,item1):
+    if item1 in list1:
+         list1.remove(item1)
+    else:
+        print(f'Item {item1} not in list')
+def sum_all_numbers(num1):
+    if num1 <= 0:
+        return f'Number must be greater than zero'
+    else:
+        sumx = 0
+        for i in range(1,num1+1):
+            sumx +=i
+        return sumx
+
+def sum_odd_numbers(num1):
+    if num1 <= 0:
+        return f'Number must be greater than zero'
+    else:
+        sumx = 0
+        for i in range(1,num1+1):
+            if i % 2 == 1:
+                sumx +=i
+        return sumx
+
+
+def sum_even_numbers(num1):
+    if num1 <= 0:
+        return f'Number must be greater than zero'
+    else:
+        sumx = 0
+        for i in range(0,num1+1):
+            if i % 2 == 0:
+                sumx +=i
+        return sumx
+    
+def evens_and_odds(num1):
+    if num1 <= 0:
+        return f'Number must be greater than zero'
+    else:
+        numodd = 0
+        numeven = 0
+        for i in range(0,num1+1):
+            if i % 2 == 0:
+                numeven +=1
+            if i % 2 == 1:
+                numodd +=1
+        print_odd_even(numodd,numeven)
+    return ""
+
+def print_odd_even(numodd,numeven):
+    print(f'The number of odds are {numodd}')
+    print(f'The number of evens are {numeven}')
+    
+def my_factorial(num1):
+    return math.factorial(num1)
+
+def is_empty(list1):
+    returnlist = []
+    for i in list1:
+        returnlist.append(bool(i))
+    return returnlist
+
+def my_statistics(list1):
+    returnlist = []
+    list_for_assessment = statisticschecker(list1) #get list ready for analysis
+    sumlist = 0
+    for i in list_for_assessment:
+        sumlist += i
+    returnlist.append(sumlist)
+    averagelist = sumlist / len(list_for_assessment)
+    returnlist.append(averagelist)
+    return returnlist
+
+def statisticschecker(list1):
+    returnvalidlist = []
+    for i in list1:
+        if type(i) == int or type(i) == float:
+            returnvalidlist.append(bool(i))
+    return returnvalidlist
+
+    return list1
