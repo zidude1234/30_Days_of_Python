@@ -203,4 +203,4 @@ def statisticschecker(list1):
             returnvalidlist.append(bool(i))
     return returnvalidlist
 
-    return list1
+   
