@@ -83,6 +83,9 @@ def main():
   #print(slope(num1,num2))
   print(slope(3,-2))
   print('\n')
-
+  
+  #calculate_slope which return the slope of a linear equation
+  print("Number 7")
+  print(solve_quadratic_eqn(1,7,-10))
 if __name__ == "__main__":
   main()
