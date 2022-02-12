@@ -169,10 +169,11 @@ def main():
   print(is_empty(list_check))
   print("\n")
 
-  #4 Write different functions which take lists. They should calculate_mean, calculate_median, calculate_mode, calculate_range, calculate_variance, calculate_std (standard deviation).
   print("Number 4")
-  listdata = [4,3,5,8]
-  print(my_statistics(listdata))
+  listdata = [4,3,5,8,'i']
+  print_statistics(my_statistics(listdata))
+  listdata2 = [4,3,5,8,5]
+  print_statistics(my_statistics(listdata2))
   
   
   
