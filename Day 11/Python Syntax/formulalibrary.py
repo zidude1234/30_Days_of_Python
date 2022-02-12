@@ -196,11 +196,59 @@ def my_statistics(list1):
     returnlist.append(averagelist)
     return returnlist
 
+def my_statistics(list1):
+    returnlist = []
+    list_for_assessment = statisticschecker(list1) #get list ready for analysis
+    returnlist.append(list_for_assessment) #index 0
+    sumlist = 0
+    sum_dev_square = 0
+    for i in list_for_assessment:
+        sumlist += i
+    returnlist.append(sumlist) #index 1
+    averagelist = sumlist / len(list_for_assessment)
+    returnlist.append(averagelist) #index 2
+    medianlist = getMedian(list_for_assessment)
+    returnlist.append(medianlist) #index 3   
+    c = (collections.Counter(list_for_assessment)).most_common(1)
+    modelist = c[0][0]
+    returnlist.append(modelist) #index 4
+    rangelist = max(list_for_assessment) - min(list_for_assessment)
+    returnlist.append(rangelist) #index 5
+    for i in list_for_assessment:
+        sum_dev_square += (i - averagelist) ** 2
+    standard_devlist = sum_dev_square/len(list_for_assessment)
+    returnlist.append(standard_devlist) #index 6
+    variancelist = math.sqrt(standard_devlist)
+    returnlist.append(variancelist) #index 7
+    return returnlist
+
 def statisticschecker(list1):
     returnvalidlist = []
     for i in list1:
         if type(i) == int or type(i) == float:
-            returnvalidlist.append(bool(i))
+            returnvalidlist.append(i)
     return returnvalidlist
 
+def getMedian(list1):
+    sortedlist = list1.copy()
+    sortedlist.sort()
+    list_length = len(sortedlist)
+    if list_length % 2 == 1:
+            medianlist = sortedlist[math.ceil(list_length/2 - 1)]
+    else:
+            medianlist = (sortedlist[math.ceil(list_length/2 - 1)] + sortedlist[math.ceil(list_length/2)])/2
+    return medianlist
+    
+
+
+def print_statistics(list1):
+    print(f'''For the list of numbers {list1[0]} the statistics are as follows:
+    Sum: {list1[1]}
+    Mean: {list1[2]}
+    Median: {list1[3]}
+    Mode: {list1[4]}
+    Range: {list1[5]}
+    Variance: {list1[6]}
+    Standard Deviation: {list1[7]}
+    ''')
    
