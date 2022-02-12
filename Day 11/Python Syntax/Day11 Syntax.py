@@ -80,8 +80,7 @@ def main():
   print("Number 6")
   num1 = int(input("Enter the x-coefficient:\n"))
   num2 = int(input("Enter the y-intercept:\n"))
-  #print(slope(num1,num2))
-  print(slope(3,-2))
+  print(slope(num1,num2))
   print('\n')
   
   #Write a function which calculates solution set of a quadratic equation
@@ -98,5 +97,84 @@ def main():
   print("Number 9")
   print(reverse_list(list(tp_list1)))
   print('\n')
+  
+ #10 Declare a function named capitalize_list_items. It takes a list as a parameter and it returns a capitalized list of items
+  list_words = ['bETTer beliEVE','cOLD COLd HeART', 'pEACHES in Georgia','sACrifICe']
+  print("Number 10")
+  print(f'The capitalised form of the list {list_words} is \n {capitalize_list_items(list_words)}')
+  print('\n')
+  
+  #11 Declare a function named add_item. It takes a list and an item parameters. It returns a list with the item added at the end.
+  print("Number 11")
+  list_mo_hits = []
+  list_mo_hits = capitalize_list_items(list_words)
+  print(add_items(list_mo_hits,"Take My Breath"))
+  print('\n')
+  
+  #12 Declare a function named remove_item. It takes a list and an item parameters. It returns a list with the item removed from it  
+  print("Number 12")
+  print(remove_item(food_stuff, 'Mango'))
+  print(remove_item(numbers, 3))
+  print(remove_item(numbers, 10))
+  print('\n')
+  
+  #13 Declare a function named sum_of_numbers. It takes a number parameter and it adds all the numbers in that range.
+  print("Number 13")
+  print(sum_all_numbers(5))  # 15
+  print(sum_all_numbers(10)) # 55
+  print(sum_all_numbers(100)) # 5050
+  print('\n')
+  
+  #14 Declare a function named sum_of_odds. It takes a number parameter and it adds all the odd numbers in that range.
+  print("Number 14")
+  print(sum_odd_numbers(5))  # 9
+  print(sum_odd_numbers(10)) # 25
+  print(sum_odd_numbers(100)) # 2500
+  print('\n')
+  
+  #15 Declare a function named sum_of_even. It takes a number parameter and it adds all the even numbers in that - range.
+  print("Number 15")
+  print(sum_even_numbers(5))  # 6
+  print(sum_even_numbers(10)) # 30
+  print(sum_even_numbers(100)) # 2550
+  print('\n')
+  
+  s = s0 + s2 + s0
+  print(s)
+
+
+  #1 Declare a function named evens_and_odds . It takes a positive integer as parameter and 
+  # it counts number of evens and odds in the number.
+    # print(evens_and_odds(100))
+    # The number of odds are 50.
+    # The number of evens are 51.
+  print("Number 1")
+  print(evens_and_odds(100))
+
+  #2 Call your function factorial, it takes a whole number as a parameter and it return a factorial of the number
+  print("Number 2")
+  print(my_factorial(5))
+  print("\n")
+  
+  #3 Call your function is_empty, it takes a parameter and it checks if it is empty or not
+  print("Number 3")
+  
+  s = ''
+  listnew = []
+  b = NULL
+  d = 25
+  e = ["5",6,9]
+  list_check = list((s,listnew,b,d,e))
+  print(list_check)
+  print(is_empty(list_check))
+  print("\n")
+
+  #4 Write different functions which take lists. They should calculate_mean, calculate_median, calculate_mode, calculate_range, calculate_variance, calculate_std (standard deviation).
+  print("Number 4")
+  listdata = [4,3,5,8]
+  print(my_statistics(listdata))
+  
+  
+  
 if __name__ == "__main__":
   main()
