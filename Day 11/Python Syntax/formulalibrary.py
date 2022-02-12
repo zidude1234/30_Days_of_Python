@@ -252,3 +252,21 @@ def print_statistics(list1):
     Standard Deviation: {list1[7]}
     ''')
    
+def numberIsPrime(number_to_check):
+    for i in range(2,number_to_check):
+        if number_to_check % i == 0:
+            return f'{number_to_check} is not a prime number, factor is {i}'  #exit once a factor is found
+    return f'{number_to_check} is a prime number'
+
+
+def listIsUnique(list_to_check):
+    len_list = len(list_to_check)
+    i = 0
+    while i < len_list - 1:
+        comparelist = []
+        comparelist = list_to_check.copy()
+        comparelist.pop(i)
+        if list_to_check[i] in comparelist:
+            return f'List {list_to_check} is not unique.\n\t {list_to_check[i]} - first item not unique'
+        i +=1
+    return f'{list_to_check} is a unique list'
