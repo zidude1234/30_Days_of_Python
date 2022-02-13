@@ -1,0 +1,157 @@
+----------------------------------------Day 11 Exercise level 1----------------------------------------
+Number 1
+Enter number one:
+5
+Enter number two:
+7
+The sum of 5 and 7 is 12
+
+
+Number 2
+Enter radius of circle: 
+4
+Enter dimension of circle(cm/m/km):
+m
+The area of a circle with radius 4 m is 50.27 m²
+
+Number 3
+The sum of numbers (8, 3, 5, 7, 'j') is 23
+The sum of numbers ('gh', 5, 4, 32, 40, 68, 95) is 244      
+In this list "[7]" is not a valid number. replaced with zero
+The sum of numbers (5, 24, 7, 0, 3, 5, 7, 6, '[7]') is 57   
+The sum of numbers (7, 5, 'j') is 12
+
+Number 4
+The temperature of 1000 ℃  is 1,832 ℉
+
+Number 5
+('January',)
+The month of January is "Winter"
+
+('January', 'April', 'Gregorian')
+The month of January is "Winter"
+The month of April is "Spring"
+The month of Gregorian does not exist!
+
+Number 6
+Enter the x-coefficient:
+6
+Enter the y-intercept:
+4
+The slope of the equation y=6x + 4 is 6
+
+Number 7
+Roots of 1x² + 7x  + 10 are:
+        x₁ = -2.0
+        x₂ = -5.0
+
+Number 8
+Item 1: 8
+Item 2: 3
+Item 3: 5
+Item 4: 7
+Item 5: j
+
+Number 9
+The reverse of the list [8, 3, 5, 7, 'j'] is ['j', 7, 5, 3, 8]"
+
+Number 10
+The capitalised form of the list ['bETTer beliEVE', 'cOLD COLd HeART', 'pEACHES in Georgia', 'sACrifICe'] is
+ ['Better Believe', 'Cold Cold Heart', 'Peaches In Georgia', 'Sacrifice']
+
+
+Number 11
+['Better Believe', 'Cold Cold Heart', 'Peaches In Georgia', 'Sacrifice']
+['Better Believe', 'Cold Cold Heart', 'Peaches In Georgia', 'Sacrifice', 'Take My Breath']
+
+
+Number 12
+['Potato', 'Tomato', 'Milk', 'Meat']
+[2, 7, 9, 5]
+Item 10 not in list
+[2, 7, 9, 5]
+
+Number 13
+15
+55
+5050
+
+Number 14
+9
+25
+2500
+
+
+Number 15
+6
+30
+2550
+
+----------------------------------------Day 11 Exercise level 2----------------------------------------
+Number 1
+The number of odds are 50
+The number of evens are 51
+
+Number 2
+120
+
+Number 3
+['', [], 0, 25, ['5', 6, 9]]
+[False, False, False, True, True]
+
+
+Number 4
+For the list of numbers [4, 3, 5, 8] the statistics are as follows:
+    Sum: 20
+    Mean: 5.0
+    Median: 4.5
+    Mode: 4
+    Range: 5
+    Variance: 3.5
+    Standard Deviation: 1.8708286933869707
+
+For the list of numbers [4, 3, 5, 8, 5] the statistics are as follows:
+    Sum: 25
+    Mean: 5.0
+    Median: 5
+    Mode: 5
+    Range: 5
+    Variance: 2.8
+    Standard Deviation: 1.6733200530681511
+
+
+----------------------------------------Day 11 Exercise level 3----------------------------------------
+Number 1
+121 is not a prime number, factor is 11
+
+
+Number 2
+List [4, 3, 5, 8, 5] is not unique.
+         5 - first item not unique
+List ['1', 2, 1, 'The dog flew over the moon', 7, 'The dog flew over the moon'] is not unique.
+         The dog flew over the moon - first item not unique
+[4, 3, 5, 8, 'i'] is a unique list
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
