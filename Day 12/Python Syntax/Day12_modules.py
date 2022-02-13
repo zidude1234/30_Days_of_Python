@@ -30,4 +30,32 @@ def user_id_gen(num_of_xters,num_of_IDs):
     s +='\n'
   return s
 
-  
+def rgb_color_gen():  
+  color_rgb,a = (),[]
+  for i in range(0,3):
+    a.append(random.randint(0,255))
+  color_rgb = tuple(a)
+  return f'rgb{color_rgb}'
+
+def list_of_hexa_colors():  
+  hex_number = '#'
+  for i in range(3):
+    hex_number += hex(random.randint(0,255)).replace('0x','')
+    #hex_number += str(re.split('0x',hex(random.randint(0,256))))
+  return hex_number
+
+def generate_colors(mode_color = 'hexa', num_color = 3): #default 
+  color_range=[]
+  if mode_color == 'hexa':
+    for i in range(num_color):
+      color_range.append(list_of_hexa_colors())
+  else:
+    for i in range(num_color):
+      color_range.append(rgb_color_gen())    
+  return color_range
+
+def shuffle_list(list1):
+  set_to_return = len(list1)
+  return random.sample(list1,k = set_to_return)
+
+
