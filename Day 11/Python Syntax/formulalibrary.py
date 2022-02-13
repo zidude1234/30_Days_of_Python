@@ -270,3 +270,17 @@ def listIsUnique(list_to_check):
             return f'List {list_to_check} is not unique.\n\t {list_to_check[i]} - first item not unique'
         i +=1
     return f'{list_to_check} is a unique list'
+
+def sameListType(list_to_check):
+    len_list = len(list_to_check)
+    i = 0
+    while i < len_list - 1:
+        if type(list_to_check[i]) != type(list_to_check [i + 1]):
+            return f'List {list_to_check} does not have same type.\n\t {list_to_check[i+1]} - first type not same type'
+        i +=1
+    return f'{list_to_check} is the same data type'
+
+def checkValidvariable(name_to_check):
+    if not name_to_check.isidentifier():
+        return f'{name_to_check} is not a valid variable name.'
+    return f'{name_to_check} is  valid variable.'
