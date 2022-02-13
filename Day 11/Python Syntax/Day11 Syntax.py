@@ -175,7 +175,75 @@ def main():
   listdata2 = [4,3,5,8,5]
   print_statistics(my_statistics(listdata2))
   
+  s = s0 + s3 + s0
+  print(s)
+  #1. Write a function called is_prime, which checks if a number is prime.
+  print("Number 1")
+  print(numberIsPrime(121))
+  print('\n')
+
+  #2 Write a functions which checks if all items are unique in the list.
+  print("Number 2")
+  print(listIsUnique(listdata2))
+  listdata3 = ['1',2,1,"The dog flew over the moon",7,"The dog flew over the moon"]
+  print(listIsUnique(listdata3))
+  print(listIsUnique(listdata))
+  print('\n')
+
+  #3 Write a function which checks if all the items of the list are of the same data type.
+  print(sameListType(listdata))
+  print(sameListType(listdata2))
   
+  #4 Write a function which check if provided variable is a valid python variable
+  var_name = input("Enter desired variable name:\n")
+  print(checkValidvariable(var_name))
+
+  # Go to the data folder and access the countries-data.py file.
+# Create a function called the most_spoken_languages in the world. It should return 10 or 20 most spoken languages in the world in descending order
+# Create a function called the most_populated_countries. It should return 10 or 20 most populated countries in descending order
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
 if __name__ == "__main__":
   main()
