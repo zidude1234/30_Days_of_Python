@@ -58,4 +58,7 @@ def shuffle_list(list1):
   set_to_return = len(list1)
   return random.sample(list1,k = set_to_return)
 
+def shuffle_list_9to7(list1):
+  keyreturn = 7
+  return random.sample(list1,k = 7)
 
