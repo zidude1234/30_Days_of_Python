@@ -47,6 +47,42 @@ def main():
   print('#output')
   print(user_id_gen(num_char, num_of_id))
 
+  print("Number 3")
+  print(rgb_color_gen())
+  print('\n')
+
+  #2 Write a function list_of_hexa_colors which returns any number of hexadecimal colors in an array (six hexadecimal numbers written after #. 
+  # Hexadecimal numeral system is made out of 16 symbols, 0-9 and first 6 letters of the alphabet, a-f. Check the task 6 for output examples).
+
+  s = s0 + s2 + s0
+  print(s) 
+  
+  print("Number 1")
+  print(list_of_hexa_colors())
+  print('\n')
+  
+  print("Number 2")
+  print(generate_colors('hexa', 3))
+  print(generate_colors('hexa', 1))
+  print(generate_colors('rgb', 3))
+  print(generate_colors('rgb', 1))
+  print(generate_colors())
+  print(generate_colors('rgb'))
+  print('\n')  
+
+  s = s0 + s3 + s0
+  print(s)  
+  # Exercises: Level 3
+  # 1. Call your function shuffle_list, it takes a list as a parameter and it returns a shuffled list
+  list1 = ['banana', 'cherry', 'apple']
+  list2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,20]
+
+  print(shuffle_list(list1))
+  print(shuffle_list(list2))
+  
+  # 2. Write a function which returns an array of seven random numbers in a range of 0-9. All the numbers must be unique.
+
+
       
 
 
