@@ -132,7 +132,16 @@ List ['1', 2, 1, 'The dog flew over the moon', 7, 'The dog flew over the moon'] 
          The dog flew over the moon - first item not unique
 [4, 3, 5, 8, 'i'] is a unique list
 
+Number 3
+List [4, 3, 5, 8, 'i'] does not have same type.
+         i - first type not same type
+[4, 3, 5, 8, 5] is the same data type
 
+Number 4
+
+Enter desired variable name:
+123
+123 is not a valid variable name.
 
 
 
