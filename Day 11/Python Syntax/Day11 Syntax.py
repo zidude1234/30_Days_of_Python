@@ -198,9 +198,6 @@ def main():
   var_name = input("Enter desired variable name:\n")
   print(checkValidvariable(var_name))
 
-  # Go to the data folder and access the countries-data.py file.
-# Create a function called the most_spoken_languages in the world. It should return 10 or 20 most spoken languages in the world in descending order
-# Create a function called the most_populated_countries. It should return 10 or 20 most populated countries in descending order
 
 
 
