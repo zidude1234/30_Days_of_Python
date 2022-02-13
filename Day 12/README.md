@@ -68,7 +68,7 @@ print(rgb_color_gen())
 1. Write a function which returns an array of seven random numbers in a range of 0-9. All the numbers must be unique.
 
 
- [<< Day 10](../Day%2011/README.md) | [Day 12 >>](../Day%2013/README.md)
+ [<< Day 11](../Day%2011/README.md) | [Day 123 >>](../Day%2013/README.md)
 
 
 --#### [Go to Top of Page](#objective)
