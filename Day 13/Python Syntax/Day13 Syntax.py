@@ -58,15 +58,21 @@ def main():
   print(x)
   
   #5
-  x = []
+  print('Number 5')
+  key_dict = ['country','city']
+  list_of_dict = []
   for outerlist in countries:
      for inneritem in outerlist:
-         temp_list = (inneritem)
-         temp_list.insert(1,temp_list[0][0:3])
+         temp_list = list(inneritem)
          i = [i.upper() for i in temp_list]
-         x.append(i)
-  print(x)
-  
+         i_dict = dict(zip(key_dict,i))
+         list_of_dict.append(i_dict)
+  print("List of Dictionaries:", list_of_dict)
 
-
+  #6
+  names_to_compress = [[('Asabeneh', 'Yetayeh')], [('David', 'Smith')], [('Donald', 'Trump')], [('Bill', 'Gates')]]
+  print('Number 6')
+  list003 = [second_tuple[0] + ' ' + second_tuple[1]  for first_tuple in names_to_compress for second_tuple in first_tuple ]
+  print("Combined String List:", list003)
+  print('\n' * 5)
 
