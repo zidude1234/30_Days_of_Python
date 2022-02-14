@@ -17,18 +17,51 @@ import re
 
 def main():
 
-  s1 = 'Day 14 Exercise level 1'
-  s2 = 'Day 14 Exercise level 2'
-  s3 = 'Day 14 Exercise level 3'
-  s0 =  ''
-
-  for i in range(20):
-    s0 += "--"
-
-  s = s0 + s1 + s0
-  print(s)
   os.system("cls") # clear console
+  print("Higher Order Functions")
+  
+  def bannergreeting(day_name,exercise_name):
+    daybanner = f'Exercise {day_name} '
+    exercisebanner = f'Level {exercise_name} '
+    front_end = f'--' * 20
+    return combinebanners(front_end,daybanner,exercisebanner)
+  
+  def combinebanners(s0,s1,s2):
+    return s0 + s1 + s2 + s0
+  
+  banner = bannergreeting
+  print(banner(14,1))
 
-    
+  def p(num):
+    print(f"Number {num}")
+  
+  def pn():
+    print(f"\n")
+  
+  #4 Use for loop to print each country in the countries list
+  p(1)
+  i = [print(i) for i in countries]
+  pn()
+
+  #5 Use for to print each name in the names list.
+  p(2)
+  i = [print(i) for i in names]
+  pn()
+
+  #6 Use for to print each number in the numbers list
+  p(3)
+  i = [print(i) for i in numbers]
+  pn()
+
+  
+  print(banner(14,2))
+  #1 Use map to create a new list by changing each country to uppercase in the countries list
+  p(1)
+  i = map(lambda x:x.upper(),countries)
+  print(list(i))
+  pn()
+  
+  
+  
 if __name__ == "__main__":
   main()
