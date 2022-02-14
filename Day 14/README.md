@@ -51,7 +51,7 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 ### Exercises: Level 3
 
-1. Use the countries_data.py (https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/countries-data.py) file and follow the tasks below:
+1. Use the <a href =https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/countries-data.py>countries_data.py</a> file and follow the tasks below:
    - Sort countries by name, by capital, by population
    - Sort out the ten most spoken languages by location.
    - Sort out the ten most populated countries.
