@@ -4,10 +4,10 @@
 
 ## 📚 Table of Contents
 - [Objective](#objective)
-  - [💻 Exercises - Day 14](#-exercises---day-14)
-    - [Exercise: Level 1](#exercise-level-1)
-    - [Exercise: Level 2](#exercise-level-2)
-    - [Exercise: Level 3](#exercise-level-3)
+  - [💻 Exercises - Day 14](#-exercises-day-14)
+    - [Exercises: Level 1](#exercises-level-1)
+    - [Exercises: Level 2](#exercises-level-2)
+    - [Exercises: Level 3](#exercises-level-3)
 - [Solution on Github](https://github.com/zidude1234/30_Days_of_Python/blob/main/Day%2014/Python%20Syntax/Day14%20Syntax.py)
 
 ## Objective
