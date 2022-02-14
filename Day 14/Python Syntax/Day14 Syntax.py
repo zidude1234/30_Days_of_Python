@@ -39,27 +39,57 @@ def main():
     print(f"\n")
   
   #4 Use for loop to print each country in the countries list
-  p(1)
+  p(4)
   i = [print(i) for i in countries]
   pn()
 
   #5 Use for to print each name in the names list.
-  p(2)
+  p(5)
   i = [print(i) for i in names]
   pn()
 
   #6 Use for to print each number in the numbers list
-  p(3)
+  p(6)
   i = [print(i) for i in numbers]
   pn()
 
-  
   print(banner(14,2))
   #1 Use map to create a new list by changing each country to uppercase in the countries list
   p(1)
   i = map(lambda x:x.upper(),countries)
   print(list(i))
   pn()
+
+  #2 Use map to create a new list by changing each number to its square in the numbers list
+  p(2)
+  i = map(lambda x:x**2,numbers)
+  print(list(i))
+  pn()
+
+  #3 Use map to change each name to uppercase in the names list
+  p(3)
+  i = map(lambda x:x.upper(),names)
+  print(list(i))
+  pn() 
+
+  #4 Use filter to filter out countries containing 'land'.
+  p(4)
+  i = filter(lambda x:re.search('land',x) ,countries)
+  print(list(i))
+  pn()
+
+  #5 Use filter to filter out countries having exactly six characters.
+  p(5)
+  i = filter(lambda x:len(x)==6 ,countries)
+  print(list(i))
+  pn()
+
+ 
+  #6 Use filter to filter out countries containing six letters and more in the country list.
+  p(6)
+  i = filter(lambda x:len(x)==6 ,countries)
+  print(list(i))
+  pn() 
   
   
   
