@@ -17,7 +17,8 @@ import re
 from functools import reduce
 import countries_data
 import string
-
+import string
+import json
 
 def main():
 
@@ -177,6 +178,14 @@ def main():
           a.append(countrydata["name"])
       print(a)
   pn()
+  
+  def sort_countries_name_capital(list_original):
+    return sorted(list_original, key = lambda k: (k['name'],k['capital']))
+
+
+  def sort_countries_popl(list1):
+    countiri_sort_NC = []
+    return sorted(list1,key=lambda k: (k['population']), reverse=True)
 
   #4 Use for loop to print each country in the countries list
   p(4)
@@ -255,7 +264,6 @@ def main():
  
   print(get_string_lists(list1)) #['The', 'cow', 'jumped', 'over', 'the', 'moon']
   print(get_string_lists(list2)) #['The', 'cow', 'jumped', 'over', 'the', 'moon','The', 'cat', 'said', 'hello']
-  print(get_string_multilist(list2)) #[['The', 'cow', 'jumped', 'over', 'the', 'moon'], ['The', 'cat', 'said', 'hello']]
   pn() 
 
 
@@ -300,6 +308,7 @@ def main():
   #this will be using the sorted method with keys used
   
   p(1)
+  print("Sorting Countries on Name, Capital and Population")
   sorted_name_cap_pop = sort_countries_name_capital(countries_data.countries_data)
   for dict in sorted_name_cap_pop[0:50]:
     print(f'{dict},') 
@@ -308,7 +317,7 @@ def main():
 
   p(3)
   print("Sorting Countries on Population")
-  sorted_popl= sort_countries_popl(countries_data.countries_data)
+  sorted_popl = sort_countries_popl(countries_data.countries_data)
   for dict in sorted_popl[0:10]:
     print(dict) 
 
@@ -321,4 +330,3 @@ def main():
 
 if __name__ == "__main__":
   main()
-
