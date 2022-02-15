@@ -118,8 +118,66 @@ def main():
     print(f"\n")
   
 
+  def countStartLetters():
+    tuple_list,num = [],[]
+    for letterAlpha in string.ascii_uppercase: #"[^0-9a-zA-Z]+
+      count_letters, a = 0 , []
+      for countrydata in countries_data.countries_data: 
+        if re.search("^" + letterAlpha ,countrydata["name"]):
+          count_letters +=1    
+      tuple_list.append(tuple((letterAlpha,count_letters)))
+      num.append(count_letters)
+    print(tuple_list)
+    print(num)
+    
+
+  def getcountries():
+    countiri=[]
+    for countrydata in countries_data.countries_data:
+      countiri.append(countrydata["name"])
+    return countiri
+ 
 
   
+  countStartLetters()
+  print(len(countries_data.countries_data))
+  pn()
+  countiri = getcountries()
+  for i in countiri:
+    print(f'{str(countiri.index(i)+1).zfill(5)}|{i}|')
+  
+  def get_first_ten_countries():
+    countiri_first10 = []
+    for countrydata in countries_data.countries_data[0:10]:
+          countiri_first10.append(countrydata)
+    return countiri_first10
+ 
+  def get_last_ten_countries():
+    countiri_last10 = []
+    for countrydata in countries_data.countries_data[-10:]:
+          countiri_last10.append(countrydata)
+    return countiri_last10
+  
+  
+  def get_string_lists(list1):
+      i = list(map(lambda x:x.split(),list1))
+      returnlist = [e for element in i for e in element]
+      return returnlist
+   
+  def join_two_strings( a , b):
+    return a + ', ' + b
+  
+  
+  def categorize_countries(searchlist):
+    for searchitem in searchlist:
+      print(f'{searchitem}: ', end='')
+      a = []
+      for countrydata in countries_data.countries_data:
+        if re.search(searchitem +"$",countrydata["name"]):
+          a.append(countrydata["name"])
+      print(a)
+  pn()
+
   #4 Use for loop to print each country in the countries list
   p(4)
   i = [print(i) for i in countries]
@@ -183,14 +241,6 @@ def main():
   
   #8 Chain two or more list iterators (eg. arr.map(callback).filter(callback).reduce(callback))
 
-  def get_string_lists(list1):
-      i = list(map(lambda x:x.split(),list1))
-      returnlist = [e for element in i for e in element]
-      return returnlist
-
-  def get_string_multilist(list1):
-      i = list(map(lambda x:x.split(),list1))
-      return i
      
   #9 Declare a function called get_string_lists which takes a list as a parameter and then returns a list containing only string items.
   list1 = ["The cow jumped over the moon"]
@@ -221,8 +271,7 @@ def main():
   print("using lambda", i2)
 
   #11 Use reduce to concatenate all the countries and to produce this sentence: Estonia, Finland, Sweden, Denmark, Norway, and Iceland are north European countries
-  def join_two_strings( a , b):
-    return a + ', ' + b
+
   p(11)
   i = reduce(join_two_strings,countries[0:(len(countries)-1)]) #using functions
   print(f"using functions: {i}, and {countries[len(countries)-1]} are north European countries")
@@ -231,23 +280,6 @@ def main():
   print(f"using lambda: {i2}, and {countries[len(countries)-1]} are north European countries")
   
   #12  Declare a function called categorize_countries that returns a list of countries with some common pattern 
-  # (you can find the countries list in this repository as countries.js(eg 'land', 'ia', 'island', 'stan')).
-  p(12)
-  #searchstring = input("Enter the string for category of country:\n")
-  # = filter(lambda x:re.search(searchstring +"$",x["name"]) ,countries_data.countries_data)
-  #("Land",list(i))
-  #pn()
-
-  #12b
-  def categorize_countries(searchlist):
-    for searchitem in searchlist:
-      print(f'{searchitem}: ', end='')
-      a = []
-      for countrydata in countries_data.countries_data:
-        if re.search(searchitem +"$",countrydata["name"]):
-          a.append(countrydata["name"])
-      print(a)
-  pn()
   
   searchlist = ["land","island","stan","ia"] #Ends with the suffix
   categorize_countries(searchlist)
@@ -255,45 +287,7 @@ def main():
   #13 Create a function returning a dictionary, where keys stand for starting letters of countries and values are the number of country names starting with that letter.
   p(13)
   
-  def countStartLetters():
-    tuple_list,num = [],[]
-    for letterAlpha in string.ascii_uppercase: #"[^0-9a-zA-Z]+
-      count_letters, a = 0 , []
-      for countrydata in countries_data.countries_data: 
-        if re.search("^" + letterAlpha ,countrydata["name"]):
-          count_letters +=1    
-      tuple_list.append(tuple((letterAlpha,count_letters)))
-      num.append(count_letters)
-    print(tuple_list)
-    print(num)
-    
-
-  def getcountries():
-    countiri=[]
-    for countrydata in countries_data.countries_data:
-      countiri.append(countrydata["name"])
-    return countiri
- 
-
   
-  countStartLetters()
-  print(len(countries_data.countries_data))
-  pn()
-  countiri = getcountries()
-  for i in countiri:
-    print(f'{str(countiri.index(i)+1).zfill(5)}|{i}|')
-  
-  def get_first_ten_countries():
-    countiri_first10 = []
-    for countrydata in countries_data.countries_data[0:10]:
-          countiri_first10.append(countrydata)
-    return countiri_first10
- 
-  def get_last_ten_countries():
-    countiri_last10 = []
-    for countrydata in countries_data.countries_data[-10:]:
-          countiri_last10.append(countrydata)
-    return countiri_last10
   # 14 Declare a get_first_ten_countries function - it returns a list of first ten countries from the countries.js list in the data folder.
   p(14)
   print(get_first_ten_countries())
@@ -301,11 +295,22 @@ def main():
   p(15)
   print(get_last_ten_countries())
 
+  print(banner(14,3))
+  #1. Sort countries by name, by capital, by population
+  #this will be using the sorted method with keys used
+  
+  p(1)
+  sorted_name_cap_pop = sort_countries_name_capital(countries_data.countries_data)
+  for dict in sorted_name_cap_pop[0:50]:
+    print(f'{dict},') 
 
 
 
-
-
+  p(3)
+  print("Sorting Countries on Population")
+  sorted_popl= sort_countries_popl(countries_data.countries_data)
+  for dict in sorted_popl[0:10]:
+    print(dict) 
 
 
 
