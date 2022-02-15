@@ -29,6 +29,11 @@ def main():
   def combinebanners(s0,s1,s2):
     return s0 + s1 + s2 + s0
   
+  def get_string_lists(list1):
+      i = list(map(lambda x:x.split(),list1))
+      returnlist = [e for element in i for e in element]
+      return returnlist
+
   banner = bannergreeting
   print(banner(14,1))
 
@@ -91,7 +96,22 @@ def main():
   print(list(i))
   pn() 
   
+  # 7 Use filter to filter out countries starting with an 'E'
+  p(7)
+  i = filter(lambda x:x.startswith('E') ,countries)
+  print(list(i))
+  pn() 
   
+  #8 Chain two or more list iterators (eg. arr.map(callback).filter(callback).reduce(callback))
+
+
+     
+  #9 Declare a function called get_string_lists which takes a list as a parameter and then returns a list containing only string items.
+  list1 = ["The cow jumped over the moon"]
+  p(9)
+  print(get_string_lists(list1))
+  pn() 
+
   
 if __name__ == "__main__":
   main()
