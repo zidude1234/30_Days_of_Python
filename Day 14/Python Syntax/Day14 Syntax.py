@@ -121,5 +121,21 @@ def main():
   i = reduce(add_two_numbers,numbers)
   print(i)
   
+  #11 Use reduce to concatenate all the countries and to produce this sentence: Estonia, Finland, Sweden, Denmark, Norway, and Iceland are north European countries
+  def join_two_strings( a , b):
+    return a + ', ' + b
+  p(11)
+  i = reduce(join_two_strings,countries[0:(len(countries)-1)]) #using functions
+  print(f"using functions: {i}, and {countries[len(countries)-1]} are north European countries")
+
+
+  #12  Declare a function called categorize_countries that returns a list of countries with some common pattern (you can find the countries list in this repository as countries.js(eg 'land', 'ia', 'island', 'stan')).
+  p(12)
+  searchstring = input("Enter the string for category of country:\n")
+  i = filter(lambda x:re.search(searchstring,x["name"]) ,countries_data.countries_data)
+  print("Land",list(i))
+  pn()
+
+  
 if __name__ == "__main__":
   main()
