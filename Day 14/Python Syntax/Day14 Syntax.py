@@ -1,7 +1,7 @@
-#Day Three of the 30 Day Challenge
+#Day Fourteen of the 30 Day Challenge
 # Introduction
 # Author: dataBio
-# Date: xx Feb 2022
+# Date: 15 Feb 2022
 # IDE: VSCode
 
 # import the "sys" module
