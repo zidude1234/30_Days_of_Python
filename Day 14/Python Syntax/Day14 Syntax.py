@@ -14,6 +14,7 @@ import platform
 import math
 # import the "re" module
 import re
+from functools import reduce
 
 def main():
 
@@ -111,7 +112,14 @@ def main():
   p(9)
   print(get_string_lists(list1))
   pn() 
-
+  
+  #10 Use reduce to sum all the numbers in the numbers list.
+  p(10)
+  def add_two_numbers( x , y):
+    return x + y
+  
+  i = reduce(add_two_numbers,numbers)
+  print(i)
   
 if __name__ == "__main__":
   main()
