@@ -131,11 +131,50 @@ def main():
 
   #12  Declare a function called categorize_countries that returns a list of countries with some common pattern (you can find the countries list in this repository as countries.js(eg 'land', 'ia', 'island', 'stan')).
   p(12)
-  searchstring = input("Enter the string for category of country:\n")
-  i = filter(lambda x:re.search(searchstring,x["name"]) ,countries_data.countries_data)
-  print("Land",list(i))
+  def categorize_countries(searchlist):
+    for searchitem in searchlist:
+      print(f'{searchitem}: ', end='')
+      a = []
+      for countrydata in countries_data.countries_data:
+        if re.search(searchitem +"$",countrydata["name"]):
+          a.append(countrydata["name"])
+      print(a)
   pn()
 
+  #13 Create a function returning a dictionary, where keys stand for starting letters of countries and values are the number of country names starting with that letter.
+  p(13)
+  def countStartLetters():
+    tuple_list,num = [],[]
+    for letterAlpha in string.ascii_uppercase: 
+      count_letters, a = 0 , []
+      for countrydata in countries_data.countries_data: 
+        if re.search("^" + letterAlpha ,countrydata["name"]):
+          count_letters +=1    
+      tuple_list.append(tuple((letterAlpha,count_letters)))
+    print(tuple_list)
+
+    def get_first_ten_countries():
+    countiri_first10 = []
+    for countrydata in countries_data.countries_data[0:10]:
+          countiri_first10.append(countrydata)
+    return countiri_first10
+ 
+   def get_last_ten_countries():
+    countiri_last10 = []
+    for countrydata in countries_data.countries_data[-10:]:
+          countiri_last10.append(countrydata)
+    return countiri_last10
   
+  # 14 Declare a get_first_ten_countries function - it returns a list of first ten countries from the countries.js list in the data folder.
+  p(14)
+  print(get_first_ten_countries())
+  # Declare a get_last_ten_countries function that returns the last ten countries in the countries list.
+  p(15)
+  print(get_last_ten_countries())
+
+
+
+    
+    
 if __name__ == "__main__":
   main()
