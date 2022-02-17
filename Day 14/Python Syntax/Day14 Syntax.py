@@ -234,7 +234,6 @@ def main():
             countiri_expanded_lang.append(country_lang_tuple)
     for i in countiri_expanded_lang:
         lang_list.append(i[0])
-        print(i)
     return lang_list,countiri_expanded_lang
 
   def count_countries_lang(lang_list1):
