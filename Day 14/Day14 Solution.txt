@@ -1,0 +1,173 @@
+----------------------------------------Exercise 14 Level 1 ----------------------------------------
+Number 1
+Estonia
+Finland
+Sweden
+Denmark
+Norway
+Iceland
+
+
+Number 2
+Asabeneh
+Lidiya
+Ermias
+Abraham
+
+
+Number 3
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+
+----------------------------------------Exercise 14 Level 2 ----------------------------------------
+Number 1
+['ESTONIA', 'FINLAND', 'SWEDEN', 'DENMARK', 'NORWAY', 'ICELAND']
+
+
+Number 2
+[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+
+Number 3
+['ASABENEH', 'LIDIYA', 'ERMIAS', 'ABRAHAM']
+
+
+Number 4
+['Finland', 'Iceland']
+
+
+Number 5
+['Sweden', 'Norway']
+
+
+Number 6
+['Estonia', 'Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland']
+
+
+Number 7
+['Estonia']
+
+
+Number 9
+['The', 'cow', 'jumped', 'over', 'the', 'moon']
+
+Number 10
+using functions 55
+
+Number 11
+using functions: Estonia, Finland, Sweden, Denmark, Norway, and Iceland are north European countries
+
+Number 12
+land: ['Bouvet Island', 'Christmas Island', 'Finland', 'Greenland', 'Iceland', 'Ireland', 'New Zealand', 'Norfolk Island', 'Poland', 'Swaziland', 'Switzerland', 'Thailand', 'United Kingdom of Great Britain and Northern Ireland']
+island: []
+stan: ['Afghanistan', 'Kazakhstan', 'Kyrgyzstan', 'Pakistan', 'Tajikistan', 'Turkmenistan', 'Uzbekistan']
+ia: ['Albania', 'Algeria', 'Armenia', 'Australia', 'Austria', 'Bulgaria', 'Cambodia', 'Colombia', 'Croatia', 'Estonia', 'Ethiopia', 'French Polynesia', 'Gambia', 'Georgia', 'India', 'Indonesia', 'Latvia', 'Liberia', 'Lithuania', 'Malaysia', 'Mauritania', 'Mongolia', 'Namibia', 'New Caledonia', 'Nigeria', 'Romania', 'Saint Lucia', 'Saudi Arabia', 'Serbia', 'Slovakia', 'Slovenia', 'Somalia', 'Tunisia', 'Zambia'] 
+
+Number 13
+[('A', 15), ('B', 21), ('C', 23), ('D', 4), ('E', 7), ('F', 8), ('G', 16), ('H', 6), ('I', 9), ('J', 4), ('K', 7), ('L', 9), ('M', 23), ('N', 13), ('O', 1), ('P', 12), ('Q', 1), ('R', 5), ('S', 33), ('T', 14), ('U', 8), ('V', 5), ('W', 2), ('X', 0), ('Y', 1), ('Z', 2)]
+
+Number 14
+[{'name': 'Afghanistan', 'capital': 'Kabul', 'languages': ['Pashto', 'Uzbek', 'Turkmen'], 'population': 27657145, 'flag': 'https://restcountries.eu/data/afg.svg', 'currency': 'Afghan afghani'}, {'name': 'Åland Islands', 'capital': 'Mariehamn', 'languages': ['Swedish'], 'population': 28875, 'flag': 'https://restcountries.eu/data/ala.svg', 'currency': 'Euro'}, {'name': 'Albania', 'capital': 'Tirana', 'languages': ['Albanian'], 'population': 2886026, 'flag': 'https://restcountries.eu/data/alb.svg', 'currency': 'Albanian lek'}, {'name': 'Algeria', 'capital': 'Algiers', 'languages': ['Arabic'], 'population': 40400000, 
+'flag': 'https://restcountries.eu/data/dza.svg', 'currency': 'Algerian dinar'}, {'name': 'American Samoa', 'capital': 'Pago Pago', 'languages': ['English', 'Samoan'], 'population': 57100, 'flag': 'https://restcountries.eu/data/asm.svg', 'currency': 'United State Dollar'}, {'name': 'Andorra', 'capital': 'Andorra la Vella', 'languages': ['Catalan'], 'population': 78014, 'flag': 'https://restcountries.eu/data/and.svg', 'currency': 'Euro'}, {'name': 'Angola', 'capital': 'Luanda', 'languages': ['Portuguese'], 'population': 25868000, 'flag': 'https://restcountries.eu/data/ago.svg', 'currency': 'Angolan kwanza'}, {'name': 'Anguilla', 'capital': 'The Valley', 'languages': ['English'], 'population': 13452, 'flag': 'https://restcountries.eu/data/aia.svg', 'currency': 'East Caribbean dollar'}, {'name': 'Antarctica', 'capital': 
+'', 'languages': ['English', 'Russian'], 'population': 1000, 'flag': 'https://restcountries.eu/data/ata.svg', 'currency': 'Australian dollar'}, {'name': 'Antigua and Barbuda', 'capital': "Saint John's", 'languages': ['English'], 'population': 86295, 'flag': 'https://restcountries.eu/data/atg.svg', 'currency': 'East Caribbean dollar'}]
+
+Number 15
+[{'name': 'Uruguay', 'capital': 'Montevideo', 'languages': ['Spanish'], 'population': 3480222, 'flag': 'https://restcountries.eu/data/ury.svg', 'currency': 'Uruguayan peso'}, {'name': 'Uzbekistan', 'capital': 'Tashkent', 'languages': ['Uzbek', 'Russian'], 'population': 31576400, 'flag': 'https://restcountries.eu/data/uzb.svg', 'currency': "Uzbekistani so'm"}, {'name': 'Vanuatu', 'capital': 'Port Vila', 'languages': ['Bislama', 'English', 'French'], 'population': 277500, 'flag': 'https://restcountries.eu/data/vut.svg', 'currency': 'Vanuatu vatu'}, {'name': 'Venezuela (Bolivarian Republic of)', 'capital': 'Caracas', 'languages': ['Spanish'], 'population': 31028700, 'flag': 'https://restcountries.eu/data/ven.svg', 'currency': 'Venezuelan bolívar'}, {'name': 'Viet Nam', 'capital': 'Hanoi', 'languages': ['Vietnamese'], 'population': 92700000, 'flag': 'https://restcountries.eu/data/vnm.svg', 'currency': 'Vietnamese đồng'}, {'name': 'Wallis and Futuna', 'capital': 'Mata-Utu', 'languages': ['French'], 'population': 11750, 'flag': 'https://restcountries.eu/data/wlf.svg', 'currency': 'CFP franc'}, {'name': 'Western Sahara', 'capital': 'El Aaiún', 'languages': ['Spanish'], 'population': 510713, 'flag': 'https://restcountries.eu/data/esh.svg', 'currency': 'Moroccan dirham'}, {'name': 'Yemen', 'capital': "Sana'a", 'languages': ['Arabic'], 'population': 27478000, 'flag': 'https://restcountries.eu/data/yem.svg', 'currency': 'Yemeni rial'}, 
+{'name': 'Zambia', 'capital': 'Lusaka', 'languages': ['English'], 'population': 15933883, 'flag': 'https://restcountries.eu/data/zmb.svg', 'currency': 'Zambian kwacha'}, {'name': 'Zimbabwe', 'capital': 'Harare', 'languages': ['English', 'Shona', 'Northern Ndebele'], 'population': 14240168, 'flag': 'https://restcountries.eu/data/zwe.svg', 'currency': 'Botswana pula'}]
+
+
+----------------------------------------Exercise 14 Level 3 ----------------------------------------
+Number 1
+Sorting Countries on Name, Capital and Population
+{'name': 'Afghanistan', 'capital': 'Kabul', 'languages': ['Pashto', 'Uzbek', 'Turkmen'], 'population': 27657145, 'flag': 'https://restcountries.eu/data/afg.svg', 'currency': 'Afghan afghani'},
+{'name': 'Albania', 'capital': 'Tirana', 'languages': ['Albanian'], 'population': 2886026, 'flag': 'https://restcountries.eu/data/alb.svg', 'currency': 'Albanian lek'},
+{'name': 'Algeria', 'capital': 'Algiers', 'languages': ['Arabic'], 'population': 40400000, 'flag': 'https://restcountries.eu/data/dza.svg', 'currency': 'Algerian dinar'},
+{'name': 'American Samoa', 'capital': 'Pago Pago', 'languages': ['English', 'Samoan'], 'population': 57100, 'flag': 'https://restcountries.eu/data/asm.svg', 'currency': 'United State Dollar'},
+{'name': 'Andorra', 'capital': 'Andorra la Vella', 'languages': ['Catalan'], 'population': 78014, 'flag': 'https://restcountries.eu/data/and.svg', 'currency': 'Euro'},
+{'name': 'Angola', 'capital': 'Luanda', 'languages': ['Portuguese'], 'population': 25868000, 'flag': 'https://restcountries.eu/data/ago.svg', 'currency': 'Angolan kwanza'},
+{'name': 'Anguilla', 'capital': 'The Valley', 'languages': ['English'], 'population': 13452, 'flag': 'https://restcountries.eu/data/aia.svg', 'currency': 'East Caribbean dollar'},
+{'name': 'Antarctica', 'capital': '', 'languages': ['English', 'Russian'], 'population': 1000, 'flag': 'https://restcountries.eu/data/ata.svg', 'currency': 'Australian dollar'},
+{'name': 'Antigua and Barbuda', 'capital': "Saint John's", 'languages': ['English'], 'population': 86295, 'flag': 'https://restcountries.eu/data/atg.svg', 'currency': 'East Caribbean dollar'},
+{'name': 'Argentina', 'capital': 'Buenos Aires', 'languages': ['Spanish', 'Guaraní'], 'population': 43590400, 'flag': 'https://restcountries.eu/data/arg.svg', 'currency': 'Argentine peso'},
+{'name': 'Armenia', 'capital': 'Yerevan', 'languages': ['Armenian', 'Russian'], 'population': 2994400, 'flag': 'https://restcountries.eu/data/arm.svg', 'currency': 'Armenian dram'},
+{'name': 'Aruba', 'capital': 'Oranjestad', 'languages': ['Dutch', '(Eastern) Punjabi'], 'population': 107394, 'flag': 'https://restcountries.eu/data/abw.svg', 'currency': 'Aruban florin'},
+{'name': 'Australia', 'capital': 'Canberra', 'languages': ['English'], 'population': 24117360, 'flag': 'https://restcountries.eu/data/aus.svg', 'currency': 'Australian dollar'},
+{'name': 'Austria', 'capital': 'Vienna', 'languages': ['German'], 'population': 8725931, 'flag': 'https://restcountries.eu/data/aut.svg', 'currency': 'Euro'},
+{'name': 'Azerbaijan', 'capital': 'Baku', 'languages': ['Azerbaijani'], 'population': 9730500, 'flag': 'https://restcountries.eu/data/aze.svg', 'currency': 'Azerbaijani manat'},
+{'name': 'Bahamas', 'capital': 'Nassau', 'languages': ['English'], 'population': 378040, 'flag': 'https://restcountries.eu/data/bhs.svg', 'currency': 'Bahamian dollar'},
+{'name': 'Bahrain', 'capital': 'Manama', 'languages': ['Arabic'], 'population': 1404900, 'flag': 'https://restcountries.eu/data/bhr.svg', 'currency': 'Bahraini dinar'},
+{'name': 'Bangladesh', 'capital': 'Dhaka', 'languages': ['Bengali'], 'population': 161006790, 'flag': 'https://restcountries.eu/data/bgd.svg', 'currency': 'Bangladeshi taka'},
+{'name': 'Barbados', 'capital': 'Bridgetown', 'languages': ['English'], 'population': 285000, 'flag': 'https://restcountries.eu/data/brb.svg', 'currency': 'Barbadian dollar'},
+{'name': 'Belarus', 'capital': 'Minsk', 'languages': ['Belarusian', 'Russian'], 'population': 9498700, 'flag': 'https://restcountries.eu/data/blr.svg', 'currency': 'New Belarusian ruble'},
+{'name': 'Belgium', 'capital': 'Brussels', 'languages': ['Dutch', 'French', 'German'], 'population': 11319511, 'flag': 'https://restcountries.eu/data/bel.svg', 'currency': 'Euro'},
+{'name': 'Belize', 'capital': 'Belmopan', 'languages': ['English', 'Spanish'], 'population': 370300, 'flag': 'https://restcountries.eu/data/blz.svg', 'currency': 'Belize dollar'},
+{'name': 'Benin', 'capital': 'Porto-Novo', 'languages': ['French'], 'population': 10653654, 'flag': 'https://restcountries.eu/data/ben.svg', 'currency': 'West African CFA franc'},
+{'name': 'Bermuda', 'capital': 'Hamilton', 'languages': ['English'], 'population': 61954, 'flag': 'https://restcountries.eu/data/bmu.svg', 'currency': 'Bermudian dollar'},
+{'name': 'Bhutan', 'capital': 'Thimphu', 'languages': ['Dzongkha'], 'population': 775620, 'flag': 'https://restcountries.eu/data/btn.svg', 'currency': 'Bhutanese ngultrum'},
+{'name': 'Bolivia (Plurinational State of)', 'capital': 'Sucre', 'languages': ['Spanish', 'Aymara', 'Quechua'], 'population': 10985059, 'flag': 'https://restcountries.eu/data/bol.svg', 'currency': 'Bolivian 
+boliviano'},
+{'name': 'Bonaire, Sint Eustatius and Saba', 'capital': 'Kralendijk', 'languages': ['Dutch'], 'population': 17408, 'flag': 'https://restcountries.eu/data/bes.svg', 'currency': 'United States dollar'},       
+{'name': 'Bosnia and Herzegovina', 'capital': 'Sarajevo', 'languages': ['Bosnian', 'Croatian', 'Serbian'], 'population': 3531159, 'flag': 'https://restcountries.eu/data/bih.svg', 'currency': 'Bosnia and Herzegovina convertible mark'},
+{'name': 'Botswana', 'capital': 'Gaborone', 'languages': ['English', 'Tswana'], 'population': 2141206, 'flag': 'https://restcountries.eu/data/bwa.svg', 'currency': 'Botswana pula'},
+{'name': 'Bouvet Island', 'capital': '', 'languages': ['Norwegian', 'Norwegian Bokmål', 'Norwegian Nynorsk'], 'population': 0, 'flag': 'https://restcountries.eu/data/bvt.svg', 'currency': 'Norwegian krone'},{'name': 'Brazil', 'capital': 'Brasília', 'languages': ['Portuguese'], 'population': 206135893, 'flag': 'https://restcountries.eu/data/bra.svg', 'currency': 'Brazilian real'},
+{'name': 'British Indian Ocean Territory', 'capital': 'Diego Garcia', 'languages': ['English'], 'population': 3000, 'flag': 'https://restcountries.eu/data/iot.svg', 'currency': 'United States dollar'},      
+{'name': 'Brunei Darussalam', 'capital': 'Bandar Seri Begawan', 'languages': ['Malay'], 'population': 411900, 'flag': 'https://restcountries.eu/data/brn.svg', 'currency': 'Brunei dollar'},
+{'name': 'Bulgaria', 'capital': 'Sofia', 'languages': ['Bulgarian'], 'population': 7153784, 'flag': 'https://restcountries.eu/data/bgr.svg', 'currency': 'Bulgarian lev'},
+{'name': 'Burkina Faso', 'capital': 'Ouagadougou', 'languages': ['French', 'Fula'], 'population': 19034397, 'flag': 'https://restcountries.eu/data/bfa.svg', 'currency': 'West African CFA franc'},
+{'name': 'Burundi', 'capital': 'Bujumbura', 'languages': ['French', 'Kirundi'], 'population': 10114505, 'flag': 'https://restcountries.eu/data/bdi.svg', 'currency': 'Burundian franc'},
+{'name': 'Cabo Verde', 'capital': 'Praia', 'languages': ['Portuguese'], 'population': 531239, 'flag': 'https://restcountries.eu/data/cpv.svg', 'currency': 'Cape Verdean escudo'},
+{'name': 'Cambodia', 'capital': 'Phnom Penh', 'languages': ['Khmer'], 'population': 15626444, 'flag': 'https://restcountries.eu/data/khm.svg', 'currency': 'Cambodian riel'},
+{'name': 'Cameroon', 'capital': 'Yaoundé', 'languages': ['English', 'French'], 'population': 22709892, 'flag': 'https://restcountries.eu/data/cmr.svg', 'currency': 'Central African CFA franc'},
+{'name': 'Canada', 'capital': 'Ottawa', 'languages': ['English', 'French'], 'population': 36155487, 'flag': 'https://restcountries.eu/data/can.svg', 'currency': 'Canadian dollar'},
+{'name': 'Cayman Islands', 'capital': 'George Town', 'languages': ['English'], 'population': 58238, 'flag': 'https://restcountries.eu/data/cym.svg', 'currency': 'Cayman Islands dollar'},
+{'name': 'Central African Republic', 'capital': 'Bangui', 'languages': ['French', 'Sango'], 'population': 4998000, 'flag': 'https://restcountries.eu/data/caf.svg', 'currency': 'Central African CFA franc'},  
+{'name': 'Chad', 'capital': "N'Djamena", 'languages': ['French', 'Arabic'], 'population': 14497000, 'flag': 'https://restcountries.eu/data/tcd.svg', 'currency': 'Central African CFA franc'},
+{'name': 'Chile', 'capital': 'Santiago', 'languages': ['Spanish'], 'population': 18191900, 'flag': 'https://restcountries.eu/data/chl.svg', 'currency': 'Chilean peso'},
+{'name': 'China', 'capital': 'Beijing', 'languages': ['Chinese'], 'population': 1377422166, 'flag': 'https://restcountries.eu/data/chn.svg', 'currency': 'Chinese yuan'},
+{'name': 'Christmas Island', 'capital': 'Flying Fish Cove', 'languages': ['English'], 'population': 2072, 'flag': 'https://restcountries.eu/data/cxr.svg', 'currency': 'Australian dollar'},
+{'name': 'Cocos (Keeling) Islands', 'capital': 'West Island', 'languages': ['English'], 'population': 550, 'flag': 'https://restcountries.eu/data/cck.svg', 'currency': 'Australian dollar'},
+{'name': 'Colombia', 'capital': 'Bogotá', 'languages': ['Spanish'], 'population': 48759958, 'flag': 'https://restcountries.eu/data/col.svg', 'currency': 'Colombian peso'},
+{'name': 'Comoros', 'capital': 'Moroni', 'languages': ['Arabic', 'French'], 'population': 806153, 'flag': 'https://restcountries.eu/data/com.svg', 'currency': 'Comorian franc'},
+{'name': 'Congo', 'capital': 'Brazzaville', 'languages': ['French', 'Lingala'], 'population': 4741000, 'flag': 'https://restcountries.eu/data/cog.svg', 'currency': 'Central African CFA franc'},
+
+
+
+Number 2
+
+Counter({'English': 91, 'French': 45, 'Arabic': 25, 'Spanish': 24, 'Portuguese': 9, 'Russian': 9, 'Dutch': 8, 'German': 7, 'Chinese': 5, 'Serbian': 4, 'Swahili': 4, 'Italian': 4, 'Swedish': 3, 'Albanian': 3, 'Croatian': 3, 'Norwegian': 3, 'Uzbek': 2, 'Turkmen': 2, 'Samoan': 2, 'Guaraní': 2, 'Armenian': 2, '(Eastern) Punjabi': 2, 'Bosnian': 2, 'Tswana': 2, 'Norwegian Bokmål': 2, 'Norwegian Nynorsk': 2, 'Malay': 
+2, 'Fula': 2, 'Lingala': 2, 'Greek (modern)': 2, 'Turkish': 2, 'Slovak': 2, 'Hindi': 2, 'Urdu': 2, 'Chamorro': 2, 'Southern Sotho': 2, 'Romanian': 2, 'Afrikaans': 2, 'Korean': 2, 'Tamil': 2, 'Swati': 2, 'Pashto': 1, 'Catalan': 1, 'Azerbaijani': 1, 'Bengali': 1, 'Belarusian': 1, 'Dzongkha': 1, 'Aymara': 1, 'Quechua': 1, 'Bulgarian': 1, 'Kirundi': 1, 'Khmer': 1, 'Sango': 1, 'Kongo': 1, 'Luba-Katanga': 1, 'Czech': 1, 'Danish': 1, 'Tigrinya': 1, 'Estonian': 1, 'Amharic': 1, 'Faroese': 1, 'Fijian': 1, 'Finnish': 1, 'Georgian': 1, 'Kalaallisut': 1, 'Haitian': 1, 'Latin': 1, 'Hungarian': 1, 'Icelandic': 1, 'Indonesian': 
+1, 'Persian (Farsi)': 1, 'Kurdish': 1, 'Irish': 1, 'Manx': 1, 'Hebrew (modern)': 1, 'Japanese': 1, 'Kazakh': 1, 'Kyrgyz': 1, 'Lao': 1, 'Latvian': 1, 'Lithuanian': 1, 'Luxembourgish': 1, 'Macedonian': 1, 'Malagasy': 1, 'Chichewa': 1, 'Malaysian': 1, 'Divehi': 1, 'Maltese': 1, 'Marshallese': 1, 'Mongolian': 1, 'Burmese': 1, 'Nauruan': 1, 'Nepali': 1, 'Māori': 1, 'Polish': 1, 'Kinyarwanda': 1, 'Slovene': 1, 'Somali': 1, 'Southern Ndebele': 1, 'Tsonga': 1, 'Venda': 1, 'Xhosa': 1, 'Zulu': 1, 'Sinhalese': 1, 'Tajik': 1, 'Thai': 1, 'Tonga (Tonga Islands)': 1, 'Ukrainian': 1, 'Bislama': 1, 'Vietnamese': 1, 'Shona': 1, 'Northern Ndebele': 1})
+
+reconverted_dict from tuple {'Pashto': ['Afghanistan'], 'Uzbek': ['Afghanistan', 'Uzbekistan'], 'Turkmen': ['Afghanistan', 'Turkmenistan'], 'Swedish': ['Åland Islands', 'Finland', 'Sweden'], 'Albanian': ['Albania', 'Montenegro', 'Republic of Kosovo'], 'Arabic': ['Algeria', 'Bahrain', 'Chad', 'Comoros', 'Djibouti', 'Egypt', 'Eritrea', 'Iraq', 'Israel', 'Jordan', 'Kuwait', 'Lebanon', 'Libya', 'Mauritania', 'Morocco', 'Oman', 'Palestine, State of', 'Qatar', 'Saudi Arabia', 'Somalia', 'Sudan', 'Syrian Arab Republic', 'Tunisia', 'United Arab Emirates', 'Yemen'], 'English': ['American Samoa', 'Anguilla', 'Antarctica', 
+'Antigua and Barbuda', 'Australia', 'Bahamas', 'Barbados', 'Belize', 'Bermuda', 'Botswana', 'British Indian Ocean Territory', 'United States Minor Outlying Islands', 'Virgin Islands (British)', 'Virgin Islands (U.S.)', 'Cameroon', 'Canada', 'Cayman Islands', 'Christmas Island', 'Cocos (Keeling) Islands', 'Cook Islands', 'Curaçao', 'Dominica', 'Eritrea', 'Falkland Islands (Malvinas)', 'Fiji', 'Gambia', 'Ghana', 
+'Gibraltar', 'Grenada', 'Guam', 'Guernsey', 'Guyana', 'Heard Island and McDonald Islands', 'Hong Kong', 'India', 'Ireland', 'Isle of Man', 'Jamaica', 'Jersey', 'Kenya', 'Kiribati', 'Lesotho', 'Liberia', 'Malawi', 'Malta', 'Marshall Islands', 'Mauritius', 'Micronesia (Federated States of)', 'Montserrat', 'Namibia', 'Nauru', 'New Zealand', 'Nigeria', 'Niue', 'Norfolk Island', 'Northern Mariana Islands', 'Pakistan', 'Palau', 'Papua New Guinea', 'Philippines', 'Pitcairn', 'Puerto Rico', 'Rwanda', 'Saint Helena, Ascension and Tristan da Cunha', 'Saint Kitts and Nevis', 'Saint Lucia', 'Saint Martin (French part)', 'Saint Vincent and the Grenadines', 'Samoa', 'Seychelles', 'Sierra Leone', 'Singapore', 'Sint Maarten (Dutch part)', 'Solomon Islands', 'South Africa', 'South Georgia and the South Sandwich Islands', 'South Sudan', 'Sudan', 'Swaziland', 'Tanzania, United Republic of', 'Tokelau', 'Tonga', 'Trinidad and Tobago', 'Turks and Caicos Islands', 'Tuvalu', 'Uganda', 'United Kingdom of Great Britain and Northern Ireland', 'United States of America', 'Vanuatu', 'Zambia', 'Zimbabwe'], 'Samoan': ['American Samoa', 'Samoa'], 'Catalan': ['Andorra'], 'Portuguese': ['Angola', 'Brazil', 'Cabo Verde', 'Guinea-Bissau', 'Macao', 'Mozambique', 'Portugal', 'Sao Tome and Principe', 'Timor-Leste'], 'Russian': ['Antarctica', 'Armenia', 'Belarus', 'Kazakhstan', 'Kyrgyzstan', 'Russian Federation', 'Tajikistan', 'Turkmenistan', 'Uzbekistan'], 'Spanish': ['Argentina', 'Belize', 'Bolivia (Plurinational State of)', 'Chile', 'Colombia', 'Costa Rica', 'Cuba', 'Dominican Republic', 'Ecuador', 'El Salvador', 'Equatorial Guinea', 'Guam', 'Guatemala', 'Honduras', 'Mexico', 'Nicaragua', 'Panama', 'Paraguay', 'Peru', 'Puerto Rico', 'Spain', 'Uruguay', 'Venezuela (Bolivarian Republic of)', 'Western Sahara'], 'Guaraní': ['Argentina', 'Paraguay'], 'Armenian': ['Armenia', 'Cyprus'], 'Dutch': ['Aruba', 'Belgium', 'Bonaire, Sint Eustatius and Saba', 'Curaçao', 'Netherlands', 'Saint Martin (French part)', 'Sint Maarten (Dutch part)', 'Suriname'], '(Eastern) Punjabi': ['Aruba', 'Curaçao'], 'German': ['Austria', 'Belgium', 'Germany', 'Holy See', 'Liechtenstein', 'Luxembourg', 'Switzerland'], 'Azerbaijani': ['Azerbaijan'], 'Bengali': ['Bangladesh'], 'Belarusian': ['Belarus'], 'French': ['Belgium', 'Benin', 'Burkina Faso', 'Burundi', 'Cameroon', 'Canada', 'Central African Republic', 'Chad', 'Comoros', 'Congo', 'Congo (Democratic Republic of the)', 'Djibouti', 'Equatorial Guinea', 'France', 'French Guiana', 'French Polynesia', 'French Southern Territories', 'Gabon', 'Guadeloupe', 'Guernsey', 'Guinea', 'Haiti', 'Holy See', "Côte d'Ivoire", 'Jersey', 'Lebanon', 'Luxembourg', 'Madagascar', 'Mali', 'Martinique', 'Mayotte', 'Monaco', 'New Caledonia', 'Niger', 'Réunion', 'Rwanda', 'Saint Barthélemy', 'Saint Martin (French part)', 'Saint Pierre and Miquelon', 'Senegal', 'Seychelles', 'Switzerland', 'Togo', 'Vanuatu', 'Wallis and Futuna'], 'Dzongkha': ['Bhutan'], 'Aymara': ['Bolivia (Plurinational State of)'], 'Quechua': ['Bolivia (Plurinational State of)'], 'Bosnian': ['Bosnia and Herzegovina', 'Montenegro'], 'Croatian': ['Bosnia and Herzegovina', 'Croatia', 'Montenegro'], 'Serbian': ['Bosnia and Herzegovina', 'Montenegro', 'Republic of Kosovo', 'Serbia'], 'Tswana': ['Botswana', 'South Africa'], 'Norwegian': ['Bouvet Island', 'Norway', 'Svalbard and Jan Mayen'], 'Norwegian Bokmål': ['Bouvet Island', 'Norway'], 'Norwegian Nynorsk': ['Bouvet Island', 'Norway'], 'Malay': ['Brunei Darussalam', 'Singapore'], 'Bulgarian': ['Bulgaria'], 'Fula': ['Burkina Faso', 'Guinea'], 'Kirundi': ['Burundi'], 'Khmer': ['Cambodia'], 'Sango': ['Central African Republic'], 'Chinese': ['China', 'Hong Kong', 'Macao', 'Singapore', 'Taiwan'], 'Lingala': ['Congo', 'Congo (Democratic Republic of the)'], 'Kongo': ['Congo (Democratic Republic of the)'], 'Swahili': ['Congo (Democratic Republic of the)', 'Kenya', 'Tanzania, United Republic of', 'Uganda'], 'Luba-Katanga': ['Congo (Democratic Republic of the)'], 'Greek (modern)': ['Cyprus', 'Greece'], 'Turkish': ['Cyprus', 'Turkey'], 'Czech': ['Czech Republic'], 'Slovak': ['Czech Republic', 'Slovakia'], 'Danish': ['Denmark'], 'Tigrinya': ['Eritrea'], 'Estonian': ['Estonia'], 'Amharic': ['Ethiopia'], 'Faroese': ['Faroe Islands'], 'Fijian': ['Fiji'], 'Hindi': ['Fiji', 'India'], 'Urdu': ['Fiji', 'Pakistan'], 
+'Finnish': ['Finland'], 'Georgian': ['Georgia'], 'Kalaallisut': ['Greenland'], 'Chamorro': ['Guam', 'Northern Mariana Islands'], 'Haitian': ['Haiti'], 'Latin': ['Holy See'], 'Italian': ['Holy See', 'Italy', 
+'San Marino', 'Switzerland'], 'Hungarian': ['Hungary'], 'Icelandic': ['Iceland'], 'Indonesian': ['Indonesia'], 'Persian (Farsi)': ['Iran (Islamic Republic of)'], 'Kurdish': ['Iraq'], 'Irish': ['Ireland'], 'Manx': ['Isle of Man'], 'Hebrew (modern)': ['Israel'], 'Japanese': ['Japan'], 'Kazakh': ['Kazakhstan'], 'Kyrgyz': ['Kyrgyzstan'], 'Lao': ["Lao People's Democratic Republic"], 'Latvian': ['Latvia'], 'Southern 
+Sotho': ['Lesotho', 'South Africa'], 'Lithuanian': ['Lithuania'], 'Luxembourgish': ['Luxembourg'], 'Macedonian': ['Macedonia (the former Yugoslav Republic of)'], 'Malagasy': ['Madagascar'], 'Chichewa': ['Malawi'], 'Malaysian': ['Malaysia'], 'Divehi': ['Maldives'], 'Maltese': ['Malta'], 'Marshallese': ['Marshall Islands'], 'Romanian': ['Moldova (Republic of)', 'Romania'], 'Mongolian': ['Mongolia'], 'Burmese': ['Myanmar'], 'Afrikaans': ['Namibia', 'South Africa'], 'Nauruan': ['Nauru'], 'Nepali': ['Nepal'], 'Māori': ['New Zealand'], 'Korean': ["Korea (Democratic People's Republic of)", 'Korea (Republic of)'], 'Polish': ['Poland'], 'Kinyarwanda': ['Rwanda'], 'Tamil': ['Singapore', 'Sri Lanka'], 'Slovene': ['Slovenia'], 'Somali': ['Somalia'], 'Southern Ndebele': ['South Africa'], 'Swati': ['South Africa', 'Swaziland'], 'Tsonga': ['South Africa'], 'Venda': ['South Africa'], 'Xhosa': ['South Africa'], 'Zulu': ['South Africa'], 'Sinhalese': ['Sri Lanka'], 'Tajik': ['Tajikistan'], 'Thai': ['Thailand'], 'Tonga (Tonga Islands)': ['Tonga'], 'Ukrainian': ['Ukraine'], 'Bislama': ['Vanuatu'], 'Vietnamese': ['Viet Nam'], 'Shona': ['Zimbabwe'], 'Northern Ndebele': ['Zimbabwe']}
+
+Number 3
+Sorting Countries on Population
+{'name': 'China', 'capital': 'Beijing', 'languages': ['Chinese'], 'population': 1377422166, 'flag': 'https://restcountries.eu/data/chn.svg', 'currency': 'Chinese yuan'}
+{'name': 'India', 'capital': 'New Delhi', 'languages': ['Hindi', 'English'], 'population': 1295210000, 'flag': 'https://restcountries.eu/data/ind.svg', 'currency': 'Indian rupee'}
+{'name': 'United States of America', 'capital': 'Washington, D.C.', 'languages': ['English'], 'population': 323947000, 'flag': 'https://restcountries.eu/data/usa.svg', 'currency': 'United States dollar'}    
+{'name': 'Indonesia', 'capital': 'Jakarta', 'languages': ['Indonesian'], 'population': 258705000, 'flag': 'https://restcountries.eu/data/idn.svg', 'currency': 'Indonesian rupiah'}
+{'name': 'Brazil', 'capital': 'Brasília', 'languages': ['Portuguese'], 'population': 206135893, 'flag': 'https://restcountries.eu/data/bra.svg', 'currency': 'Brazilian real'}
+{'name': 'Pakistan', 'capital': 'Islamabad', 'languages': ['English', 'Urdu'], 'population': 194125062, 'flag': 'https://restcountries.eu/data/pak.svg', 'currency': 'Pakistani rupee'}
+{'name': 'Nigeria', 'capital': 'Abuja', 'languages': ['English'], 'population': 186988000, 'flag': 'https://restcountries.eu/data/nga.svg', 'currency': 'Nigerian naira'}
+{'name': 'Bangladesh', 'capital': 'Dhaka', 'languages': ['Bengali'], 'population': 161006790, 'flag': 'https://restcountries.eu/data/bgd.svg', 'currency': 'Bangladeshi taka'}
+{'name': 'Russian Federation', 'capital': 'Moscow', 'languages': ['Russian'], 'population': 146599183, 'flag': 'https://restcountries.eu/data/rus.svg', 'currency': 'Russian ruble'}
+{'name': 'Japan', 'capital': 'Tokyo', 'languages': ['Japanese'], 'population': 126960000, 'flag': 'https://restcountries.eu/data/jpn.svg', 'currency': 'Japanese yen'}
+
+
+
+
+
