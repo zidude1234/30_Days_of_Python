@@ -186,7 +186,62 @@ def main():
   def sort_countries_popl(list1):
     countiri_sort_NC = []
     return sorted(list1,key=lambda k: (k['population']), reverse=True)
+  
+  
+  
+  
+  
+  def switch_dict_keys(list1):  #expand and switch dict keys
+    res = {}
+    for _lang, _country in list1:
+      res.setdefault(_lang, []).append(_country)
+    return res
 
+  def sort_count_lang():
+    def wrapper():
+        list1 = countries_data.countries_data #1
+        func  = extract_countries_lang(list1) #2
+        func2,func2_tp = expand_dict_to_tuple(func)    #3A
+        dict_func = switch_dict_keys(func2_tp)        #3B
+        func3 = count_countries_lang(func2)   #4
+        return func3
+    return wrapper
+  
+  def extract_countries_lang(list1): #a list of dict items
+    countiri_name_lang = []
+    keys_shortlist = ['name', 'languages'] #reduce list to country and language only
+    for dict_items in list1:
+      dict_temporary = {x : dict_items[x] for x in keys_shortlist}
+      countiri_name_lang.append(dict_temporary)
+    print("Reduced Dict:", countiri_name_lang)
+    pn
+    return countiri_name_lang
+
+  
+  def expand_dict_to_tuple(list1):  #expand dict to become keys and value tuples
+    countiri_expanded_lang, lang_list= [],[]
+    for dict_object in list1:
+        name_element = dict_object["name"]
+        country_lang_tuple = ()
+        if isinstance(dict_object['languages'],list):
+            for value_element in dict_object['languages']:
+                 v = ''
+                 v = value_element
+                 country_lang_tuple= (tuple((v,name_element)))
+                 countiri_expanded_lang.append(country_lang_tuple)
+        else:
+            country_lang_tuple = (tuple((dict_object['languages'],name_element)))
+            countiri_expanded_lang.append(country_lang_tuple)
+    for i in countiri_expanded_lang:
+        lang_list.append(i[0])
+        print(i)
+    return lang_list,countiri_expanded_lang
+
+  def count_countries_lang(lang_list1):
+    collector_lang = Counter(lang_list1)
+    print(collector_lang)
+    lang_count = collector_lang
+  
   #4 Use for loop to print each country in the countries list
   p(4)
   i = [print(i) for i in countries]
