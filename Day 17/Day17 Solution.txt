@@ -1,0 +1,3 @@
+----------------------------------------Exercise 17 Level 1 ----------------------------------------
+names: ['Finland', 'Sweden', 'Norway', 'Denmark', 'Iceland', 'Estonia', 'Russia']
+nordic: ['Finland', 'Sweden', 'Norway', 'Denmark', 'Iceland']
