@@ -1,0 +1,40 @@
+----------------------------------------Exercise 15 Level 1 ----------------------------------------
+Number 1
+Syntax Error
+
+This happened at least
+Number 2
+
+Name Error
+Name Error
+name 'age' is not defined
+Number 3
+
+Index Error
+Index Error
+list index out of range
+Number 4
+
+Module Error
+ModuleNotFoundError
+No module named 'maths'
+Number 5
+
+Attribute Error
+Maybe you mean pi?
+module 'math' has no attribute 'PI'
+Number 6
+
+Key Error
+Check your dict key
+'county'
+Number 7
+
+Type Error
+check the type of the data
+unsupported operand type(s) for +: 'int' and 'str'
+Number 8
+
+Zero Div Error
+Error - You divided by zero
+division by zero
