@@ -17,7 +17,7 @@ Thanks @Asabaneh for the excellent Python Content! 👋🏻
 1. Repeat the errors in the [section](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/15_Day_Python_type_errors/15_python_type_errors.md)
 
 
- [<< Day 14](../Day%2013/README.md) | [Day 16 >>](../Day%2016/README.md)
+ [<< Day 14](../Day%2014/README.md) | [Day 16 >>](../Day%2016/README.md)
 
 
 --#### [Go to Top of Page](#objective)
