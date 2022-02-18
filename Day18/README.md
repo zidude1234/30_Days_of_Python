@@ -80,6 +80,6 @@ distance = 8 -(-4) # 12
     print(most_frequent_words(cleaned_text)) # [(3, 'I'), (2, 'teaching'), (2, 'teacher')]
     ```
 
- [<< Day 17](../Day%2018/README.md) | [Day 19 >>](../Day%2019/README.md)
+ [<< Day 17](../Day%2017/README.md) | [Day 19 >>](../Day%2019/README.md)
 
 --#### [Go to Top of Page](#objective)
