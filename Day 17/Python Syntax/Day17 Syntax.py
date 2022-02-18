@@ -38,7 +38,12 @@ def main():
   banner = bannergreeting
   print(banner(17,1))
 
+  names = ['Finland', 'Sweden', 'Norway','Denmark','Iceland', 'Estonia','Russia']
+  #Unpack the first five countries and store them in a variable nordic_countries, store Estonia and Russia in es, and ru respectively
+  *nordic,es, ru = names
 
+  print("names:",names)
+  print("nordic:",nordic)
   
 
 
