@@ -1,0 +1,26 @@
+----------------------------------------Exercise 16 Level 1 ----------------------------------------
+Number 1
+day = 28
+month = 11
+year = 2017
+hour = 23
+minute = 55
+timestamp = 1511931359.34238
+
+
+Number 2
+11/28/2017, 23:55:59
+
+
+Number 3
+date_string = 5 December, 2019
+date_object = 2019-12-05 00:00:00
+
+
+Number 4
+Time difference: 33 days, 0:04:00.657620
+
+
+Number 5
+17498 days, 23:55:59.342380
+Time difference: 17498 days
