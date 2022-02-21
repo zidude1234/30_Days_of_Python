@@ -23,8 +23,8 @@ def main():
   def p(num):
     print(f"Number {num}")
   
-  def pn():
-    print(f"\n")
+  def pn(num = 1):
+    print(f"\n" * num)
 
   def bannergreeting(day_name,exercise_name):
     daybanner = f'Exercise {day_name} '
@@ -38,11 +38,34 @@ def main():
   banner = bannergreeting
   print(banner(18,1))
 
-
+  #1 What is the most frequent word in the following paragraph?
+  paragraph = '''I love teaching. If you do not love teaching what else can you love. 
+  I love Python if you do not love something which can give you all the capabilities to develop an application what else can you love.'''
   
+  split_words = re.split('\s+|\.',paragraph) #this includes space with it.
+  split_words = list(filter(None,split_words)) #because of the space filtered out
+  print("Split Words:", split_words)
+  pn()
+  pn()
 
-
+  words_collection = collections.Counter(split_words)
+  print(words_collection)
+  pn()
   
+  word_tp = words_collection.items()
+  word_tuple = [(b,a) for (a,b) in word_tp]
+  word2 = sorted(word_tuple,key = lambda k: (k[0],k[1]), reverse=True)
+  print("Final sorted Tuple:",word2)
+  pn(5)
+ 
+#2 Extract these numbers from this whole text and find the distance between the two furthest particles
+  p(2)
+  points = ['-1', '2', '-4', '-3', '-1', '0', '4', '8']
+  s1 = sorted(points,key = lambda k:int(k)) # ['-4', '-3', '-1', '-1', '0', '2', '4', '8']
+  sorted_points = [int(i) for i in s1]
+  print("original list:", points)
+  print("sorted list:", sorted_points)
+  print(f'distance = {max(sorted_points)} - {min(sorted_points)} = {max(sorted_points)-min(sorted_points)}')
 
     
 if __name__ == "__main__":
