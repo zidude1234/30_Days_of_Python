@@ -45,9 +45,7 @@ def main():
   split_words = re.split('\s+|\.',paragraph) #this includes space with it.
   split_words = list(filter(None,split_words)) #because of the space filtered out
   print("Split Words:", split_words)
-  pn()
-  pn()
-
+  
   words_collection = collections.Counter(split_words)
   print(words_collection)
   pn()
@@ -56,7 +54,7 @@ def main():
   word_tuple = [(b,a) for (a,b) in word_tp]
   word2 = sorted(word_tuple,key = lambda k: (k[0],k[1]), reverse=True)
   print("Final sorted Tuple:",word2)
-  pn(5)
+  pn()
  
 #2 Extract these numbers from this whole text and find the distance between the two furthest particles
   p(2)
