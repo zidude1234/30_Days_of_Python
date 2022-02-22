@@ -5,16 +5,14 @@
 ## 📚 Table of Contents
 - [Objective](#objective)
   - [💻 Exercises - Day 19](#-exercises---day-19)
-    - [Exercise: Level 1](#exercise-level-1)
-    - [Exercise: Level 2](#exercise-level-2)
+    - [Exercises: Level 1](#-exercise-level-1)
+    - [Exercises: Level 2](#-exercise-level-2)
 - [Solution on Github](https://github.com/zidude1234/30_Days_of_Python/blob/main/Day%2019/Python%20Syntax/Day19%20Syntax.py)
 
 ## Objective
 This repository contains the solution for the Day Nineteen of the "30 Days of Python Challenge"!
 Thanks @Asabaneh for the excellent Python Content! 👋🏻
 
-
-## 📘 Exercises - Day 1
 
 ### 💻 Exercises: Day 19
 
