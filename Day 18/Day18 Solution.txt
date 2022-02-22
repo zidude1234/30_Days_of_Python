@@ -21,4 +21,5 @@ first-name False
 firstname True
 ----------------------------------------Exercise 18 Level 3 ----------------------------------------
 Number 1
-I am a teacher, and I love teaching. There is nothing as more rewarding as educating and empowering people. I found teaching more interesting than any other jobs. Does this motivate you to be a teacher?   
+I am a teacher, and I love teaching. There is nothing as more rewarding as educating and empowering people. I found teaching more interesting than any other jobs. Does this motivate you to be a teacher?     
+[(3, 'I'), (2, 'a'), (2, 'and')]
