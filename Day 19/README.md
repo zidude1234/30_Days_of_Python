@@ -4,9 +4,9 @@
 
 ## 📚 Table of Contents
 - [Objective](#objective)
-  - [💻 Exercises - Day 19](#-exercises---day-19)
-    - [Exercises: Level 1](#-exercise-level-1)
-    - [Exercises: Level 2](#-exercise-level-2)
+  - [💻 Exercises - Day 19](#-exercises-day-19)
+    - [Exercises: Level 1](#exercises-level-1)
+    - [Exercises: Level 2](#exercises-level-2)
 - [Solution on Github](https://github.com/zidude1234/30_Days_of_Python/blob/main/Day%2019/Python%20Syntax/Day19%20Syntax.py)
 
 ## Objective
