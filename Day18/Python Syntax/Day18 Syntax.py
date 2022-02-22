@@ -67,6 +67,29 @@ def main():
   print("sorted list:", sorted_points)
   print(f'distance = {max(sorted_points)} - {min(sorted_points)} = {max(sorted_points)-min(sorted_points)}')
 
+  print(banner(18,2))
+  #1. Write a pattern which identifies if a string is a valid python variable    
+  p(1)
+  stringvar = ['first_name','first-name','1first_name','firstname']
+  regexpattern_v = '^[A-Za-z_]\w*$'
+  for i in stringvar:
+    if re.match(regexpattern_v,i):
+      print(i,"True")
+    else:
+      print(i,"False")
     
+  print(banner(18,3))
+  #1. Clean the following text. After cleaning, count three most frequent words in the string.   
+  p(1)
+  sentence = '''%I $am@% a %tea@cher%, &and& I lo%#ve %tea@ching%;. There $is nothing; &as& mo@re rewarding as educa@ting &and& @emp%o@wering peo@ple. ;I found tea@ching m%o@re interesting tha@n any other %jo@bs. %Do@es thi%s mo@tivate yo@u to be a tea@cher!?'''
+
+
+  def clean_text(match_object): #replaces the matched object with ''
+    return ''
+  replace_pattern = '@|%|\$|&|;|#|!'
+  sentence_replaced = re.sub(replace_pattern, clean_text, sentence) #remove $,%,@,$,!,
+  print(sentence_replaced)
+  
+  
 if __name__ == "__main__":
   main()
