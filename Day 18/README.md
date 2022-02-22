@@ -8,7 +8,7 @@
     - [Exercises: Level 1](#exercises-level-1)
     - [Exercises: Level 2](#exercises-level-2)
     - [Exercises: Level 3](#exercises-level-3)
-- [Solution on Github](https://github.com/zidude1234/30_Days_of_Python/blob/main/Day18/Python%20Syntax/Day18%20Syntax.py)
+- [Solution on Github](https://github.com/zidude1234/30_Days_of_Python/blob/main/Day%2018/Python%20Syntax/Day18%20Syntax.py)
 
 ## Objective
 This repository contains the solution for the Day Eighteen of the "30 Days of Python Challenge"!
