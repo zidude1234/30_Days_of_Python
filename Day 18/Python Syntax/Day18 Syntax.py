@@ -42,7 +42,7 @@ def main():
   paragraph = '''I love teaching. If you do not love teaching what else can you love. 
   I love Python if you do not love something which can give you all the capabilities to develop an application what else can you love.'''
   
-  split_words = re.split('\s+|\.',paragraph) #this includes space with it.
+  split_words = re.split('\s+|\.',paragraph) 
   split_words = list(filter(None,split_words)) #because of the space filtered out
   print("Split Words:", split_words)
   
