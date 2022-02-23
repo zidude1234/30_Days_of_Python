@@ -50,7 +50,18 @@ def main():
     for i in top10_lang_collection:
       print(i)
     return ""
-  
+
+  def topten_pop(country_data, num_countries=10):
+    list_lang_country_pop,templist = [],[]
+    for data in country_data:
+      keyitems = ['name',"languages","population"]
+      lang_count_pop = {k:data[k] for k in keyitems}
+      templist.append(lang_count_pop)
+    list_lang_country_pop = sorted(templist, key = lambda k: k["population"], reverse=True)
+    print(f'The {num_countries} most populated countries are;')
+    for i in list_lang_country_pop[0:num_countries]:
+      print(i)
+    return ""
   
   
   banner = bannergreeting
@@ -119,7 +130,13 @@ def main():
     print(topten_languages(c_data,10))
     file_object.close()
   
+  pn()
+  p(3)
+  #3 Read the countries_data.json data file in data directory, create a function that creates a list of the ten most populated countries
+  print(topten_pop(c_data,3))
+  print(topten_pop(c_data,10))
   
+
   
   
 if __name__ == "__main__":
