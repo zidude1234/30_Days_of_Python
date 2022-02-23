@@ -36,7 +36,21 @@ def main():
   
   def combinebanners(s0,s1,s2):
     return s0 + s1 + s2 + s0
-
+  
+  def topten_languages(country_data, num_lang=5):
+    list_lang = []
+    for data in country_data:
+      lang_count = data["languages"]
+      list_lang.append(lang_count)
+    list_flat = [i for level1 in list_lang for i in level1]
+    lang_collection = collections.Counter(list_flat)
+    top10_lang_collection = lang_collection.most_common(num_lang)
+    for i in top10_lang_collection:
+      print(i)
+    return ""
+  
+  
+  
   banner = bannergreeting
   print(banner(19,1))
 
@@ -96,7 +110,10 @@ def main():
   print(f"{filename} has {Linenum} lines")
   f4.close() 
   
-  
+  with open('country_data.json') as file_object:
+    c_data = json.loads(json.load(file_object))
+    print(topten_languages(c_data,3))
+    file_object.close()
   
   
   
