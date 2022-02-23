@@ -18,6 +18,7 @@ import re
 import collections
 import datetime
 from itertools import chain
+import json
 
 def main():
   os.system("cls") # clear console
@@ -45,6 +46,7 @@ def main():
     list_flat = [i for level1 in list_lang for i in level1]
     lang_collection = collections.Counter(list_flat)
     top10_lang_collection = lang_collection.most_common(num_lang)
+    print(f'The {num_lang} most common lanaguages are;')
     for i in top10_lang_collection:
       print(i)
     return ""
@@ -109,10 +111,12 @@ def main():
   filename = _melapath.rsplit('\\',1)[1]
   print(f"{filename} has {Linenum} lines")
   f4.close() 
-  
+  pn(2)
+  p(2)
   with open('country_data.json') as file_object:
     c_data = json.loads(json.load(file_object))
     print(topten_languages(c_data,3))
+    print(topten_languages(c_data,10))
     file_object.close()
   
   
