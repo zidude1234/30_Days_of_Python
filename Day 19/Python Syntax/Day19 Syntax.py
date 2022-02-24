@@ -136,7 +136,26 @@ def main():
   print(topten_pop(c_data,3))
   print(topten_pop(c_data,10))
   
+  #4 Extract all incoming email addresses as a list from the email_exchange_big.txt file.
+  p(4)
+  _email_exchangepath = "".join([newpath,'email_exchanges_big.txt'])
+  emailpattern = '^From.[\w([\w\.]+\s?\w*\+?@\w+\.?\w*\.?\w*\.?\w*' #from emails
 
+
+  with open(_email_exchangepath) as file_object:
+      Lines = file_object.readlines() 
+      List_emails,str_response_from = [],''
+      linenum = 0
+      for linetext in Lines:
+        from_emails = re.findall(emailpattern2,linetext)
+        linenum += 1
+        if from_emails:
+          s2 = f"'From Email' noted on line {linenum} : {from_emails}"
+          str_response_from += s2 + '\n'
+      with open("from_emails.txt",'w+') as file_object1:
+        file_object1.write(str_response_from)
+      file_object1.close()
+      file_object.close() 
   
   
 if __name__ == "__main__":
