@@ -195,5 +195,28 @@ def main():
   p(7)
   print(compare_files_for_similarity(_michpath,_melapath))
   pn()
+  
+  p(8)
+  print(top_words_in_english('romeo_and_juliet.txt', 10))
+  pn()
+
+  p(9)
+  strings_list = ['"Python or python"','"JavaScript or javaScript or javascript"','"Java"']
+  stringlist = ['[P|p]ython','([J|j]avaScript|[J|j]avascript)',r'\bJava\b'] #regex pattern
+  _hackerpath = "".join([newpath,'hacker_news.csv'])
+  for i in stringlist:
+    searchstring = strings_list[stringlist.index(i)]
+    linecount, linestring = 0,0
+    with open(_hackerpath) as hackerfile:
+      csv_data = csv.reader(hackerfile,delimiter = ',')
+      for row in csv_data:
+        linecount +=1 
+        rowstring = ', '.join(row)
+        if(re.findall(i,rowstring)):
+            linestring +=1
+    print(f'Hackerfile has {linecount} rows with {searchstring} found in {linestring} lines.')
+    
+    
+    
 if __name__ == "__main__":
   main()
