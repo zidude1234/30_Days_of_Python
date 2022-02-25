@@ -19,6 +19,7 @@ import collections
 import datetime
 from itertools import chain
 import json
+import csv
 
 def main():
   os.system("cls") # clear console
