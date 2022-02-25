@@ -63,6 +63,31 @@ def main():
       print(i)
     return ""
   
+  def top_words_in_english(fname, num_extract = 5):
+    filename = "".join([newpath,fname])
+    f1 = open(filename)
+    all_text = f1.read()
+    seperate_words = list(filter(None,re.split('\s+|\.',all_text)))
+    words_group = collections.Counter(seperate_words)
+    w_tp = words_group.items()
+    w_tp2 = [(b,a) for (a,b) in w_tp] 
+    w_tuple = sorted(w_tp2,key = lambda k:k[0],reverse=True)
+    return w_tuple[0:num_extract]
+  
+  def compare_files_for_similarity(fileX,fileY):
+    temp1 = open(fileX)
+    file1 = list(filter(None,re.split('\s+|\.',temp1.read())))
+    temp1.close()
+    temp2 = open(fileY)
+    file2 = list(filter(None,re.split('\s+|\.',temp2.read())))
+    dict1 = {x : file1.count(x) for x in file1}
+    dict2 = {x : file2.count(x) for x in file2}
+    similars = set(file1).intersection(set(file2))
+    rate1 = sum(dict1[w] for w in similars)/len(file1)
+    rate2 = sum(dict2[w] for w in similars)/len(file2)
+    print("The rate of similarity is: ", rate1*rate2*100, '%')
+    print("The similar words are: ", similars)
+    return ''
   
   banner = bannergreeting
   print(banner(19,1))
@@ -156,7 +181,19 @@ def main():
         file_object1.write(str_response_from)
       file_object1.close()
       file_object.close() 
+ 
+  p(5)
+  print(top_words_in_english('obama_speech.txt', 10))
+  pn()
   
+  p(6)
+  print(top_words_in_english('donald_speech.txt', 10))
+  print(top_words_in_english('melina_trump_speech.txt', 10))
+  print(top_words_in_english('michelle_obama_speech.txt', 10))
+  pn()
   
+  p(7)
+  print(compare_files_for_similarity(_michpath,_melapath))
+  pn()
 if __name__ == "__main__":
   main()
