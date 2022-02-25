@@ -1,0 +1,73 @@
+----------------------------------------Exercise 19 Level 1 ----------------------------------------
+Number 1
+obama_speech.txt has 66 lines
+michelle_obama_speech.txt has 83 lines
+donald_speech.txt has 48 lines
+melina_trump_speech.txt has 33 lines
+
+Number 2
+print(topten_languages(c_data,3))
+The 3 most common lanaguages are;
+
+('English', 91)
+('French', 45)
+('Arabic', 25)
+
+print(topten_languages(c_data,10))
+The 10 most common lanaguages are;
+('English', 91)
+('French', 45)
+('Arabic', 25)
+('Spanish', 24)
+('Portuguese', 9)
+('Russian', 9)
+('Dutch', 8)
+('German', 7)
+('Chinese', 5)
+('Serbian', 4)
+
+Number 3
+print(topten_pop(c_data,3))
+print(topten_pop(c_data,10))
+  
+The 3 most populated countries are;
+{'name': 'China', 'languages': ['Chinese'], 'population': 1377422166}
+{'name': 'India', 'languages': ['Hindi', 'English'], 'population': 1295210000}
+{'name': 'United States of America', 'languages': ['English'], 'population': 323947000}
+
+The 10 most populated countries are;
+{'name': 'China', 'languages': ['Chinese'], 'population': 1377422166}
+{'name': 'India', 'languages': ['Hindi', 'English'], 'population': 1295210000}
+{'name': 'United States of America', 'languages': ['English'], 'population': 323947000}
+{'name': 'Indonesia', 'languages': ['Indonesian'], 'population': 258705000}
+{'name': 'Brazil', 'languages': ['Portuguese'], 'population': 206135893}
+{'name': 'Pakistan', 'languages': ['English', 'Urdu'], 'population': 194125062}
+{'name': 'Nigeria', 'languages': ['English'], 'population': 186988000}
+{'name': 'Bangladesh', 'languages': ['Bengali'], 'population': 161006790}
+{'name': 'Russian Federation', 'languages': ['Russian'], 'population': 146599183}
+{'name': 'Japan', 'languages': ['Japanese'], 'population': 126960000}
+
+Number 4: Output in file 'from_emails.txt'
+
+Number 5
+[(120, 'the'), (107, 'and'), (81, 'of'), (66, 'to'), (58, 'our'), (50, 'we'), (49, 'that'), (48, 'a'), (36, 'is'), (23, '-')]
+
+Number 6
+[(61, 'the'), (53, 'and'), (40, 'will'), (38, 'of'), (32, 'to'), (30, 'our'), (26, 'we'), (20, 'is'), (16, 'We'), (16, 'America')]
+[(73, 'and'), (54, 'to'), (48, 'the'), (28, 'I'), (28, 'is'), (27, 'for'), (25, 'of'), (22, 'a'), (19, 'that'), (17, 'Donald')]
+[(84, 'to'), (80, 'and'), (78, 'the'), (46, 'of'), (41, 'â€”'), (41, 'a'), (40, 'that'), (36, 'in'), (27, 'for'), (27, 'our')]
+
+Number 7
+The rate of similarity is:  46.1968702209566 %
+The similar words are:  {'brother', 'compassion', 'love', 'like', 'me', 'serve', 'speak', 'worked', 'moved', 'young', 'each', 'ago,', 'you', 'work', 'they', 'people', 'moment', 'bless', 'on', 'today', 'gets', 'by', 'this', 'my', 'Because', 'together', 'go', 'years', 'them', 'one', 'simple', 'give', 'whole', 'new', 'come', 'You', '18', 'across', 'be', 'long', 'today,', 'those', 'nation', 'who', 'their', 'working', 'is', 'future', 'room', 'among', 'even', 'God', 'these', 'as', 'and', 'have', 
+'country', 'We', 'Their', 'say', 'so', 'bond', 'way', 'a', 'was', 'it', 'make', 'memory', 'also', 'through', 'House', 'integrity,', 'comes', 'of', 'can', 'up', 'family', 'or', 'hard-working', 'husband,', 'bring', 'without', 'mother', 'are', 'next', 'America', 'president', 'education', 'help', 'than', 'ready', 'â€”', 'word', 'hard', 'I', 'get', 'much', 'his', 'ensure', 'life;', 'caring', 'with', 'done', 'do', 'want', 'let', 'father', 'He', 'he', 'know', 'strength', 'since', 'loves', 'man', 'opportunity', 'values', 'other', 'generation', 'parents', 'into', 'our', 'son', 'us', 'world', 'change', 'what', 'gratitude', 'here', 'honor', 'from', 'been', 'many', 'opportunities', 'raised', 'safe', 'down', 'him', 'where', 'millions', 'first', 'good', 'day,', 'determination', 'had', 'The', 'all', 'treat', "won't", 'someone', 'for', 'fell', 'sacrifices', 'They', 'keep', 'willingness', 'should', 'we', 'As', 'at', 'there', 'to', 'day', 'always', 'every', 'greatest', 'limit', 'when', 'introduced', 'heart', 'that', 'along', 'about', 'just', 'the', 'My', 'while', 'Like', 'And', 'small', "It's", 'child', '"', 'most', 'best', 'But', 'never', 'children', 'programs', 'only', 'fairness', 'sister', 'That', 'try', 'your', 'ever', 'tell', 'White', 'need', 'States', 'family,', 'no', 'you,', 'not', 'in', 'life', 'brought', 'will', 'but', 'living', 'both', 'great', 'achievements', 'husband', 
+'pass', 'an', 'intelligence', 'knows', 'dreams', 'were', 'parents,', 'women', 'met', 'is,', 'has', 
+'Thank', 'before', 'United', 'how', 'blessed', 'People', 'joys', 'Americans', 'fight'}
+
+Number 8
+[(762, 'the'), (560, 'I'), (539, 'and'), (522, 'to'), (487, 'of'), (453, 'a'), (332, 'in'), (325, 'is'), (310, 'my'), (277, 'you')]
+
+Number 9
+Hackerfile has 20100 rows with "Python or python" found in 179 lines.
+Hackerfile has 20100 rows with "JavaScript or javaScript or javascript" found in 184 lines.
+Hackerfile has 20100 rows with "Java" found in 52 lines.
