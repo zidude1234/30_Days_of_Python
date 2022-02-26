@@ -38,6 +38,7 @@ def main():
   
   def combinebanners(s0,s1,s2):
     return s0 + s1 + s2 + s0
+  
 
   banner = bannergreeting
   print(banner(20,1))
@@ -50,6 +51,13 @@ def main():
     w_tp2 = [(b,a) for (a,b) in w_tp] 
     w_tuple = sorted(w_tp2,key = lambda k:k[0],reverse=True)
     return w_tuple[0:num_extract]
+  
+  def cleanuprange(cellrange):
+    cell1 = []
+    m = re.findall('\d+', cellrange)
+    for i in m:
+      cell1.append(int(i))
+    return tuple(cell1)
 
   #1.Read this url and find the 10 most frequent words. romeo_and_juliet = 'http://www.gutenberg.org/files/1112/1112.txt'
   p(1)
@@ -71,18 +79,40 @@ def main():
   print(response.status_code) 
   c1 = response.json()
   print(len(c1)) #67 breeds
-  print(json.dumps(c1[0:5],indent = 4, separators = (" , "," := "),sort_keys=True))
   
- 
-  cat_weight,cat_life,cat_country_breed = [],[],[]
+  #"weight" := { "imperial" := "8 - 15" , "metric" := "4 - 7"} 
+  #use the values: ('7  -  10', '3 - 5') pick the metric
+  a,cat_weight,cat_life,cat_country_breed = [],[],[],[]
   for cat_data in c1:
-    w = cat_data["weight"]
+    w = tuple(cat_data["weight"].values())[1]
     l = cat_data["life_span"]
     c = cat_data["origin"]
-    cat_weight.append(w)
-    cat_life.append(l)
-    cat_country_breed.append(c)
+    a.append(list((w,l,c))) #['5 - 8', '13 - 15', 'United States'] weight in kg, years and country
+  
+  catdata_stat = []
+  for i in a:
+    templist = []
+    templist.append(cleanuprange(i[0]))  #[(5,8),(13,15), 'United States'] weight in kg, years and country
+    templist.append(cleanuprange(i[1]))
+    templist.append(i[2])
+    catdata_stat.append(templist)
 
+  c_data_for_statistics = []
+  for i in catdata_stat:
+    templist = []
+    templist.append(statistics.mean(i[0])) 
+    templist.append(statistics.mean(i[1]))
+    templist.append(i[2])
+    c_data_for_statistics.append(templist) #[6.5, 14, 'United States']]
+  
+  for i in c_data_for_statistics:
+    c_weight.append(i[0])
+    c_years.append(i[1])
+    c_freq.append(i[2])
+  print(f"""the following are the statistics:
+  min: {min(c_weight)} kg \t max {max(c_weight)} kg
+  mean: {statistics.mean(c_weight):.1f} kg \t median {statistics.median(c_weight)} kg
+  standard deviation: {statistics.stdev(c_weight):.3f} kg """)
 
   
 
