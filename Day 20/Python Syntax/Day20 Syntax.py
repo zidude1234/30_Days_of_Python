@@ -19,7 +19,12 @@ import datetime
 from itertools import chain
 import json
 import csv
-
+import numpy
+import webbrowser
+import matplotlib
+import requests
+import statistics
+import pandas as pd
 
 def main():
   os.system("cls") # clear console
@@ -76,7 +81,6 @@ def main():
   p(2)
   cat_api = 'https://api.thecatapi.com/v1/breeds'
   response = requests.get(cat_api)
-  print(response.status_code) 
   c1 = response.json()
   print(len(c1)) #67 breeds
   
@@ -87,7 +91,7 @@ def main():
     w = tuple(cat_data["weight"].values())[1]
     l = cat_data["life_span"]
     c = cat_data["origin"]
-    a.append(list((w,l,c))) #['5 - 8', '13 - 15', 'United States'] weight in kg, years and country
+    a.append(list((w,l,c)))  #['5 - 8', '13 - 15', 'United States'] weight in kg, years and country
   
   catdata_stat = []
   for i in a:
@@ -104,17 +108,43 @@ def main():
     templist.append(statistics.mean(i[1]))
     templist.append(i[2])
     c_data_for_statistics.append(templist) #[6.5, 14, 'United States']]
-  
+
+  c_weight,c_years,c_freq = [],[],[]
   for i in c_data_for_statistics:
     c_weight.append(i[0])
     c_years.append(i[1])
     c_freq.append(i[2])
-  print(f"""the following are the statistics:
+
+  c_freq_tuple = sorted(collections.Counter(c_freq).items(),key = lambda x:x[1],reverse = True)
+  print(c_freq_tuple)
+
+  #Unzip the tuple
+  cat_country, cat_frequency = zip(*c_freq_tuple)
+
+  country_series = pd.Series(cat_country)
+  freq_series = pd.Series(cat_frequency)
+
+  frame = { 'Country': country_series, 'Frequency': freq_series }
+  result = pd.DataFrame(frame)
+
+  
+  print(f"""2(i) the following are the statistics for weight:
+  {sorted(c_weight)} in kg
   min: {min(c_weight)} kg \t max {max(c_weight)} kg
   mean: {statistics.mean(c_weight):.1f} kg \t median {statistics.median(c_weight)} kg
   standard deviation: {statistics.stdev(c_weight):.3f} kg """)
+  pn()
 
-  
+  print(f"""2(ii) the following are the statistics for lifespan:
+  {sorted(c_years)} in years
+  min: {min(c_years)} years \t max {max(c_years)} years
+  mean: {statistics.mean(c_years):.1f} years \t median {statistics.median(c_years)} years
+  standard deviation: {statistics.stdev(c_years):.3f} years """)
+  pn()
+
+  print(f"""2(iii) the following are the frequency distribution:
+  {result} """)
+  pn()
 
 
   
