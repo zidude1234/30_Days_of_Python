@@ -1,0 +1,58 @@
+----------------------------------------Exercise 20 Level 1 ----------------------------------------
+		Number 1
+[(762, 'the'), (560, 'I'), (539, 'and'), (522, 'to'), (487, 'of'), (453, 'a'), (332, 'in'), (325, 'is'), (310, 'my'), (277, 'you')]
+
+
+Number 2
+200
+2(i) the following are the statistics for weight:
+  [3, 3, 3, 3, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5.5, 5.5, 5.5, 5.5, 5.5, 5.5, 5.5, 5.5, 5.5, 5.5, 6, 6, 6, 6, 6.5, 6.5, 6.5, 7, 7, 7.5] in kg
+  min: 3 kg      max 7.5 kg
+  mean: 4.7 kg   median 4.5 kg
+  standard deviation: 1.067 kg
+
+
+2(ii) the following are the statistics for lifespan:
+  [10.5, 11, 11, 11, 12, 12, 12.5, 12.5, 12.5, 12.5, 12.5, 12.5, 12.5, 12.5, 12.5, 12.5, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13.5, 13.5, 13.5, 13.5, 13.5, 13.5, 13.5, 13.5, 13.5, 13.5, 13.5, 13.5, 14, 14, 14, 14, 14, 14, 14, 14, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 15, 15, 15, 15, 15.5, 16, 16, 16.5, 16.5, 17.5, 18.5, 19] in years
+  min: 10.5 years        max 19 years
+  mean: 13.7 years       median 13.5 years
+  standard deviation: 1.584 years
+
+
+2(iii) the following are the frequency distribution:
+                   Country  Frequency
+0          United States         28
+1         United Kingdom          8
+2                 Russia          4
+3               Thailand          4
+4                  Egypt          3
+5                 Canada          3
+6                 France          2
+7                  Burma          2
+8                 Turkey          2
+9                 Greece          1
+10  United Arab Emirates          1
+11             Australia          1
+12                Cyprus          1
+13                 China          1
+14                 Japan          1
+15           Isle of Man          1
+16                Norway          1
+17         Iran (Persia)          1
+18             Singapore          1
+19               Somalia          1
+
+Number 4
+629
+                                                     0                          1                    2                           3            4             5     6
+0                                                 Name                 Data Types         Default Task             Attribute Types  # Instances  # Attributes  Year
+1                                              Abalone               Multivariate       Classification  Categorical, Integer, Real         4177             8  1995
+2                                                Adult               Multivariate       Classification        Categorical, Integer        48842            14  1996
+3                                            Annealing               Multivariate       Classification  Categorical, Integer, Real          798            38   NaN
+4                         Anonymous Microsoft Web Data                        NaN  Recommender-Systems                 Categorical        37711           294  1998
+..                                                 ...                        ...                  ...                         ...          ...           ...   ...
+618  Influenza outbreak event prediction via Twitte...               Multivariate       Classification               Integer, Real        75840           525  2020
+619                      Turkish Music Emotion Dataset               Multivariate       Classification               Integer, Real          400            50  2020
+620                      Maternal Health Risk Data Set                        NaN       Classification                         NaN         1014             7  2020
+621                          Room Occupancy Estimation  Multivariate, Time-Series       Classification                        Real        10129            16  2021
+622  Image Recognition Task Execution Times in Mobi...                 Univariate           Regression                        Real         4000             2  2021
