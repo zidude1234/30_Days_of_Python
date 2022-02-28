@@ -145,8 +145,14 @@ def main():
   print(f"""2(iii) the following are the frequency distribution:
   {result} """)
   pn()
+  p(3)
 
-
+  p(4)
+  url_ml = 'https://archive.ics.uci.edu/ml/datasets.php'
+  df = pd.read_html(url_ml)
+  print(len(df)) #629 items in the list table starts from 5
+  dataset_table  = df[5]
+  print(df[5])
   
 
     
