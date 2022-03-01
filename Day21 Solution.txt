@@ -1,0 +1,21 @@
+----------------------------------------Exercise 21 Level 1 ----------------------------------------
+Number 1
+Count: 25
+Sum: 744
+Min: 24
+Max: 38
+Range: 14
+Mean: 29.76
+Median: 29
+Mode: {'mode': 26, 'count': 5}
+Standard Deviation: 4
+Variance: 18.27
+Frequency Distribution:
+Frequency distribution in percentage [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34), (8.0, 33), (8.0, 31), (8.0, 24), (4.0, 38), (4.0, 29), (4.0, 25)]
+
+Number 2
+Name power shell
+Income {'Income1': 250000, 'Income2': 20000, 'Income3': 3000}
+Expenses: {'Expense1': 200000, 'Expense2': 5000, 'Expense3': 3000}
+Total Income: 273000
+Total Expenses: 208000
