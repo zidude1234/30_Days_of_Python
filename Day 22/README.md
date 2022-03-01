@@ -8,7 +8,7 @@
 - [Solution on Github](https://github.com/zidude1234/30_Days_of_Python/blob/main/Day%2022/Python%20Syntax/Day22%20Syntax.py)
 
 ## Objective
-This repository contains the solution for the Day Twenty-One of the "30 Days of Python Challenge"!
+This repository contains the solution for the Day Twenty-Two of the "30 Days of Python Challenge"!
 Thanks @Asabaneh for the excellent Python Content! 👋🏻
 
 
