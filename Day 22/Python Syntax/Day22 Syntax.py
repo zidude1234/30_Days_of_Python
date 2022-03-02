@@ -49,11 +49,28 @@ def main():
   banner = bannergreeting
   print(banner(22,1))
 
-
+  #1. Scrape the following website and store the data as json file(url = 'http://www.bu.edu/president/boston-university-facts-stats/').
+  p(1)
+  boston_uni_url = 'http://www.bu.edu/president/boston-university-facts-stats/'
+  bu_response = requests.get(boston_uni_url)
+  bu_response_content = bu_response.content # we get all the content from the website
+  soup = BeautifulSoup(bu_response_content,features='lxml')# beautiful soup will give a chance to parse
+  print(soup.title) # <title>BU Facts &amp; Stats | Office of the President</title>
+  print(soup.title.get_text()) # BU Facts & Stats | Office of the President
+  print(bu_response.status_code)
   
-
-
   
+  #Get Data tables in Website
+  bu_stats = soup.find_all(class_="facts-wrapper")
+  table_stat_dictlist,txt_items_combined,txt_values_combined = [],[],[]
+  for i in bu_stats:
+    txt_t_items = [j.get_text() for j in i.find_all(class_="text")]
+    txt_t_values = [j.get_text() for j in i.find_all(class_="value")]
+    txt_items_combined.append(txt_t_items)
+    txt_values_combined.append(txt_t_values)
+    table_stat_dictlist.append(dict(zip(txt_t_items,txt_t_values)))
+  with open("bu_stats.json",'w') as bu_json:
+    json.dump(table_stat_dictlist,bu_json)   #write to file
 
     
 if __name__ == "__main__":
