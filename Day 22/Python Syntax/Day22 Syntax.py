@@ -72,6 +72,21 @@ def main():
   with open("bu_stats.json",'w') as bu_json:
     json.dump(table_stat_dictlist,bu_json)   #write to file
 
-    
+  #2 Extract the table in this url (https://archive.ics.uci.edu/ml/datasets.php) and change it to a json file
+  ml_url = 'https://archive.ics.uci.edu/ml/datasets.php'
+
+  response = requests.get(ml_url)
+  content = response.content # we get all the content from the website
+  soup = BeautifulSoup(content, 'html.parser') # beautiful soup will give a chance to parse
+  print(response.status_code)
+  tables = soup.find_all('table', {'cellpadding':'3'}) #<table cellpadding=3>
+  table = tables[0]
+  s = ''
+  for td in table.find('tr').find_all('td'):
+    s += td.text
+  
+  with open("ml_stats.json",'w') as ml_json:
+    json.dump(s,ml_json)   #write to file
+
 if __name__ == "__main__":
   main()
