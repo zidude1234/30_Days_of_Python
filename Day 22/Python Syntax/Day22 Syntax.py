@@ -87,6 +87,24 @@ def main():
   
   with open("ml_stats.json",'w') as ml_json:
     json.dump(s,ml_json)   #write to file
+  
+  #3 Scrape the presidents table and store the data as json
+  uspres_url = 'https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States'
+  response = requests.get(uspres_url)
+  content = response.content 
+  soup = BeautifulSoup(content, 'html.parser') 
+  print(soup.title) 
+  print(soup.title.get_text()) 
+  print(response.status_code)
 
+  tables = soup.find_all('table', class_ = "wikitable sortable") 
+  pres_table = tables[0] # the result is a list, we are taking out data from it
+
+  for td in pres_table.find_all('td'):
+      s += td.text
+  
+  with open("us_presidents.json",'w') as us_pres_json:
+    json.dump(s,us_pres_json)
+    
 if __name__ == "__main__":
   main()
