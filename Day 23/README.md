@@ -4,7 +4,7 @@
 
 ## 📚 Table of Contents
 - [Objective](#objective)
-- [💻 Exercises - Day 22](#-exercises-day-23)
+- [💻 Exercises - Day 23](#-exercises-day-23)
 
 
 ## Objective
