@@ -5,7 +5,7 @@
 ## 📚 Table of Contents
 - [Objective](#objective)
 - [💻 Exercises - Day 25](#-exercises-day-25)
-- [Solution on Github](https://github.com/zidude1234/30_Days_of_Python/blob/main/Day%2025/Python%20Syntax/Day25%20Syntax.ipynb)
+- [Solution on Github](https://github.com/zidude1234/30_Days_of_Python/blob/main/Day%2025/Python%20Syntax/Day25%20Syntax%20-Answers.ipynb)
 
 ## Objective
 This repository contains the solution for the Day Twenty Five of the "30 Days of Python Challenge"!
